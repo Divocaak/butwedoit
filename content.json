@@ -1,0 +1,13 @@
+{
+    "videos": [
+        {
+            "label": "tst label",
+            "shortDesc": "lorem ipsum asd",
+            "youtube": "Sm3uDdiE0CU",
+            "thumbnail": "0",
+            "backgroundColor": "FF0000",
+            "textColor": "FFFFFF"
+        }
+    ],
+    "events": []
+}

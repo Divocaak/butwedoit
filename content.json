@@ -5,8 +5,16 @@
             "shortDesc": "lorem ipsum asd",
             "youtube": "Sm3uDdiE0CU",
             "thumbnail": "0",
-            "backgroundColor": "FF0000",
+            "backgroundColor": "000000",
             "textColor": "FFFFFF"
+        },
+        {
+            "label": "another vid",
+            "shortDesc": "dolor sid amet",
+            "youtube": "Sm3uDdiE0CU",
+            "thumbnail": "1",
+            "backgroundColor": "FFFF00",
+            "textColor": "00FFFF"
         }
     ],
     "events": []

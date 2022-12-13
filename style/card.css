@@ -1,12 +1,3 @@
-:root {
-    --black: black;
-    --white: white;
-}
-
-body {
-    background-color: var(--black);
-}
-
 .card-background {
     background-size: cover;
     background-position: center;
@@ -15,56 +6,18 @@ body {
     pointer-events: auto;
 }
 
-.card-background .card-content-holder {
+.card-background .card-content-holder,
+.card-content-holder-small {
     pointer-events: none;
     position: relative;
     height: 33vh;
+}
+
+.card-background .card-content-holder {
     transition: all .5s;
     opacity: 0;
 }
 
 .card-background:hover .card-content-holder {
     opacity: 1;
-}
-
-
-.content-wrapper {
-    position: relative;
-    top: 100vh;
-    min-height: 100vh;
-    background-color: var(--black);
-}
-
-.video-wrapper {
-    position: fixed;
-    top: 0;
-    height: 100vh;
-    height: 100vw;
-}
-
-#myVideo {
-    object-fit: cover;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-}
-
-.video-overlay{
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    color: var(--white);
-    background-color: rgba(0, 0, 0, .5);
-}
-
-.btn-bigger{
-    font-size: 2rem;
-}
-
-.modal-wrapper{
-    background-color: transparent;
-    border: none;
-    color: var(--white);
 }

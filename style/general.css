@@ -1,0 +1,29 @@
+:root {
+    --black: black;
+    --white: white;
+}
+
+body {
+    background-color: var(--black);
+}
+
+.modal-backdrop {
+    opacity: 0.6 !important;
+}
+
+.content-wrapper {
+    position: relative;
+    top: 100vh;
+    min-height: 100vh;
+    background-color: var(--black);
+}
+
+.btn-bigger {
+    font-size: 2rem;
+}
+
+.modal-video-wrapper {
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+}

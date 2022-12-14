@@ -1,7 +1,13 @@
 <?php
-function buildCard($yt, $label, $desc, $thumbnail, $txtColor, $bgColor){
+function buildCard($yt, $label, $desc, $thumbnail, $txtColor, $bgColor, $detailGalPath, $detailDesc){
     echo '<div class="col-12 col-md-6 p-0">
-            <div class="card-background" data-youtube-id="' . $yt . '" data-label="' . $label . '" data-desc="' . $desc . '" style="background-image: url(\'imgs/thumbnails/' . $thumbnail . '.png\'); color: #' . $txtColor . '">
+            <div class="card-background" style="background-image: url(\'imgs/thumbnails/' . $thumbnail . '\'); color: #' . $txtColor . '"
+                    data-youtube-id="' . $yt . '" 
+                    data-label="' . $label . '" 
+                    data-desc="' . $desc . '"
+                    data-gal-path="' . $detailGalPath . '",
+                    data-long-desc="' . $detailDesc . '",
+                    data-thumbnail="' . $thumbnail . '">
                 <div class="card-content-holder d-none d-md-flex align-items-center" style="background-color: #' . $bgColor . '">
                     <div class="text-center w-100">
                         <h2>' . $label . '</h2>

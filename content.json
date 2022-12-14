@@ -3,18 +3,19 @@
         {
             "label": "tst label",
             "shortDesc": "lorem ipsum asd",
-            "youtube": "Sm3uDdiE0CU",
-            "thumbnail": "0",
+            "thumbnail": "vids/0.png",
             "backgroundColor": "000000",
-            "textColor": "FFFFFF"
+            "textColor": "FFFFFF",
+            "youtube": "Sm3uDdiE0CU"
         },
         {
-            "label": "another vid",
-            "shortDesc": "dolor sid amet",
-            "youtube": "2mlugW9L3zQ",
-            "thumbnail": "1",
+            "label": "Bez videa",
+            "shortDesc": "tohle video nemá video",
+            "thumbnail": "vids/1.png",
             "backgroundColor": "FFFF00",
-            "textColor": "00FFFF"
+            "textColor": "00FF",
+            "detailGalleryPath": "vids/1/",
+            "detailLongDesc": "lorem ipsum dolor sid amet adadasdasdas asdba alsdbn lakn a lksfndalksfnlkanflkan alkn lkansfdlans fl knaslkfna lkn laksfnlak nl naslfkn lknalkn alsfn lkanfln alksnf laksnflkasn lkan lkfasnlkasnflkan lka nlfkafnsfl lan lkansflk nalkn lkafsnlakns"
         }
     ],
     "events": [
@@ -26,7 +27,7 @@
                     "label": "tst label",
                     "shortDesc": "lorem ipsum asd",
                     "youtube": "Sm3uDdiE0CU",
-                    "thumbnail": "0",
+                    "thumbnail": "vids/0.png",
                     "backgroundColor": "000000",
                     "textColor": "FFFFFF"
                 },
@@ -34,7 +35,7 @@
                     "label": "another vid",
                     "shortDesc": "dolor sid amet",
                     "youtube": "2mlugW9L3zQ",
-                    "thumbnail": "1",
+                    "thumbnail": "vids/1.png",
                     "backgroundColor": "FFFF00",
                     "textColor": "00FFFF"
                 }
@@ -48,7 +49,7 @@
                     "label": "tst label",
                     "shortDesc": "lorem ipsum asd",
                     "youtube": "Sm3uDdiE0CU",
-                    "thumbnail": "0",
+                    "thumbnail": "vids/0.png",
                     "backgroundColor": "000000",
                     "textColor": "FFFFFF"
                 },
@@ -56,7 +57,7 @@
                     "label": "another vid",
                     "shortDesc": "dolor sid amet",
                     "youtube": "2mlugW9L3zQ",
-                    "thumbnail": "1",
+                    "thumbnail": "vids/1.png",
                     "backgroundColor": "FFFF00",
                     "textColor": "00FFFF"
                 }

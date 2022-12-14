@@ -10,17 +10,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="style/general.css" rel="stylesheet">
-    <link href="style/video-header.css" rel="stylesheet">
+    <link href="style/header.css" rel="stylesheet">
     <link href="style/card.css" rel="stylesheet">
     <title>EVENTS</title>
 </head>
 
 <body class="bg-dark">
-    <div class="video-wrapper">
+    <div class="header-wrapper">
         <video autoplay muted loop id="myVideo">
             <source src="reel.mp4" type="video/mp4">
         </video>
-        <div class="video-overlay d-flex align-items-center">
+        <div class="header-overlay d-flex align-items-center">
             <div class="text-center w-100">
                 <h1 class="display-1">EVENTS</h1>
                 <p class="lead">asdlkansdkln</p>
@@ -39,12 +39,14 @@
                 <div class="row">';
             foreach ($category["projects"] as $project) {
                 buildCard(
-                    $project["youtube"],
+                    $project["youtube"] ?? "",
                     $project["label"],
                     $project["shortDesc"],
                     $project["thumbnail"],
                     $project["textColor"],
-                    $project["backgroundColor"]
+                    $project["backgroundColor"],
+                    $project["detailGalleryPath"] ?? "",
+                    $project["detailLongDesc"] ?? ""
                 );
             }
             echo "</div>";

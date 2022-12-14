@@ -1,18 +1,24 @@
-.video-wrapper {
+.header-wrapper {
     position: fixed;
     top: 0;
     height: 100vh;
     height: 100vw;
 }
 
-.video-wrapper video {
+.header-wrapper video, .img-background {
     object-fit: cover;
     position: fixed;
     height: 100%;
     width: 100%;
 }
 
-.video-wrapper .video-overlay {
+.img-background{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+.header-wrapper .header-overlay {
     position: fixed;
     z-index: 2;
     top: 0;

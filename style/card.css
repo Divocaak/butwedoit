@@ -1,5 +1,4 @@
-
-.card-background{
+.card-background {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,53 +6,38 @@
     pointer-events: auto;
 }
 
-.card-background .card-content-holder{
+.card-cursor-default{
+    cursor: default;
+}
+
+.card-background .card-content-holder,
+.card-content-holder-small {
     pointer-events: none;
     position: relative;
     height: 33vh;
+}
+
+.card-background .card-content-holder {
     transition: all .5s;
-    background-color: red;
     opacity: 0;
 }
 
-.card-background:hover .card-content-holder{
+.card-background:hover .card-content-holder {
     opacity: 1;
 }
 
+.card-background-effect {
+    transition: all .5s;
+    filter: saturate(.7);
+}
 
+.card-background-effect:hover {
+    transform: scale(1.1);
+    filter: saturate(1);
+}
 
-
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-  }
-  
-  /* Add some content at the bottom of the video/page */
-  .content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  }
-  
-  /* Style the button used to pause/play the video */
-  #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  #myBtn:hover {
-    background: #ddd;
-    color: black;
-  }
+.card-background-effect-wrapper {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}

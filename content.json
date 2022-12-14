@@ -3,11 +3,56 @@
         {
             "label": "tst label",
             "shortDesc": "lorem ipsum asd",
-            "youtube": "Sm3uDdiE0CU",
-            "thumbnail": "0",
-            "backgroundColor": "FF0000",
-            "textColor": "FFFFFF"
+            "thumbnail": "vids/0.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+            "youtube": "Sm3uDdiE0CU"
+        },
+        {
+            "label": "Bez videa",
+            "shortDesc": "tohle video nemá video",
+            "thumbnail": "vids/1.png",
+            "backgroundColor": "FFFF00",
+            "textColor": "00FF",
+            "detailGalleryPath": "vids/1/",
+            "detailLongDesc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut tempus purus at lorem. Aenean id metus id velit ullamcorper pulvinar. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. In convallis. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce aliquam vestibulum ipsum. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Etiam bibendum elit eget erat. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Donec quis nibh at felis congue commodo."
         }
     ],
-    "events": []
+    "events": [
+        {
+            "label": "category",
+            "desc": "cat desc",
+            "projects": [
+                {
+                    "label": "tst label",
+                    "shortDesc": "bez prokliku",
+                    "thumbnail": "vids/0.png",
+                    "backgroundColor": "000000",
+                    "textColor": "FFFFFF"
+                },
+                {
+                    "label": "another event",
+                    "shortDesc": "proklik na detail",
+                    "thumbnail": "vids/1.png",
+                    "backgroundColor": "FFFF00",
+                    "textColor": "00FFFF",
+                    "detailGalleryPath": "events/0/",
+                    "detailLongDesc": "Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Proin in tellus sit amet nibh dignissim sagittis. Phasellus rhoncus. Fusce tellus. Pellentesque arcu. Mauris metus. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Quisque tincidunt scelerisque libero. Vivamus luctus egestas leo. Cras elementum. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat."
+                }
+            ]
+        },
+        {
+            "label": "category 2",
+            "desc": "cat desc asdasd",
+            "projects": [
+                {
+                    "label": "event label",
+                    "shortDesc": "taky bez prokliku",
+                    "thumbnail": "vids/1.png",
+                    "backgroundColor": "FFFF00",
+                    "textColor": "00FFFF"
+                }
+            ]
+        }
+    ]
 }

@@ -17,5 +17,50 @@
             "textColor": "00FFFF"
         }
     ],
-    "events": []
+    "events": [
+        {
+            "label": "category",
+            "desc": "cat desc",
+            "projects":[
+                {
+                    "label": "tst label",
+                    "shortDesc": "lorem ipsum asd",
+                    "youtube": "Sm3uDdiE0CU",
+                    "thumbnail": "0",
+                    "backgroundColor": "000000",
+                    "textColor": "FFFFFF"
+                },
+                {
+                    "label": "another vid",
+                    "shortDesc": "dolor sid amet",
+                    "youtube": "2mlugW9L3zQ",
+                    "thumbnail": "1",
+                    "backgroundColor": "FFFF00",
+                    "textColor": "00FFFF"
+                }
+            ]
+        },
+        {
+            "label": "category 2",
+            "desc": "cat desc asdasd",
+            "projects":[
+                {
+                    "label": "tst label",
+                    "shortDesc": "lorem ipsum asd",
+                    "youtube": "Sm3uDdiE0CU",
+                    "thumbnail": "0",
+                    "backgroundColor": "000000",
+                    "textColor": "FFFFFF"
+                },
+                {
+                    "label": "another vid",
+                    "shortDesc": "dolor sid amet",
+                    "youtube": "2mlugW9L3zQ",
+                    "thumbnail": "1",
+                    "backgroundColor": "FFFF00",
+                    "textColor": "00FFFF"
+                }
+            ]
+        }
+    ]
 }

@@ -1,3 +1,5 @@
+<?php require_once "utils.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,20 +34,7 @@
             <?php
             $json = json_decode(file_get_contents("content.json"), true);
             foreach ($json["videos"] as $video) {
-                echo '<div class="col-12 col-md-6 p-0">
-                        <div class="card-background" data-youtube-id="' . $video["youtube"] . '" data-label="' . $video["label"] . '" data-desc="' . $video["shortDesc"] . '" style="background-image: url(\'imgs/thumbnails/' . $video["thumbnail"] . '.png\'); color: #' . $video["textColor"] . '">
-                            <div class="card-content-holder d-none d-md-flex align-items-center" style="background-color: #' . $video["backgroundColor"] . '">
-                                <div class="text-center w-100">
-                                    <h2>' . $video["label"] . '</h2>
-                                    <p class="lead">' . $video["shortDesc"] . '</p>
-                                </div>
-                            </div>
-                            <div class="card-content-holder-small d-block d-md-none pt-2">
-                                <h2><span class="p-2 ms-2" style="background-color: #' . $video["backgroundColor"] . '">' . $video["label"] . '</span></h2>
-                                <p class="lead"><span class="p-2 ms-2" style="background-color: #' . $video["backgroundColor"] . '">' . $video["shortDesc"] . '</span></p>
-                            </div>
-                        </div>
-                    </div>';
+                buildCard($video["youtube"], $video["label"], $video["shortDesc"], $video["thumbnail"], $video["textColor"], $video["backgroundColor"]);
             }
             ?>
         </div>

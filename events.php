@@ -69,7 +69,7 @@
                         desc: $(this).data("desc"),
                         longDesc: longDesc,
                         galPath: galPath
-                    })
+                    });
                 }
             });
 

@@ -81,7 +81,7 @@
                         desc: desc,
                         longDesc: $(this).data("longDesc"),
                         galPath: $(this).data("galPath"),
-                    })
+                    });
                 }
             });
 

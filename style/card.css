@@ -6,6 +6,10 @@
     pointer-events: auto;
 }
 
+.card-cursor-default{
+    cursor: default;
+}
+
 .card-background .card-content-holder,
 .card-content-holder-small {
     pointer-events: none;

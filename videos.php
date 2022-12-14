@@ -60,6 +60,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/redirectPost.js"></script>
     <script>
         $(document).ready(function() {
             $(".card-background").click(function() {
@@ -87,16 +88,6 @@
             $("#videoPlayer").on('hide.bs.modal', function(e) {
                 $("#playerIframe").attr("src", "");
             });
-        });
-
-        $.extend({
-            redirectPost: function(location, args) {
-                var form = '';
-                $.each(args, function(key, value) {
-                    form += '<input type="hidden" name="' + key + '" value="' + value + '">';
-                });
-                $('<form action="' + location + '" method="POST">' + form + '</form>').appendTo('body').submit();
-            }
         });
     </script>
 

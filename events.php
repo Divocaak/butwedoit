@@ -39,7 +39,7 @@
                 <div class="row">';
             foreach ($category["projects"] as $project) {
                 buildCard(
-                    $project["youtube"] ?? "",
+                    "",
                     $project["label"],
                     $project["shortDesc"],
                     $project["thumbnail"],
@@ -55,7 +55,28 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/redirectPost.js"></script>
     <script>
+        $(document).ready(function() {
+            $(".card-background").click(function() {
+                var longDesc = $(this).data("longDesc");
+                var galPath = $(this).data("galPath");
+                if (galPath != "" && longDesc != "") {
+                    $.redirectPost("detail.php", {
+                        backPath: window.location.pathname,
+                        thumbnail: $(this).data("thumbnail"),
+                        label: $(this).data("label"),
+                        desc: $(this).data("desc"),
+                        longDesc: longDesc,
+                        galPath: galPath
+                    })
+                }
+            });
+
+            $("#videoPlayer").on('hide.bs.modal', function(e) {
+                $("#playerIframe").attr("src", "");
+            });
+        });
     </script>
 
 </body>

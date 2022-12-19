@@ -14,6 +14,11 @@
 .card-content-holder-small {
     pointer-events: none;
     position: relative;
+    height: 50vh;
+}
+
+.card-background .card-content-holder-detail-image{
+    position: relative;
     height: 33vh;
 }
 

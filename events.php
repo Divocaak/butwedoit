@@ -15,16 +15,22 @@
     <title>EVENTS</title>
 </head>
 
-<body class="bg-dark">
+<body>
     <div class="header-wrapper">
-        <video autoplay muted loop id="myVideo">
-            <source src="reel.mp4" type="video/mp4">
-        </video>
-        <div class="header-overlay d-flex align-items-center">
-            <div class="text-center w-100">
-                <h1 class="display-1">EVENTS</h1>
-                <p class="lead">asdlkansdkln</p>
-                <a href="index.html" class="btn text-light btn-bigger"><i class="bi bi-arrow-left-circle pe-2"></i></a>
+        <div class="header-overlay">
+            <div class="overlay-navbar d-flex flex-row align-items-center m-4">
+                <img id="logo" class="img-fluid" src="imgs/logo.png">
+                <div class="container-fluid"></div>
+                <a href="videos.php" class="px-1 px-md-3">VIDEO</a>
+                <a href="events.php" class="px-1 px-md-3">EVENTS</a>
+                <a href="contact.php" class="px-1 px-md-3">CONTACT</a>
+            </div>
+            <div class="overlay-content d-flex align-items-center">
+                <div class="text-center w-100">
+                    <h1 class="display-1">EVENTS</h1>
+                    <p class="lead">asdlkansdkln</p>
+                    <a href="index.html" class="btn text-light btn-bigger"><i class="bi bi-arrow-left-circle pe-2"></i></a>
+                </div>
             </div>
         </div>
     </div>

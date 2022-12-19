@@ -15,14 +15,22 @@
     <title><?php echo strtoupper($_POST["label"]); ?></title>
 </head>
 
-<body class="bg-dark">
+<body>
     <div class="header-wrapper">
-        <div class="img-background" style="background-image: url('imgs/thumbnails/<?php echo $_POST["thumbnail"]; ?>')"></div>
-        <div class="header-overlay d-flex align-items-center">
-            <div class="text-center w-100">
-                <h1 class="display-1"><?php echo strtoupper($_POST["label"]); ?></h1>
-                <p class="lead"><?php echo $_POST["desc"]; ?></p>
-                <a href="<?php echo $_POST["backPath"];?>" class="btn text-light btn-bigger"><i class="bi bi-arrow-left-circle pe-2"></i></a>
+    <div class="header-overlay">
+            <div class="overlay-navbar d-flex flex-row align-items-center m-4">
+                <img id="logo" class="img-fluid" src="imgs/logo.png">
+                <div class="container-fluid"></div>
+                <a href="videos.php" class="px-1 px-md-3">VIDEO</a>
+                <a href="events.php" class="px-1 px-md-3">EVENTS</a>
+                <a href="contact.html" class="px-1 px-md-3">CONTACT</a>
+            </div>
+            <div class="overlay-content d-flex align-items-center">
+                <div class="text-center w-100">
+                    <h1 class="display-1"><?php echo strtoupper($_POST["label"]); ?></h1>
+                    <p class="lead"><?php echo $_POST["desc"]; ?></p>
+                    <a href="<?php echo $_POST["backPath"];?>" class="btn text-light btn-bigger"><i class="bi bi-arrow-left-circle pe-2"></i></a>
+                </div>
             </div>
         </div>
     </div>
@@ -34,7 +42,7 @@
             foreach (glob($path . "*.{jpg,png}", GLOB_BRACE) as $img) {
                 echo '<div class="col-12 col-md-6 p-0 card-background-effect-wrapper">
                         <div class="card-background card-background-effect" style="background-image: url(\'' . $img . '\');" data-img-path="' . $img . '">
-                            <div class="card-content-holder"></div>
+                            <div class="card-content-holder card-content-holder-detail-image"></div>
                         </div>
                     </div>';
             }

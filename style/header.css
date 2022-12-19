@@ -5,19 +5,20 @@
     height: 100vw;
 }
 
-.header-wrapper video, .img-background {
+.header-wrapper video,
+.img-background {
     object-fit: cover;
     position: fixed;
     height: 100%;
     width: 100%;
 }
 
-.img-background{
+.img-background {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-    
+
 .header-wrapper .header-overlay {
     position: fixed;
     z-index: 2;
@@ -26,4 +27,17 @@
     height: 100%;
     color: var(--white);
     background-color: rgba(0, 0, 0, .5);
+}
+
+.header-wrapper .overlay-content {
+    height: 90%;
+}
+
+.header-wrapper .overlay-navbar {
+    height: 10%;
+}
+
+.header-wrapper .overlay-navbar #logo {
+    height: 100%;
+    width: auto;
 }

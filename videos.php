@@ -26,7 +26,7 @@
                 <div class="container-fluid"></div>
                 <a href="videos.php" class="px-1 px-md-3">VIDEO</a>
                 <a href="events.php" class="px-1 px-md-3">EVENTS</a>
-                <a href="contact.php" class="px-1 px-md-3">CONTACT</a>
+                <a href="contact.html" class="px-1 px-md-3">CONTACT</a>
             </div>
             <div class="overlay-content d-flex align-items-center">
                 <div class="text-center w-100">

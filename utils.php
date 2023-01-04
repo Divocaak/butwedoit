@@ -1,7 +1,7 @@
 <?php
-function buildCard($yt, $label, $desc, $thumbnail, $txtColor, $bgColor, $detailGalPath, $detailDesc)
+function buildCard($yt, $label, $desc, $thumbnail, $txtColor, $bgColor, $detailGalPath, $detailDesc, $isLast)
 {
-    echo '<div class="col-12 col-md-6 p-0">
+    echo '<div class="col-12 ' . (!$isLast ? 'col-md-6 ' : '') . 'p-0">
             <div class="card-background' . (($yt == "" && $detailGalPath == ""  && $detailDesc == "") ? " card-cursor-default" : "") . '" style="background-image: url(\'imgs/thumbnails/' . $thumbnail . '\'); color: #' . $txtColor . '"
                     data-youtube-id="' . $yt . '" 
                     data-label="' . $label . '" 

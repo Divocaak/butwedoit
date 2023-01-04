@@ -1,56 +1,165 @@
 {
     "videos": [
         {
-            "label": "tst label",
-            "shortDesc": "lorem ipsum asd",
-            "thumbnail": "vids/0.png",
+            "label": "TEA SOFIA",
+            "shortDesc": "Lust For Desire",
+            "thumbnail": "vids/tea.png",
             "backgroundColor": "000000",
             "textColor": "FFFFFF",
-            "youtube": "Sm3uDdiE0CU"
+
+            "youtube": "3FDrzgnIBMQ"
         },
         {
-            "label": "Bez videa",
-            "shortDesc": "tohle video nemá video",
-            "thumbnail": "vids/1.png",
-            "backgroundColor": "FFFF00",
-            "textColor": "00FF",
+            "label": "RADEK BAKALÁŘ",
+            "shortDesc": "Fokus",
+            "thumbnail": "0.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "1HIHVhZZ5So"
+        },
+        {
+            "label": "PLES SOBJE",
+            "shortDesc": "",
+            "thumbnail": "0.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "Fiysw2sFcns"
+        },
+        {
+            "label": "WOLT",
+            "shortDesc": "",
+            "thumbnail": "vids/wolt.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "_rnEOdDYf0c"
+        },
+        {
+            "label": "ČERVENÝ KŘÍŽ",
+            "shortDesc": "",
+            "thumbnail": "0.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "eJVlK88R_MI"
+        },
+        {
+            "label": "FOODSHOWREEL",
+            "shortDesc": "",
+            "thumbnail": "vids/food.jpg",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "HNN9wZ_ziDA"
+        },
+        {
+            "label": "AUTOSALON DAJBYCH DEFENDER",
+            "shortDesc": "",
+            "thumbnail": "0.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "nGxpofZaU6o"
+        },
+        {
+            "label": "POTRAVINOVÉ BANKY - HOSPIC",
+            "shortDesc": "",
+            "thumbnail": "0.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "RbeGcsT5G4I"
+        },
+        {
+            "label": "ULTRAVAGANT",
+            "shortDesc": "",
+            "thumbnail": "0.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "UPo5p71yGYY"
+        },
+        {
+            "label": "ADIDAS",
+            "shortDesc": "",
+            "thumbnail": "0.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+            
+            
             "detailGalleryPath": "vids/1/",
-            "detailLongDesc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut tempus purus at lorem. Aenean id metus id velit ullamcorper pulvinar. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. In convallis. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce aliquam vestibulum ipsum. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Etiam bibendum elit eget erat. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Donec quis nibh at felis congue commodo."
+            "detailLongDesc": "Lorem ipsum"
+        },
+        {
+            "label": "HBO",
+            "shortDesc": "Real Sports",
+            "thumbnail": "vids/hbo.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+            
+            
+            "detailGalleryPath": "vids/hbo/",
+            "detailLongDesc": "Lorem ipsum"
+        },
+        {
+            "label": "HOLKY Z MARKETINGU",
+            "shortDesc": "",
+            "thumbnail": "vids/holkyZMarketingu.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+            
+            "youtube": "pSL8PAknapg"
+        },
+        {
+            "label": "BERLIN CONFERENCE",
+            "shortDesc": "",
+            "thumbnail": "vids/berlinConference.jpg",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+            
+            "youtube": "ufPRdgh3FH4"
+        },
+        {
+            "label": "L'ORÉAL",
+            "shortDesc": "",
+            "thumbnail": "vids/loreal.jpg",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+            
+            "detailGalleryPath": "vids/loreal/",
+            "detailLongDesc": "Lorem ipsum"
         }
     ],
     "events": [
         {
-            "label": "category",
-            "desc": "cat desc",
+            "label": "EVENTOVÉ ZAJIŠTĚNÍ",
+            "desc": "Kompletní příprava a realizace klasických i netradičních konferencí a festivalů",
             "projects": [
                 {
-                    "label": "tst label",
-                    "shortDesc": "bez prokliku",
-                    "thumbnail": "vids/0.png",
-                    "backgroundColor": "000000",
-                    "textColor": "FFFFFF"
-                },
-                {
-                    "label": "another event",
-                    "shortDesc": "proklik na detail",
-                    "thumbnail": "vids/1.png",
+                    "label": "BUDĚJOVICKÝ MAJÁLES",
+                    "shortDesc": "Lorem ipsum",
+                    "thumbnail": "events/majales.png",
                     "backgroundColor": "FFFF00",
                     "textColor": "00FFFF",
-                    "detailGalleryPath": "events/0/",
-                    "detailLongDesc": "Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Proin in tellus sit amet nibh dignissim sagittis. Phasellus rhoncus. Fusce tellus. Pellentesque arcu. Mauris metus. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Quisque tincidunt scelerisque libero. Vivamus luctus egestas leo. Cras elementum. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat."
+                    "detailGalleryPath": "events/majales/",
+                    "detailLongDesc": "Lorem pisum dolor sit amet"
                 }
             ]
         },
         {
-            "label": "category 2",
-            "desc": "cat desc asdasd",
+            "label": "KOMPLEXNÍ PRODUKCE",
+            "desc": "Pořádáte konferenci, seminář, přednášku nebo nějaký jiný event pro více lidí? Jsme specialisté na hybridní eventy popřípadě přesuneme Vaši akci kompletně do onlinu tak, aby se Vaši klienti cítili bezpečně a zároveň měli z akce co nejatraktivnější požitek",
             "projects": [
                 {
-                    "label": "event label",
-                    "shortDesc": "taky bez prokliku",
-                    "thumbnail": "vids/1.png",
+                    "label": "BERLIN CONFERENCE",
+                    "shortDesc": "Lorem ipsum",
+                    "thumbnail": "vids/berlinConference.jpg",
                     "backgroundColor": "FFFF00",
-                    "textColor": "00FFFF"
+                    "textColor": "00FFFF",
+                    "detailGalleryPath": "events/berlinConference/",
+                    "detailLongDesc": "Lorem pisum dolor sit amet"
                 }
             ]
         }

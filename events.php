@@ -1,5 +1,14 @@
 <?php require_once "utils.php"; ?>
 
+<!-- NOTE event bez prokliku
+{
+    "label": "BUDĚJOVICKÝ MAJÁLES",
+    "shortDesc": "Lorem ipsum",
+    "thumbnail": "vids/0.png",
+    "backgroundColor": "000000",
+    "textColor": "FFFFFF"
+}, -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,9 +49,11 @@
         foreach ($json["events"] as $category) {
             echo '<div class="text-center py-5 mt-5">
             <h2 class="display-4 text-uppercase">' . $category["label"] . '</h2>
-                    <p class="lead">' . $category["desc"] . '</p>
+                    <p class="lead mx-3">' . $category["desc"] . '</p>
                 </div>
                 <div class="row">';
+            $projectsCount = count($category["projects"]);
+            $i = 0;
             foreach ($category["projects"] as $project) {
                 buildCard(
                     "",
@@ -52,7 +63,8 @@
                     $project["textColor"],
                     $project["backgroundColor"],
                     $project["detailGalleryPath"] ?? "",
-                    $project["detailLongDesc"] ?? ""
+                    $project["detailLongDesc"] ?? "",
+                    ++$i === $projectsCount && ($i % 2 != 0)
                 );
             }
             echo "</div>";

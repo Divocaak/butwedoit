@@ -41,6 +41,8 @@
         <div class="row">
             <?php
             $json = json_decode(file_get_contents("content.json"), true);
+            $videosCount = count($json["videos"]);
+            $i = 0;
             foreach ($json["videos"] as $video) {
                 buildCard(
                     $video["youtube"] ?? "",
@@ -50,7 +52,8 @@
                     $video["textColor"],
                     $video["backgroundColor"],
                     $video["detailGalleryPath"] ?? "",
-                    $video["detailLongDesc"] ?? ""
+                    $video["detailLongDesc"] ?? "",
+                    ++$i === $videosCount && ($i % 2 != 0)
                 );
             }
             ?>

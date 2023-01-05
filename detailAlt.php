@@ -52,7 +52,7 @@ $_POST["backPath"] = "videos.php";
                 $isLastAndNewRow = ++$i === $videosCount && ($i % 3 != 0);
                 echo '<div class="col-12 col-md-' . ($isLastAndNewRow ? "12" : "4") . ' p-0 card-background-effect-wrapper">
                         <div class="card-background card-background-effect" style="background-image: url(\'' . $img . '\');" data-img-path="' . $img . '">
-                            <div class="card-content-holder card-content-holder-detail-image' . ($isLastAndNewRow ? "-last-and-new" : "") . '" loading="lazy"></div>
+                            <div class="card-content-holder card-content-holder-detail-image' . ($isLastAndNewRow ? "-last-and-new" : "") . '"></div>
                         </div>
                     </div>';
             }

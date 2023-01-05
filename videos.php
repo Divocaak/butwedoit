@@ -69,7 +69,6 @@
                 echo '<div class="reel-card">
                         <div class="card-background' . (!isset($reel["youtube"]) ? " card-cursor-default" : "") . '" 
                             style="' . (isset($reel["thumbnail"]) ? 'background-image: url(\'imgs/thumbnails/' . $reel["thumbnail"] . '\'); ' : '') . 'color: #' . $reel["textColor"] . '" 
-                            loading="lazy" 
                             ' . (isset($reel["youtube"]) ? ("data-youtube-id='" . $reel["youtube"] . "'") : "") . ' 
                             data-label="' . $reel["label"] . '" 
                             data-desc="' . $reel["shortDesc"] . '">

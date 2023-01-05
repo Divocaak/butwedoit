@@ -8,8 +8,7 @@ function buildCard($yt, $label, $desc, $thumbnail, $txtColor, $bgColor, $detailG
                     data-desc="' . $desc . '"
                     data-gal-path="' . $detailGalPath . '",
                     data-long-desc="' . $detailDesc . '",
-                    data-thumbnail="' . $thumbnail . '"
-                    loading="lazy">
+                    data-thumbnail="' . $thumbnail . '">
                 <div class="card-content-holder d-none d-md-flex align-items-center" style="background-color: #' . $bgColor . '">
                     <div class="text-center w-100">
                         <h2>' . $label . '</h2>

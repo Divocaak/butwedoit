@@ -112,6 +112,51 @@
             "detailLongDesc": "Lorem ipsum"
         }
     ],
+    "reels":[
+        {
+            "label": "9:16",
+            "shortDesc": "Reels, YouTube shorts",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF"
+        },
+        {
+            "label": "ADIDAS",
+            "shortDesc": "Create new paths",
+            "thumbnail": "reels/adidas.jpg",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": ""
+        },
+        {
+            "label": "BVLGARI",
+            "shortDesc": "Lorem ipsum",
+            "thumbnail": "reels/0.jpg",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": ""
+        },
+        {
+            "label": "ALEX CHOUPENITCH",
+            "shortDesc": "1v1",
+            "thumbnail": "reels/1.jpg",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "hhA9h6uS2-w"
+        },
+        {
+            "label": "MILION VŮNÍ",
+            "shortDesc": "1v1",
+            "thumbnail": "reels/2.jpg",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "w8eJ_xaVF-A"
+        }
+        
+    ],
     "events": [
         {
             "label": "EVENTOVÉ ZAJIŠTĚNÍ",

@@ -4,6 +4,10 @@
     --yellow: #fce205;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--black);
     color: var(--white);

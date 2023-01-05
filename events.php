@@ -30,7 +30,7 @@
             <div class="overlay-navbar d-flex flex-row align-items-center m-4">
                 <img id="logo" class="img-fluid" src="imgs/logo.png">
                 <div class="container-fluid"></div>
-                <a href="videos.php" class="px-1 px-md-3">VIDEO</a>
+                <a href="videos.php" class="px-1 px-md-3">VIDEOS</a>
                 <a href="events.php" class="px-1 px-md-3">EVENTS</a>
                 <a href="contact.html" class="px-1 px-md-3">CONTACT</a>
             </div>

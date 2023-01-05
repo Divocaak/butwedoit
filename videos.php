@@ -24,7 +24,9 @@
         </video>
         <div class="header-overlay">
             <div class="overlay-navbar d-flex flex-row align-items-center m-4">
-                <img id="logo" class="img-fluid" src="imgs/logo.png">
+                <a href="index.html">
+                    <div id="logo"></div>
+                </a>
                 <div class="container-fluid"></div>
                 <a href="videos.php" class="px-1 px-md-3">VIDEOS</a>
                 <a href="events.php" class="px-1 px-md-3">EVENTS</a>
@@ -34,12 +36,11 @@
                 <div class="text-center w-100">
                     <h1 class="display-1">VIDEOS</h1>
                     <p class="lead">Check out <a href="#reelCarousel"><u>Reels (Shorts)</u></a> too</p>
-                    <a href="index.html" class="btn text-light btn-bigger"><i class="bi bi-arrow-left-circle pe-2"></i></a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="content-wrapper">
+    <div class="content-wrapper content-wrapper-first">
         <div class="row">
             <?php
             $json = json_decode(file_get_contents("content.json"), true);
@@ -78,18 +79,18 @@
                                         <p class="lead">' . $reel["shortDesc"] . '</p>
                                     </div>
                                 </div>'
-                                . (isset($reel["youtube"]) ?
-                                    '<div class="card-content-holder-small d-block d-md-none pt-2">
+                    . (isset($reel["youtube"]) ?
+                        '<div class="card-content-holder-small d-block d-md-none pt-2">
                                         <h2><span class="p-2 ms-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["label"] . '</span></h2>
                                         <p class="lead"><span class="p-2 ms-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["shortDesc"] . '</span></p>
                                     </div>' :
-                                    '<div class="text-reel-content-holder d-flex d-md-none align-items-center pt-2">
+                        '<div class="text-reel-content-holder d-flex d-md-none align-items-center pt-2">
                                         <div class="text-center w-100">
                                             <h2><span class="p-2 ms-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["label"] . '</span></h2>
                                             <p class="lead"><span class="p-2 ms-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["shortDesc"] . '</span></p>
                                         </div>
                                     </div>') .
-                        '</div>
+                    '</div>
                     </div>';
             }
             ?>
@@ -154,7 +155,6 @@
                             $("#videoPlayer").modal("show");
                         } else {
                             $.redirectPost("detail.php", {
-                                backPath: window.location.pathname,
                                 thumbnail: $(this).data("thumbnail"),
                                 label: label,
                                 desc: desc,

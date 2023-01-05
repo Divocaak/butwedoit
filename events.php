@@ -28,7 +28,9 @@
     <div class="header-wrapper">
         <div class="header-overlay">
             <div class="overlay-navbar d-flex flex-row align-items-center m-4">
-                <img id="logo" class="img-fluid" src="imgs/logo.png">
+                <a href="index.html">
+                    <div id="logo"></div>
+                </a>
                 <div class="container-fluid"></div>
                 <a href="videos.php" class="px-1 px-md-3">VIDEOS</a>
                 <a href="events.php" class="px-1 px-md-3">EVENTS</a>
@@ -38,38 +40,39 @@
                 <div class="text-center w-100">
                     <h1 class="display-1">EVENTS</h1>
                     <p class="lead">asdlkansdkln</p>
-                    <a href="index.html" class="btn text-light btn-bigger"><i class="bi bi-arrow-left-circle pe-2"></i></a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="content-wrapper">
-        <?php
-        $json = json_decode(file_get_contents("content.json"), true);
-        foreach ($json["events"] as $category) {
-            echo '<div class="text-center py-5 mt-5">
+    <div class="content-wrapper content-wrapper-first">
+        <div class="row">
+            <?php
+            $json = json_decode(file_get_contents("content.json"), true);
+            foreach ($json["events"] as $category) {
+                echo '<div class="text-center py-5 mt-5">
             <h2 class="display-4 text-uppercase">' . $category["label"] . '</h2>
                     <p class="lead mx-3">' . $category["desc"] . '</p>
                 </div>
                 <div class="row">';
-            $projectsCount = count($category["projects"]);
-            $i = 0;
-            foreach ($category["projects"] as $project) {
-                buildCard(
-                    "",
-                    $project["label"],
-                    $project["shortDesc"],
-                    $project["thumbnail"],
-                    $project["textColor"],
-                    $project["backgroundColor"],
-                    $project["detailGalleryPath"] ?? "",
-                    $project["detailLongDesc"] ?? "",
-                    ++$i === $projectsCount && ($i % 2 != 0)
-                );
+                $projectsCount = count($category["projects"]);
+                $i = 0;
+                foreach ($category["projects"] as $project) {
+                    buildCard(
+                        "",
+                        $project["label"],
+                        $project["shortDesc"],
+                        $project["thumbnail"],
+                        $project["textColor"],
+                        $project["backgroundColor"],
+                        $project["detailGalleryPath"] ?? "",
+                        $project["detailLongDesc"] ?? "",
+                        ++$i === $projectsCount && ($i % 2 != 0)
+                    );
+                }
+                echo "</div>";
             }
-            echo "</div>";
-        }
-        ?>
+            ?>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -81,7 +84,6 @@
                 var galPath = $(this).data("galPath");
                 if (galPath != "" && longDesc != "") {
                     $.redirectPost("detail.php", {
-                        backPath: window.location.pathname,
                         thumbnail: $(this).data("thumbnail"),
                         label: $(this).data("label"),
                         desc: $(this).data("desc"),

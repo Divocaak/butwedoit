@@ -1,6 +1,15 @@
 {
     "videos": [
         {
+            "label": "test auto deploy",
+            "shortDesc": "pls",
+            "thumbnail": "vids/tea.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "3FDrzgnIBMQ"
+        },
+        {
             "label": "TEA SOFIA",
             "shortDesc": "Lust For Desire",
             "thumbnail": "vids/tea.png",

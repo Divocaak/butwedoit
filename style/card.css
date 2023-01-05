@@ -22,6 +22,11 @@
     height: 33vh;
 }
 
+.card-background .card-content-holder-detail-image-last-and-new{
+    position: relative;
+    height: 100vh;
+}
+
 .card-background .card-content-holder {
     transition: all .5s;
     opacity: 0;

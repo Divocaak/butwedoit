@@ -17,11 +17,13 @@
 
 <body>
     <div class="header-wrapper">
-    <div class="header-overlay">
+        <div class="header-overlay">
             <div class="overlay-navbar d-flex flex-row align-items-center m-4">
-                <img id="logo" class="img-fluid" src="imgs/logo.png">
+                <a href="index.html">
+                    <div id="logo"></div>
+                </a>
                 <div class="container-fluid"></div>
-                <a href="videos.php" class="px-1 px-md-3">VIDEO</a>
+                <a href="videos.php" class="px-1 px-md-3">VIDEOS</a>
                 <a href="events.php" class="px-1 px-md-3">EVENTS</a>
                 <a href="contact.html" class="px-1 px-md-3">CONTACT</a>
             </div>
@@ -29,20 +31,23 @@
                 <div class="text-center w-100">
                     <h1 class="display-1"><?php echo strtoupper($_POST["label"]); ?></h1>
                     <p class="lead"><?php echo $_POST["desc"]; ?></p>
-                    <a href="<?php echo $_POST["backPath"];?>" class="btn text-light btn-bigger"><i class="bi bi-arrow-left-circle pe-2"></i></a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="content-wrapper">
-        <p class="lead p-5 p-md-5 m-md-5 text-center"><?php echo $_POST["longDesc"]; ?></p>
+    <div class="content-wrapper content-wrapper-first">
         <div class="row">
+            <p class="lead p-5 p-md-5 m-md-5 text-center"><?php echo $_POST["longDesc"]; ?></p>
             <?php
             $path = "imgs/gals/" . $_POST["galPath"];
-            foreach (glob($path . "*.{jpg,png}", GLOB_BRACE) as $img) {
-                echo '<div class="col-12 col-md-6 p-0 card-background-effect-wrapper">
+            $imgs = glob($path . "*.{jpg,png}", GLOB_BRACE);
+            $videosCount = count($imgs);
+            $i = 0;
+            foreach ($imgs as $img) {
+                $isLastAndNewRow = ++$i === $videosCount && ($i % 2 != 0);
+                echo '<div class="col-12 col-md-' . ($isLastAndNewRow ? "12" : "6") . ' p-0 card-background-effect-wrapper">
                         <div class="card-background card-background-effect" style="background-image: url(\'' . $img . '\');" data-img-path="' . $img . '">
-                            <div class="card-content-holder card-content-holder-detail-image"></div>
+                            <div class="card-content-holder' . ($isLastAndNewRow ? " card-content-holder-detail-image-last-and-new" : "") . '"></div>
                         </div>
                     </div>';
             }
@@ -57,13 +62,13 @@
             </div>
         </div>
     </div>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
             $(".card-background").click(function() {
-                    $("#modalImage").attr("src", $(this).data("imgPath"));
-                    $("#imgModal").modal("show");
+                $("#modalImage").attr("src", $(this).data("imgPath"));
+                $("#imgModal").modal("show");
             });
         });
     </script>

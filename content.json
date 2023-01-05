@@ -11,8 +11,8 @@
         },
         {
             "label": "RADEK BAKALÁŘ",
-            "shortDesc": "Fokus",
-            "thumbnail": "0.png",
+            "shortDesc": "FOKUS - Nebezpečný únik z policejních pout / Radek Bakalář",
+            "thumbnail": "vids/bakalar.png",
             "backgroundColor": "000000",
             "textColor": "FFFFFF",
 
@@ -20,8 +20,8 @@
         },
         {
             "label": "PLES SOBJE",
-            "shortDesc": "",
-            "thumbnail": "0.png",
+            "shortDesc": "Official aftermovie",
+            "thumbnail": "vids/plesSobje.png",
             "backgroundColor": "000000",
             "textColor": "FFFFFF",
 
@@ -29,7 +29,7 @@
         },
         {
             "label": "WOLT",
-            "shortDesc": "",
+            "shortDesc": "Courier promo video",
             "thumbnail": "vids/wolt.png",
             "backgroundColor": "000000",
             "textColor": "FFFFFF",
@@ -38,8 +38,8 @@
         },
         {
             "label": "ČERVENÝ KŘÍŽ",
-            "shortDesc": "",
-            "thumbnail": "0.png",
+            "shortDesc": "Daruj krev!",
+            "thumbnail": "vids/cervenyKriz.png",
             "backgroundColor": "000000",
             "textColor": "FFFFFF",
 
@@ -47,7 +47,7 @@
         },
         {
             "label": "FOODSHOWREEL",
-            "shortDesc": "",
+            "shortDesc": "2021",
             "thumbnail": "vids/food.jpg",
             "backgroundColor": "000000",
             "textColor": "FFFFFF",
@@ -56,8 +56,8 @@
         },
         {
             "label": "AUTOSALON DAJBYCH DEFENDER",
-            "shortDesc": "",
-            "thumbnail": "0.png",
+            "shortDesc": "Defender promo video",
+            "thumbnail": "vids/autosalon.png",
             "backgroundColor": "000000",
             "textColor": "FFFFFF",
 
@@ -65,8 +65,8 @@
         },
         {
             "label": "POTRAVINOVÉ BANKY - HOSPIC",
-            "shortDesc": "",
-            "thumbnail": "0.png",
+            "shortDesc": "Hospic - příběh Alenky",
+            "thumbnail": "vids/hospic.png",
             "backgroundColor": "000000",
             "textColor": "FFFFFF",
 
@@ -74,27 +74,16 @@
         },
         {
             "label": "ULTRAVAGANT",
-            "shortDesc": "",
-            "thumbnail": "0.png",
+            "shortDesc": "Třika - letní collection 2021",
+            "thumbnail": "vids/ultravagant.png",
             "backgroundColor": "000000",
             "textColor": "FFFFFF",
 
             "youtube": "UPo5p71yGYY"
         },
         {
-            "label": "ADIDAS",
-            "shortDesc": "",
-            "thumbnail": "0.png",
-            "backgroundColor": "000000",
-            "textColor": "FFFFFF",
-            
-            
-            "detailGalleryPath": "vids/1/",
-            "detailLongDesc": "Lorem ipsum"
-        },
-        {
             "label": "HBO",
-            "shortDesc": "Real Sports",
+            "shortDesc": "Real Sports with Bryant Gumbel (September 2022)",
             "thumbnail": "vids/hbo.png",
             "backgroundColor": "000000",
             "textColor": "FFFFFF",
@@ -105,7 +94,7 @@
         },
         {
             "label": "HOLKY Z MARKETINGU",
-            "shortDesc": "",
+            "shortDesc": "Výtah - interviews",
             "thumbnail": "vids/holkyZMarketingu.png",
             "backgroundColor": "000000",
             "textColor": "FFFFFF",
@@ -113,17 +102,8 @@
             "youtube": "pSL8PAknapg"
         },
         {
-            "label": "BERLIN CONFERENCE",
-            "shortDesc": "",
-            "thumbnail": "vids/berlinConference.jpg",
-            "backgroundColor": "000000",
-            "textColor": "FFFFFF",
-            
-            "youtube": "ufPRdgh3FH4"
-        },
-        {
             "label": "L'ORÉAL",
-            "shortDesc": "",
+            "shortDesc": "A documentary about Prague, Bratislava, Budapest",
             "thumbnail": "vids/loreal.jpg",
             "backgroundColor": "000000",
             "textColor": "FFFFFF",
@@ -132,10 +112,55 @@
             "detailLongDesc": "Lorem ipsum"
         }
     ],
+    "reels":[
+        {
+            "label": "9:16",
+            "shortDesc": "Reels, YouTube shorts",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF"
+        },
+        {
+            "label": "ADIDAS",
+            "shortDesc": "Create new paths",
+            "thumbnail": "reels/adidas.jpg",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": ""
+        },
+        {
+            "label": "BVLGARI",
+            "shortDesc": "Lorem ipsum",
+            "thumbnail": "reels/0.jpg",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": ""
+        },
+        {
+            "label": "ALEX CHOUPENITCH",
+            "shortDesc": "1v1",
+            "thumbnail": "reels/1.jpg",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "hhA9h6uS2-w"
+        },
+        {
+            "label": "MILION VŮNÍ",
+            "shortDesc": "1v1",
+            "thumbnail": "reels/2.jpg",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+
+            "youtube": "w8eJ_xaVF-A"
+        }
+        
+    ],
     "events": [
         {
             "label": "EVENTOVÉ ZAJIŠTĚNÍ",
-            "desc": "Kompletní příprava a realizace klasických i netradičních konferencí a festivalů",
+            "desc": "Lorem ipsum",
             "projects": [
                 {
                     "label": "BUDĚJOVICKÝ MAJÁLES",
@@ -150,7 +175,7 @@
         },
         {
             "label": "KOMPLEXNÍ PRODUKCE",
-            "desc": "Pořádáte konferenci, seminář, přednášku nebo nějaký jiný event pro více lidí? Jsme specialisté na hybridní eventy popřípadě přesuneme Vaši akci kompletně do onlinu tak, aby se Vaši klienti cítili bezpečně a zároveň měli z akce co nejatraktivnější požitek",
+            "desc": "Lorem ipsum",
             "projects": [
                 {
                     "label": "BERLIN CONFERENCE",

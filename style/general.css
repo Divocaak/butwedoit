@@ -4,6 +4,10 @@
     --yellow: #fce205;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--black);
     color: var(--white);
@@ -20,6 +24,12 @@ body {
     background-color: var(--black);
 }
 
+.content-wrapper-first {
+    -webkit-box-shadow: 0px 5px 25px 5px rgba(252, 226, 5, 1);
+    -moz-box-shadow: 0px 5px 25px 5px rgba(252, 226, 5, 1);
+    box-shadow: 0px 5px 25px 5px rgba(252, 226, 5, 1);
+}
+
 .btn-bigger {
     font-size: 2rem;
 }
@@ -30,7 +40,8 @@ body {
     color: var(--white);
 }
 
-a, i {
+a,
+i {
     text-decoration: none;
     color: var(--white);
     transition: all ease-in-out .25s;
@@ -40,6 +51,6 @@ a:hover {
     color: var(--yellow);
 }
 
-a:hover i{
+a:hover i {
     color: var(--yellow);
 }

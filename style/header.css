@@ -37,7 +37,12 @@
     height: 10%;
 }
 
-.header-wrapper .overlay-navbar #logo {
-    height: 100%;
-    width: auto;
+#logo {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../imgs/logo.png");
+    position: relative;
+    height: 7rem;
+    width: 7rem;
 }

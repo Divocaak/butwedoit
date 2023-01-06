@@ -73,17 +73,17 @@
                             data-label="' . $reel["label"] . '" 
                             data-desc="' . $reel["shortDesc"] . '">
                                 <div class="' . (isset($reel["youtube"]) ? "card-content-holder" : "text-reel-content-holder") . ' d-none d-md-flex align-items-center" style="background-color: #' . $reel["backgroundColor"] . '">
-                                    <div class="text-center w-100">
+                                    <div class="text-center w-100 mx-2">
                                         <h2>' . $reel["label"] . '</h2>
                                         <p class="lead">' . $reel["shortDesc"] . '</p>
                                     </div>
                                 </div>'
                     . (isset($reel["youtube"]) ?
-                        '<div class="card-content-holder-small d-block d-md-none pt-2">
+                        '<div class="card-content-holder-small d-block d-md-none pt-2 mx-2">
                                         <h2><span class="p-2 ms-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["label"] . '</span></h2>
                                         <p class="lead"><span class="p-2 ms-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["shortDesc"] . '</span></p>
                                     </div>' :
-                        '<div class="text-reel-content-holder d-flex d-md-none align-items-center pt-2">
+                        '<div class="text-reel-content-holder d-flex d-md-none align-items-center pt-2 mx-2">
                                         <div class="text-center w-100">
                                             <h2><span class="p-2 ms-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["label"] . '</span></h2>
                                             <p class="lead"><span class="p-2 ms-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["shortDesc"] . '</span></p>
@@ -163,7 +163,7 @@
                         }
                     }
                 }
-            })
+            });
 
             $("#videoPlayer").on('hide.bs.modal', function(e) {
                 $("#playerIframe").attr("src", "");

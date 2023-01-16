@@ -67,9 +67,9 @@
                             </div>
                         </div>
                         <div class="card-background card-background-small d-block d-md-none" style="background-image: url(\'imgs/thumbnails/' . $video["thumbnail"] . '\');">
-                            <div class="card-content-holder-small pt-2 ps-3">
-                                <h2><span class="p-2" style="background-color: #' . $video["backgroundColor"] . '">' . $video["label"] . '</span></h2>
-                                <p class="lead"><span class="p-2" style="background-color: #' . $video["backgroundColor"] . '">' . $video["shortDesc"] . '</span></p>
+                            <div class="card-content-holder-small pt-2 px-3">
+                                <h2><span class="p-2 lh-base" style="background-color: #' . $video["backgroundColor"] . '">' . $video["label"] . '</span></h2>
+                                <p class="lead"><span class="p-2 lh-base" style="background-color: #' . $video["backgroundColor"] . '">' . $video["shortDesc"] . '</span></p>
                             </div>
                         </div>
                     </div>';
@@ -99,9 +99,9 @@
                             . ($reel["shortDesc"] != "" ? ('<p class="lead"><span class="p-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["shortDesc"] . '</span></p>') : "")
                         . '</div>' :
                         '<div class="text-reel-content-holder d-flex d-md-none align-items-center pt-2">
-                            <div class="text-center w-100 ps-1">
-                                <h2><span class="p-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["label"] . '</span></h2>
-                                <p class="lead"><span class="p-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["shortDesc"] . '</span></p>
+                            <div class="text-center w-100 px-1">
+                                <h2><span class="p-2 lh-base" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["label"] . '</span></h2>
+                                <p class="lead"><span class="p-2 lh-base" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["shortDesc"] . '</span></p>
                             </div>
                         </div>') .
                     '</div>

@@ -1,5 +1,3 @@
-<?php require_once "utils.php"; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -80,9 +78,9 @@
                                 data-gal-path="' . $project["detailGalleryPath"] . '",
                                 data-long-desc="' . $project["detailLongDesc"] . '",
                                 data-thumbnail="' . $project["thumbnail"] . '">
-                                <div class="card-content-holder-small pt-2">
-                                    <h2><span class="p-2 ms-2" style="background-color: #' . $project["backgroundColor"] . '; color: #' . $project["textColor"] . '">' . $project["label"] . '</span></h2>
-                                    <p class="lead"><span class="p-2 ms-2" style="background-color: #' . $project["backgroundColor"] . '; color: #' . $project["textColor"] . '">' . $project["shortDesc"] . '</span></p>
+                                <div class="card-content-holder-small pt-2 ps-3">
+                                    <h2><span class="p-2" style="background-color: #' . $project["backgroundColor"] . '; color: #' . $project["textColor"] . '">' . $project["label"] . '</span></h2>
+                                    <p class="lead"><span class="p-2" style="background-color: #' . $project["backgroundColor"] . '; color: #' . $project["textColor"] . '">' . $project["shortDesc"] . '</span></p>
                                 </div>
                             </div>
                         </div>';

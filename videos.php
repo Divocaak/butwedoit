@@ -1,5 +1,3 @@
-<?php require_once "utils.php"; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +12,7 @@
     <link href="style/card.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link href="style/reelCard.css" rel="stylesheet">
-    <title>VIDEO</title>
+    <title>VIDEOS</title>
 </head>
 
 <body>
@@ -47,17 +45,34 @@
             $videosCount = count($json["videos"]);
             $i = 0;
             foreach ($json["videos"] as $video) {
-                buildCard(
-                    $video["youtube"] ?? "",
-                    $video["label"],
-                    $video["shortDesc"],
-                    $video["thumbnail"],
-                    $video["textColor"],
-                    $video["backgroundColor"],
-                    $video["detailGalleryPath"] ?? "",
-                    $video["detailLongDesc"] ?? "",
-                    ++$i === $videosCount && ($i % 2 != 0)
-                );
+                $yt = $video["youtube"] ?? "";
+                $detailGalPath = $video["detailGalleryPath"] ?? "";
+                $detailDesc = $video["detailLongDesc"] ?? "";
+                $last = !(++$i === $videosCount && ($i % 2 != 0)) ? 'col-md-6 ' : '';
+                $cursor = ($yt == "" && $detailGalPath == ""  && $detailDesc == "") ? "card-cursor-default " : "";
+                echo '<div class="col-12 ' . $last . $cursor .  'p-0 videoCard"
+                        data-youtube-id="' . $yt . '" 
+                        data-label="' . $video["label"] . '" 
+                        data-desc="' . $video["shortDesc"] . '"
+                        data-gal-path="' . $detailGalPath . '",
+                        data-long-desc="' . $detailDesc . '",
+                        data-thumbnail="' . $video["thumbnail"] . '"
+                        style="color: #' . $video["textColor"] . '">
+                        <div class="card-background d-none d-md-flex" style="background-image: url(\'imgs/thumbnails/' . $video["thumbnail"] . '\');">
+                            <div class="card-content-holder d-flex align-items-center w-100" style="background-color: #' . $video["backgroundColor"] . '">
+                                <div class="text-center w-100">
+                                    <h2>' . $video["label"] . '</h2>
+                                    <p class="lead">' . $video["shortDesc"] . '</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-background card-background-small d-block d-md-none" style="background-image: url(\'imgs/thumbnails/' . $video["thumbnail"] . '\');">
+                            <div class="card-content-holder-small pt-2 ps-3">
+                                <h2><span class="p-2" style="background-color: #' . $video["backgroundColor"] . '">' . $video["label"] . '</span></h2>
+                                <p class="lead"><span class="p-2" style="background-color: #' . $video["backgroundColor"] . '">' . $video["shortDesc"] . '</span></p>
+                            </div>
+                        </div>
+                    </div>';
             }
             ?>
         </div>
@@ -79,16 +94,16 @@
                                     </div>
                                 </div>'
                     . (isset($reel["youtube"]) ?
-                        '<div class="card-content-holder-small d-block d-md-none pt-2 mx-2">
-                                        <h2><span class="p-2 ms-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["label"] . '</span></h2>
-                                        <p class="lead"><span class="p-2 ms-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["shortDesc"] . '</span></p>
-                                    </div>' :
-                        '<div class="text-reel-content-holder d-flex d-md-none align-items-center pt-2 mx-2">
-                                        <div class="text-center w-100">
-                                            <h2><span class="p-2 ms-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["label"] . '</span></h2>
-                                            <p class="lead"><span class="p-2 ms-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["shortDesc"] . '</span></p>
-                                        </div>
-                                    </div>') .
+                        '<div class="card-content-holder-small d-block d-md-none pt-2 ps-1">
+                            <h2><span class="p-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["label"] . '</span></h2>'
+                            . ($reel["shortDesc"] != "" ? ('<p class="lead"><span class="p-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["shortDesc"] . '</span></p>') : "")
+                        . '</div>' :
+                        '<div class="text-reel-content-holder d-flex d-md-none align-items-center pt-2">
+                            <div class="text-center w-100 ps-1">
+                                <h2><span class="p-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["label"] . '</span></h2>
+                                <p class="lead"><span class="p-2" style="background-color: #' . $reel["backgroundColor"] . '">' . $reel["shortDesc"] . '</span></p>
+                            </div>
+                        </div>') .
                     '</div>
                     </div>';
             }
@@ -128,6 +143,33 @@
                 }]
             });
 
+            var openPlayer = function(element) {
+                var yt = $(element).data("youtubeId");
+                    var label = $(element).data("label");
+                    var desc = $(element).data("desc");
+                    if (yt != null) {
+                        if (yt != "") {
+                            $("#modalLabel").text(label);
+                            $("#modalDesc").text(desc);
+                            $("#playerIframe").attr("src", "https://www.youtube.com/embed/" + yt + "?autoplay=1&mute=1&showinfo=0&controls=1&html5=1");
+
+                            $("#videoPlayer").modal("show");
+                        } else {
+                            $.redirectPost("detail.php", {
+                                thumbnail: $(element).data("thumbnail"),
+                                label: label,
+                                desc: desc,
+                                longDesc: $(element).data("longDesc"),
+                                galPath: $(element).data("galPath"),
+                            });
+                        }
+                    }
+            }
+
+            $(".videoCard").click(function(){
+                openPlayer($(this));
+            });
+
             $(".card-background").on('mousedown', function(e) {
                 $(this).data('p0', {
                     x: e.pageX,
@@ -139,29 +181,10 @@
                         x: e.pageX,
                         y: e.pageY
                     },
-                    d = Math.sqrt(Math.pow(p1.x - p0.x, 2) + Math.pow(p1.y - p0.y, 2));
+                d = Math.sqrt(Math.pow(p1.x - p0.x, 2) + Math.pow(p1.y - p0.y, 2));
 
                 if (d < 4) {
-                    var yt = $(this).data("youtubeId");
-                    var label = $(this).data("label");
-                    var desc = $(this).data("desc");
-                    if (yt != null) {
-                        if (yt != "") {
-                            $("#modalLabel").text(label);
-                            $("#modalDesc").text(desc);
-                            $("#playerIframe").attr("src", "https://www.youtube.com/embed/" + yt + "?autoplay=1&mute=1&showinfo=0&controls=1&html5=1");
-
-                            $("#videoPlayer").modal("show");
-                        } else {
-                            $.redirectPost("detail.php", {
-                                thumbnail: $(this).data("thumbnail"),
-                                label: label,
-                                desc: desc,
-                                longDesc: $(this).data("longDesc"),
-                                galPath: $(this).data("galPath"),
-                            });
-                        }
-                    }
+                    openPlayer($(this));
                 }
             });
 

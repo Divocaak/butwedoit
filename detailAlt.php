@@ -1,4 +1,4 @@
-<?php require_once "utils.php";
+<?php
 $_POST["label"] = "test";
 $_POST["desc"] = "Lorem ipsum short";
 $_POST["longDesc"] = "Lorem ipsum long";
@@ -23,7 +23,7 @@ $_POST["backPath"] = "videos.php";
 
 <body>
     <div class="header-wrapper">
-    <div class="header-overlay">
+        <div class="header-overlay">
             <div class="overlay-navbar d-flex flex-row align-items-center m-4">
                 <img id="logo" class="img-fluid" src="imgs/logo.png">
                 <div class="container-fluid"></div>
@@ -35,7 +35,7 @@ $_POST["backPath"] = "videos.php";
                 <div class="text-center w-100">
                     <h1 class="display-1"><?php echo strtoupper($_POST["label"]); ?></h1>
                     <p class="lead"><?php echo $_POST["desc"]; ?></p>
-                    <a href="<?php echo $_POST["backPath"];?>" class="btn text-light btn-bigger"><i class="bi bi-arrow-left-circle pe-2"></i></a>
+                    <a href="<?php echo $_POST["backPath"]; ?>" class="btn text-light btn-bigger"><i class="bi bi-arrow-left-circle pe-2"></i></a>
                 </div>
             </div>
         </div>
@@ -67,13 +67,13 @@ $_POST["backPath"] = "videos.php";
             </div>
         </div>
     </div>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
             $(".card-background").click(function() {
-                    $("#modalImage").attr("src", $(this).data("imgPath"));
-                    $("#imgModal").modal("show");
+                $("#modalImage").attr("src", $(this).data("imgPath"));
+                $("#imgModal").modal("show");
             });
         });
     </script>

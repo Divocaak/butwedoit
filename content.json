@@ -101,6 +101,14 @@
     ],
     "reels": [
         {
+            "label": "REDBULL X ALEX CHOUPENITCH",
+            "shortDesc": "Coins",
+            "thumbnail": "reels/redbull.png",
+            "backgroundColor": "000000",
+            "textColor": "FFFFFF",
+            "youtube": "5o9W0fysGnU"
+        },
+        {
             "label": "9:16",
             "shortDesc": "Reels, YouTube shorts",
             "backgroundColor": "000000",

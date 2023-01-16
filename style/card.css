@@ -6,6 +6,10 @@
     pointer-events: auto;
 }
 
+.card-background-small{
+    height: 46vh;
+}
+
 .card-cursor-default{
     cursor: default;
 }

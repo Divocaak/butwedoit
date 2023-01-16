@@ -1,5 +1,3 @@
-<?php require_once "utils.php"; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,7 +38,7 @@
             <p class="lead p-5 p-md-5 m-md-5 text-center"><?php echo $_POST["longDesc"]; ?></p>
             <?php
             $path = "imgs/gals/" . $_POST["galPath"];
-            $imgs = glob($path . "*.{jpg,png}", GLOB_BRACE);
+            $imgs = glob($path . "*.{jpg,png,jpeg}", GLOB_BRACE);
             $videosCount = count($imgs);
             $i = 0;
             foreach ($imgs as $img) {

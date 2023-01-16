@@ -1,14 +1,3 @@
-<?php require_once "utils.php"; ?>
-
-<!-- NOTE event bez prokliku
-{
-    "label": "BUDĚJOVICKÝ MAJÁLES",
-    "shortDesc": "Lorem ipsum",
-    "thumbnail": "vids/0.png",
-    "backgroundColor": "000000",
-    "textColor": "FFFFFF"
-}, -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="style/general.css" rel="stylesheet">
     <link href="style/header.css" rel="stylesheet">
+    <link href="style/events.css" rel="stylesheet">
     <link href="style/card.css" rel="stylesheet">
     <title>EVENTS</title>
 </head>
@@ -39,7 +29,7 @@
             <div class="overlay-content d-flex align-items-center">
                 <div class="text-center w-100">
                     <h1 class="display-1">EVENTS</h1>
-                    <p class="lead">asdlkansdkln</p>
+                    <p class="lead">Hybrid events, Full production service</p>
                 </div>
             </div>
         </div>
@@ -50,26 +40,53 @@
             $json = json_decode(file_get_contents("content.json"), true);
             foreach ($json["events"] as $category) {
                 echo '<div class="text-center py-5 mt-5">
-            <h2 class="display-4 text-uppercase">' . $category["label"] . '</h2>
-                    <p class="lead mx-3">' . $category["desc"] . '</p>
-                </div>
-                <div class="row">';
+                        <h2 class="display-4 text-uppercase">' . $category["label"] . '</h2>
+                        <p class="lead px-5">' . $category["desc"] . '</p>
+                    </div>';
+
                 $projectsCount = count($category["projects"]);
                 $i = 0;
                 foreach ($category["projects"] as $project) {
-                    buildCard(
-                        "",
-                        $project["label"],
-                        $project["shortDesc"],
-                        $project["thumbnail"],
-                        $project["textColor"],
-                        $project["backgroundColor"],
-                        $project["detailGalleryPath"] ?? "",
-                        $project["detailLongDesc"] ?? "",
-                        ++$i === $projectsCount && ($i % 2 != 0)
-                    );
+                    $img = '<div class="col-12 col-md-6 thumbnail p-0 m-0" style="background-image: url(\'imgs/thumbnails/' . $project["thumbnail"] . '\');"></div>';
+
+                    echo '<div class="row projectHolder p-0 m-0 d-none d-md-flex">';
+                    if ($i % 2 == 0)
+                        echo $img;
+
+                    echo '<div class="col-12 col-md-6 d-flex align-items-center" style="background-color: #' . $project["backgroundColor"] . '; color: #' . $project["textColor"] . '">
+                        <div class="text-center w-100 px-3 px-md-5">
+                            <h2>' . $project["label"] . '</h2>
+                            <p class="lead">' . $project["shortDesc"] . '</p>
+                            <p data-label="' . $project["label"] . '" 
+                                data-desc="' . $project["shortDesc"] . '"
+                                data-gal-path="' . $project["detailGalleryPath"] . '",
+                                data-long-desc="' . $project["detailLongDesc"] . '",
+                                data-thumbnail="' . $project["thumbnail"] . '"
+                                class="detailBtn">MORE</p>
+                        </div>
+                    </div>';
+
+                    if ($i % 2 > 0)
+                        echo $img;
+
+                    echo '</div>';
+
+                    echo '<div class="p-0 d-block d-md-none">
+                            <div class="thumbnail thumbnailBtn" style="background-image: url(\'imgs/thumbnails/' . $project["thumbnail"] . '\');"
+                                data-label="' . $project["label"] . '" 
+                                data-desc="' . $project["shortDesc"] . '"
+                                data-gal-path="' . $project["detailGalleryPath"] . '",
+                                data-long-desc="' . $project["detailLongDesc"] . '",
+                                data-thumbnail="' . $project["thumbnail"] . '">
+                                <div class="card-content-holder-small pt-2 px-3">
+                                    <h2><span class="p-2 lh-base" style="background-color: #' . $project["backgroundColor"] . '; color: #' . $project["textColor"] . '">' . $project["label"] . '</span></h2>
+                                    <p class="lead"><span class="p-2 lh-base" style="background-color: #' . $project["backgroundColor"] . '; color: #' . $project["textColor"] . '">' . $project["shortDesc"] . '</span></p>
+                                </div>
+                            </div>
+                        </div>';
+                    
+                    $i++;
                 }
-                echo "</div>";
             }
             ?>
         </div>
@@ -79,22 +96,14 @@
     <script src="scripts/redirectPost.js"></script>
     <script>
         $(document).ready(function() {
-            $(".card-background").click(function() {
-                var longDesc = $(this).data("longDesc");
-                var galPath = $(this).data("galPath");
-                if (galPath != "" && longDesc != "") {
-                    $.redirectPost("detail.php", {
-                        thumbnail: $(this).data("thumbnail"),
-                        label: $(this).data("label"),
-                        desc: $(this).data("desc"),
-                        longDesc: longDesc,
-                        galPath: galPath
-                    });
-                }
-            });
-
-            $("#videoPlayer").on('hide.bs.modal', function(e) {
-                $("#playerIframe").attr("src", "");
+            $(".detailBtn,.thumbnailBtn").click(function() {
+                $.redirectPost("detail.php", {
+                    thumbnail: $(this).data("thumbnail"),
+                    label: $(this).data("label"),
+                    desc: $(this).data("desc"),
+                    longDesc: $(this).data("longDesc"),
+                    galPath: $(this).data("galPath")
+                });
             });
         });
     </script>

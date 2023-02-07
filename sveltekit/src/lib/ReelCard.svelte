@@ -1,22 +1,20 @@
 <script>
 	export let yt, thumbnail, label, shortDesc, bgColor, textColor;
+	/* BUG handle drag */
+	export let onClick = () => {};
 	/* BUG browser console */
-    let thumbnailImage;
-    if(thumbnail != null){
-        thumbnailImage = new URL('./assets/thumbnails/' + thumbnail, import.meta.url);
-    }
+	let thumbnailImage;
+	if (thumbnail != null) {
+		thumbnailImage = new URL('./assets/thumbnails/' + thumbnail, import.meta.url);
+	}
 </script>
 
-<div class="reel-card">
-	<div
-		class="card-background"
-		style="background-image: url({thumbnailImage}); color: #{textColor}"
-		data-youtube-id={yt}
-		data-label={label}
-		data-desc={shortDesc}
-	>
+<div class="reel-card" tabindex=0 role="button" on:click={onClick} on:keypress={onClick}>
+	<div class="card-background" style="background-image: url({thumbnailImage}); color: #{textColor}">
 		<div
-			class="card-content-holder d-none d-md-flex align-items-center"
+			class="{yt != null
+				? 'card-content-holder'
+				: 'text-reel-content-holder'} d-none d-md-flex align-items-center"
 			style="background-color: #{bgColor}"
 		>
 			<div class="text-center w-100 mx-2">
@@ -55,11 +53,12 @@
 	}
 
 	.text-reel-content-holder {
+		cursor: default;
 		position: relative;
 		height: 100vh;
 	}
 
-    .card-background {
+	.card-background {
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;

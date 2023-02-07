@@ -1,19 +1,17 @@
 <script>
-	export let last, label, shortDesc, detailGalPath, detailDesc, thumbnail, textColor, bgColor, yt;
+	export let last, label, shortDesc, thumbnail, textColor, bgColor;
+	export let onClick = () => {};
 	/* BUG browser console */
 	let thumbnailImage = new URL('./assets/thumbnails/' + thumbnail, import.meta.url);
 </script>
 
-<!-- TODO clickable -->
 <div
 	class="{last} col-12 p-0 videoCard"
-	data-youtube-id={yt}
-	data-label={label}
-	data-desc={shortDesc}
-	data-gal-path={detailGalPath}
-	data-long-desc={detailDesc}
-	data-thumbnail={thumbnail}
 	style="color: #{textColor}"
+	tabindex=0
+	role="button"
+	on:click={onClick}
+	on:keypress={onClick}
 >
 	<div class="card-background d-none d-md-flex" style="background-image: url({thumbnailImage});">
 		<div

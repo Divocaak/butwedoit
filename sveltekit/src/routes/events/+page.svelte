@@ -3,4 +3,3 @@
 </script>
 
 <Background title="events"/>
-<a href="/">back</a>

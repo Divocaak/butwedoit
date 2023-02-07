@@ -27,3 +27,7 @@ a:hover {
 a:hover i {
     color: var(--yellow);
 }
+
+.btn-bigger {
+    font-size: 2rem;
+}

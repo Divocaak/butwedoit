@@ -22,16 +22,13 @@
 			desc = newDesc;
 			ytKey = newYtKey;
 		} else if (galPath != null) {
-			// BUG redirect
-			throw redirect(307, "/events");
+			// TODO redirect
+			/* thumbnail: jQuery(element).data('thumbnail'),
+			label: label,
+			desc: desc,
+			longDesc: jQuery(element).data('longDesc'),
+			galPath: jQuery(element).data('galPath') */
 		}
-
-		// URGENT HBO and Loreal fix
-		/* thumbnail: jQuery(element).data('thumbnail'),
-		label: label,
-		desc: desc,
-		longDesc: jQuery(element).data('longDesc'),
-		galPath: jQuery(element).data('galPath') */
 	}
 
 	const onClosePopup = () => {

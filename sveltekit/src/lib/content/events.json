@@ -1,0 +1,122 @@
+[
+    {
+        "label": "HYBRID EVENTS",
+        "desc": "Elevate your virtual event experience with our hybrid Livestream and production services. We seamlessly blend the best of in-person and online engagement to engage your audience like never before. With our hybrid services, not only will you engage your audience in a whole new way, but you will also have the potential to earn more money by reaching both online and offline attendees. Let us help you connect with your attendees in a whole new way.",
+        "projects": [
+            {
+                "label": "O EVROPĚ SPOLEČNĚ",
+                "shortDesc": "Lorem ipsum",
+                "thumbnail": "events/aboutEurope.jpg",
+                "detailGalleryPath": "events/aboutEurope/",
+                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "backgroundColor": "000000",
+                "textColor": "FFFFFF"
+            },
+            {
+                "label": "CC COMUNITY MANAGEMENT",
+                "shortDesc": "Lorem ipsum",
+                "thumbnail": "events/comManagement.jpg",
+                "detailGalleryPath": "events/comManagement/",
+                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "backgroundColor": "000000",
+                "textColor": "FFFFFF"
+            },
+            {
+                "label": "CZECHCRUNCH - JAK FINANCOVAT A NEZABÍT E-SHOP",
+                "shortDesc": "Lorem ipsum",
+                "thumbnail": "events/czechCrunch.jpeg",
+                "detailGalleryPath": "events/czechCrunch/",
+                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "backgroundColor": "000000",
+                "textColor": "FFFFFF"
+            },
+            {
+                "label": "NEKONFERENCE",
+                "shortDesc": "Lorem ipsum",
+                "thumbnail": "events/nekonference.jpg",
+                "detailGalleryPath": "events/nekonference/",
+                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "backgroundColor": "000000",
+                "textColor": "FFFFFF"
+            },
+            {
+                "label": "BERLIN DESIGN & DEVELOPMENT CONFERENCE",
+                "shortDesc": "Lorem ipsum",
+                "thumbnail": "events/berlin.jpg",
+                "detailGalleryPath": "events/berlin/",
+                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "backgroundColor": "000000",
+                "textColor": "FFFFFF"
+            }
+        ]
+    },
+    {
+        "label": "Full production service",
+        "desc": "We specialize in creating innovative and engaging educational and cultural events that truly reflect the unique personality and values of your organization. Whether you're looking to organize a large-scale conference or a small community gathering, we're not afraid to take on the most challenging projects and collaborate with you to bring your vision to life. From the initial planning stages to the final execution, we're dedicated to delivering exceptional events that leave a lasting impression on your audience. We are not afraid to face challenges and together find the ideal design that does not remain only in your imagination. Our goal is to present projects in a modern yet reliable way and reflect the personal spirit that your company stands for.",
+        "projects": [
+            {
+                "label": "TED X TALK BUDWEIS",
+                "shortDesc": "Lorem ipsum",
+                "thumbnail": "events/tedx.jpeg",
+                "detailGalleryPath": "events/tedx/",
+                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "backgroundColor": "000000",
+                "textColor": "FFFFFF"
+            },
+            {
+                "label": "PLES SOBJE",
+                "shortDesc": "prázdná složka",
+                "thumbnail": "events/x.jpg",
+                "detailGalleryPath": "events/plessobje/",
+                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "backgroundColor": "000000",
+                "textColor": "FFFFFF"
+            },
+            {
+                "label": "HACKATHON",
+                "shortDesc": "Lorem ipsum",
+                "thumbnail": "events/hackathon.jpg",
+                "detailGalleryPath": "events/hackathon/",
+                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "backgroundColor": "000000",
+                "textColor": "FFFFFF"
+            },
+            {
+                "label": "NIC",
+                "shortDesc": "tohle jsem tbh moc nepobral, složka byla prázdná, položka zneužita k demonstraci barev",
+                "thumbnail": "events/x.jpg",
+                "detailGalleryPath": "events/nic/",
+                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "backgroundColor": "FFAAAA",
+                "textColor": "000000"
+            },
+            {
+                "label": "MAKERFAIRE",
+                "shortDesc": "Lorem ipsum",
+                "thumbnail": "events/makerfaire.png",
+                "detailGalleryPath": "events/makerfaire/",
+                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "backgroundColor": "000000",
+                "textColor": "FFFFFF"
+            },
+            {
+                "label": "BUDĚJOVICKÝ MAJÁLES",
+                "shortDesc": "Lorem ipsum",
+                "thumbnail": "events/majales.jpg",
+                "detailGalleryPath": "events/majales/",
+                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "backgroundColor": "000000",
+                "textColor": "FFFFFF"
+            },
+            {
+                "label": "HBO",
+                "shortDesc": "název složky - Zkopíruj sem vojto i složku HBO. myslel jsi to takhle?",
+                "thumbnail": "vids/hbo.png",
+                "detailGalleryPath": "vids/hbo/",
+                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "backgroundColor": "000000",
+                "textColor": "FFFFFF"
+            }
+        ]
+    }
+]

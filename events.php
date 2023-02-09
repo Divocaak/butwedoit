@@ -50,22 +50,24 @@
                     $img = '<div class="col-12 col-md-6 thumbnail p-0 m-0" style="background-image: url(\'imgs/thumbnails/' . $project["thumbnail"] . '\');"></div>';
 
                     echo '<div class="row projectHolder p-0 m-0 d-none d-md-flex">';
+                    // sudej = obr vlevo
                     if ($i % 2 == 0)
-                        echo $img;
-
+                    echo $img;
+                    
                     echo '<div class="col-12 col-md-6 d-flex align-items-center" style="background-color: #' . $project["backgroundColor"] . '; color: #' . $project["textColor"] . '">
-                        <div class="text-center w-100 px-3 px-md-5">
-                            <h2>' . $project["label"] . '</h2>
-                            <p class="lead">' . $project["shortDesc"] . '</p>
-                            <p data-label="' . $project["label"] . '" 
-                                data-desc="' . $project["shortDesc"] . '"
-                                data-gal-path="' . $project["detailGalleryPath"] . '",
-                                data-long-desc="' . $project["detailLongDesc"] . '",
-                                data-thumbnail="' . $project["thumbnail"] . '"
-                                class="detailBtn">MORE</p>
-                        </div>
+                    <div class="text-center w-100 px-3 px-md-5">
+                    <h2>' . $project["label"] . '</h2>
+                    <p class="lead">' . $project["shortDesc"] . '</p>
+                    <p data-label="' . $project["label"] . '" 
+                    data-desc="' . $project["shortDesc"] . '"
+                    data-gal-path="' . $project["detailGalleryPath"] . '",
+                    data-long-desc="' . $project["detailLongDesc"] . '",
+                    data-thumbnail="' . $project["thumbnail"] . '"
+                    class="detailBtn">MORE</p>
+                    </div>
                     </div>';
-
+                    
+                    // pravej = obr vlevo
                     if ($i % 2 > 0)
                         echo $img;
 

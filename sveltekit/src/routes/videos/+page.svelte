@@ -1,7 +1,7 @@
 <script>
 	import Background from '$lib/Background.svelte';
 	import ContentWrapper from '$lib/ContentWrapper.svelte';
-	import Card from '$lib/Card.svelte';
+	import Card from '$lib/VideoCard.svelte';
 	import ReelCard from '$lib/ReelCard.svelte';
 	import VideoModal from '$lib/VideoModal.svelte';
 

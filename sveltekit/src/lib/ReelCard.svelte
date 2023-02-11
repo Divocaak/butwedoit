@@ -1,16 +1,12 @@
 <script>
 	export let yt, thumbnail, label, shortDesc, bgColor, textColor;
 	/* BUG handle drag */
+	// https://github.com/vaheqelyan/svelte-grid/issues/25
 	export let onClick = () => {};
-	/* BUG browser console */
-	let thumbnailImage;
-	if (thumbnail != null) {
-		thumbnailImage = new URL('./assets/thumbnails/' + thumbnail, import.meta.url);
-	}
 </script>
 
 <div class="reel-card" tabindex=0 role="button" on:click={onClick} on:keypress={onClick}>
-	<div class="card-background" style="background-image: url({thumbnailImage}); color: #{textColor}">
+	<div class="card-background" style="background-image: url('/images/thumbnails/{thumbnail}'); color: #{textColor}">
 		<div
 			class="{yt != null
 				? 'card-content-holder'

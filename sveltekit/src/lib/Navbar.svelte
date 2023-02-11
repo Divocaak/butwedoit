@@ -18,7 +18,7 @@
 		background-size: contain;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-image: url('$lib/assets/logo.png');
+		background-image: url('/logo.png');
 		position: relative;
 		height: 7rem;
 		width: 7rem;

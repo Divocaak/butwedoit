@@ -1,8 +1,6 @@
 <script>
 	export let last, label, shortDesc, thumbnail, textColor, bgColor;
 	export let onClick = () => {};
-	/* BUG browser console */
-	let thumbnailImage = new URL('./assets/thumbnails/' + thumbnail, import.meta.url);
 </script>
 
 <div
@@ -13,7 +11,7 @@
 	on:click={onClick}
 	on:keypress={onClick}
 >
-	<div class="card-background d-none d-md-flex" style="background-image: url({thumbnailImage});">
+	<div class="card-background d-none d-md-flex" style="background-image: url('/images/thumbnails/{thumbnail}');">
 		<div
 			class="card-content-holder d-flex align-items-center w-100"
 			style="background-color: #{bgColor}"
@@ -26,7 +24,7 @@
 	</div>
 	<div
 		class="card-background card-background-small d-block d-md-none"
-		style="background-image: url({thumbnailImage});"
+		style="background-image: url('/images/thumbnails/{thumbnail}');"
 	>
 		<div class="card-content-holder-small pt-2 px-3">
 			<h2><span class="p-2 lh-base" style="background-color: #{bgColor}">{label}</span></h2>
@@ -55,16 +53,6 @@
 		pointer-events: none;
 		position: relative;
 		height: 50vh;
-	}
-
-	.card-background .card-content-holder-detail-image {
-		position: relative;
-		height: 33vh;
-	}
-
-	.card-background .card-content-holder-detail-image-last-and-new {
-		position: relative;
-		height: 100vh;
 	}
 
 	.card-background .card-content-holder {

@@ -82,15 +82,6 @@
                 "textColor": "FFFFFF"
             },
             {
-                "label": "NIC",
-                "shortDesc": "tohle jsem tbh moc nepobral, složka byla prázdná, položka zneužita k demonstraci barev",
-                "thumbnail": "events/x.jpg",
-                "detailGalleryPath": "events/nic/",
-                "detailLongDesc": "Lorem pisum dolor sit amet",
-                "backgroundColor": "FFAAAA",
-                "textColor": "000000"
-            },
-            {
                 "label": "MAKERFAIRE",
                 "shortDesc": "Lorem ipsum",
                 "thumbnail": "events/makerfaire.png",

@@ -1,12 +1,11 @@
 <script>
     export let title;
-    import video from '$lib/assets/reel.mp4';
 	import Navbar from '$lib/Navbar.svelte';
 </script>
 
 <div class="header-wrapper">
-	<video autoplay muted loop id="myVideo">
-		<source src="{video}" type="video/mp4" />
+	<video autoplay muted loop>
+		<source src="/reel.mp4" type="video/mp4" />
 	</video>
 	<div class="header-overlay">
 		<Navbar></Navbar>

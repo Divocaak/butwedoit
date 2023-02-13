@@ -13,18 +13,17 @@
 	});
 </script>
 
-<!-- TODO thumbnail background -->
-<Background title={data.label} />
+<Background title={data.label} imagePath={data.thumbnail} />
 <ContentWrapper>
 	<div class="text-center">
 		<p class="lead">{data.detailLongDesc}</p>
 	</div>
-	<div class="gal-cont">
+	<div class="gal-cont px-md-5 mx-md-5">
 		{#each imgs as galCol}
 			<div class="gal-col">
 				{#each galCol as img}
-        <img src="/images/{img}" alt={img}>
-        {/each}
+					<img src="/images/{img}" alt={img} />
+				{/each}
 			</div>
 		{/each}
 	</div>
@@ -38,8 +37,8 @@
 	}
 
 	.gal-col {
-		flex: 25%;
-		max-width: 25%;
+		flex: 33%;
+		max-width: 33%;
 		padding: 0 4px;
 	}
 
@@ -49,19 +48,10 @@
 		width: 100%;
 	}
 
-	/* Responsive layout - makes a two column-layout instead of four columns */
-	/* @media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-} */
-
-	/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-	/* @media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-} */
+	@media screen and (max-width: 800px) {
+		.gal-col {
+			flex: 100%;
+			max-width: 100%;
+		}
+	}
 </style>

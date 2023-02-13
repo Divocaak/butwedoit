@@ -5,8 +5,6 @@
 	import ReelCard from '$lib/ReelCard.svelte';
 	import VideoModal from '$lib/VideoModal.svelte';
 
-	import { redirect } from "@sveltejs/kit";
-
 	import videos from '$lib/content/videos.json';
 	import reels from '$lib/content/reels.json';
 
@@ -15,19 +13,14 @@
 	let desc = null;
 	let ytKey = null;
 
-	function onShowPopup(newLabel, newDesc, newYtKey = null, longDesc = null, galPath = null) {
+	function onShowPopup(newLabel, newDesc, newYtKey = null, id) {
 		if (newYtKey != null) {
 			showPopup = true;
 			label = newLabel;
 			desc = newDesc;
 			ytKey = newYtKey;
-		} else if (galPath != null) {
-			// TODO redirect
-			/* thumbnail: jQuery(element).data('thumbnail'),
-			label: label,
-			desc: desc,
-			longDesc: jQuery(element).data('longDesc'),
-			galPath: jQuery(element).data('galPath') */
+		} else {
+			window.location.href = "/detail/videos/" + id;
 		}
 	}
 
@@ -102,14 +95,7 @@
 				bgColor={video.backgroundColor}
 				yt={video.youtube}
 				last={!(++i === videos.length && i % 2 != 0) ? 'col-md-6 ' : ''}
-				onClick={() =>
-					onShowPopup(
-						video.label,
-						video.shortDesc,
-						video.youtube,
-						video.detailLongDesc,
-						video.detailGalleryPath
-					)}
+				onClick={() => onShowPopup(video.label, video.shortDesc, video.youtube, i - 1)}
 			/>
 		{/each}
 	</div>
@@ -133,7 +119,7 @@
 <VideoModal
 	open={showPopup}
 	onClosed={() => onClosePopup()}
-	label={label}
-	desc={desc}
+	{label}
+	{desc}
 	src="https://www.youtube.com/embed/{ytKey}?autoplay=1&mute=1&showinfo=0&controls=1&html5=1"
 />

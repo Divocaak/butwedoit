@@ -1,18 +1,23 @@
 <script>
-    export let title;
+	export let title;
+	export let imagePath = null;
 	import Navbar from '$lib/Navbar.svelte';
 </script>
 
 <div class="header-wrapper">
-	<video autoplay muted loop>
-		<source src="/reel.mp4" type="video/mp4" />
-	</video>
+	{#if imagePath == null}
+		<video autoplay muted loop>
+			<source src="/reel.mp4" type="video/mp4" />
+		</video>
+	{:else}
+		<img src="/images/thumbnails/{imagePath}" alt="thumbnail" class="img-fluid"/>
+	{/if}
 	<div class="header-overlay">
-		<Navbar></Navbar>
+		<Navbar />
 		<div class="overlay-content d-flex align-items-center">
 			<div class="text-center w-100">
 				<h1 class="display-1 text-uppercase">{title}</h1>
-                <slot></slot>
+				<slot />
 			</div>
 		</div>
 	</div>
@@ -26,7 +31,7 @@
 		height: 100vw;
 	}
 
-	.header-wrapper video{
+	.header-wrapper video {
 		object-fit: cover;
 		position: fixed;
 		height: 100%;

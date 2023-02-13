@@ -77,8 +77,23 @@
         "thumbnail": "vids/hbo.png",
         "backgroundColor": "000000",
         "textColor": "FFFFFF",
-        "detailGalleryPath": "vids/hbo/",
-        "detailLongDesc": "Lorem ipsum"
+        "detailLongDesc": "Lorem ipsum",
+        "gallery": [
+            "vids/hbo/0.jpg",
+            "vids/hbo/1.jpg",
+            "vids/hbo/2.jpg",
+            "vids/hbo/3.jpg",
+            "vids/hbo/4.jpg",
+            "vids/hbo/5.jpg",
+            "vids/hbo/6.jpg",
+            "vids/hbo/7.png",
+            "vids/hbo/8.png",
+            "vids/hbo/9.png",
+            "vids/hbo/10.png",
+            "vids/hbo/11.png",
+            "vids/hbo/12.png",
+            "vids/hbo/13.png"
+        ]
     },
     {
         "label": "HOLKY Z MARKETINGU",
@@ -94,7 +109,15 @@
         "thumbnail": "vids/loreal.jpg",
         "backgroundColor": "000000",
         "textColor": "FFFFFF",
-        "detailGalleryPath": "vids/loreal/",
-        "detailLongDesc": "Lorem ipsum"
+        "detailLongDesc": "Lorem ipsum",
+        "gallery": [
+            "vids/loreal/0.jpg",
+            "vids/loreal/1.jpg",
+            "vids/loreal/2.jpg",
+            "vids/loreal/3.jpg",
+            "vids/loreal/4.jpg",
+            "vids/loreal/5.jpg",
+            "vids/loreal/6.jpg"
+        ]
     }
 ]

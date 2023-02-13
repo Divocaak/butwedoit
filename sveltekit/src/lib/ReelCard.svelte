@@ -1,6 +1,7 @@
 <script>
 	export let yt, thumbnail, label, shortDesc, bgColor, textColor;
-	/* BUG handle drag */
+	// BUG Error: Not found: /images/thumbnails/undefined
+	// BUG handle drag
 	// https://github.com/vaheqelyan/svelte-grid/issues/25
 	export let onClick = () => {};
 </script>

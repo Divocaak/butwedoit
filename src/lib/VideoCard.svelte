@@ -17,8 +17,8 @@
 			style="background-color: #{bgColor}"
 		>
 			<div class="text-center w-100">
-				<h2>{label}</h2>
-				<p class="lead">{shortDesc}</p>
+				<h2 class="unbounded">{label}</h2>
+				<p class="lead roboto">{shortDesc}</p>
 			</div>
 		</div>
 	</div>
@@ -27,8 +27,8 @@
 		style="background-image: url('/images/thumbnails/{thumbnail}');"
 	>
 		<div class="card-content-holder-small pt-2 px-3">
-			<h2><span class="p-2 lh-base" style="background-color: #{bgColor}">{label}</span></h2>
-			<p class="lead">
+			<h2><span class="p-2 lh-base unbounded" style="background-color: #{bgColor}">{label}</span></h2>
+			<p class="lead roboto">
 				<span class="p-2 lh-base" style="background-color: #{bgColor}">{shortDesc}</span>
 			</p>
 		</div>

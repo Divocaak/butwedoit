@@ -1,6 +1,7 @@
 <script>
 	import Background from '$lib/Background.svelte';
 	import ContentWrapper from '$lib/ContentWrapper.svelte';
+	import Footer from '$lib/Footer.svelte';
 
 	/** @type {import('./$types').PageData} */
 	export let data;
@@ -16,7 +17,7 @@
 <Background title={data.label} imagePath={data.thumbnail} />
 <ContentWrapper>
 	<div class="text-center">
-		<p class="lead">{data.detailLongDesc}</p>
+		<p class="lead roboto my-5 pt-5">{data.detailLongDesc}</p>
 	</div>
 	<div class="gal-cont px-md-5 mx-md-5">
 		{#each imgs as galCol}
@@ -27,6 +28,7 @@
 			</div>
 		{/each}
 	</div>
+	<Footer />
 </ContentWrapper>
 
 <style>

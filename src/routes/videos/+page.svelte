@@ -4,6 +4,7 @@
 	import Card from '$lib/VideoCard.svelte';
 	import ReelCard from '$lib/ReelCard.svelte';
 	import VideoModal from '$lib/VideoModal.svelte';
+	import Footer from '$lib/Footer.svelte';
 
 	import videos from '$lib/content/videos.json';
 	import reels from '$lib/content/reels.json';
@@ -20,7 +21,7 @@
 			desc = newDesc;
 			ytKey = newYtKey;
 		} else {
-			window.location.href = "/detail/videos/" + id;
+			window.location.href = '/detail/videos/' + id;
 		}
 	}
 
@@ -76,7 +77,7 @@
 
 <Background title="videos">
 	<!-- TODO btn component -->
-	<p class="lead">
+	<p class="lead unbounded">
 		Check out <a href="#reelCarousel" on:click|preventDefault={scrollIntoView}
 			><u>Reels (Shorts)</u></a
 		> too
@@ -114,6 +115,7 @@
 			/>
 		{/each}
 	</div>
+	<Footer />
 </ContentWrapper>
 
 <VideoModal

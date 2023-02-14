@@ -33,7 +33,7 @@
 			out:fly={{ y: -50, duration: 300, easing: quintOut }}
 		>
 			<div class="modal-content modal-video-wrapper text-center">
-				<h2 class="display-1">
+				<h2 class="display-1 unbounded">
 					{#if label != null}{label}{/if}
 					<button data-bs-dismiss="modal" class="btn text-light btn-bigger" on:click={modalClose}>
 						<i class="bi bi-x-circle ps-2" />
@@ -45,7 +45,7 @@
 					{/if}
 				</div>
 				{#if desc != null}
-					<p class="lead pt-3">{desc}</p>
+					<p class="lead pt-3 roboto">{desc}</p>
 				{/if}
 			</div>
 		</div>

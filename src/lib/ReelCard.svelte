@@ -15,15 +15,15 @@
 			style="background-color: #{bgColor}"
 		>
 			<div class="text-center w-100 mx-2">
-				<h2>{label}</h2>
-				<p class="lead">{shortDesc}</p>
+				<h2 class="unbounded">{label}</h2>
+				<p class="lead roboto">{shortDesc}</p>
 			</div>
 		</div>
 		{#if yt != null}
 			<div class="card-content-holder-small d-block d-md-none pt-2 ps-1">
-				<h2><span class="p-2" style="background-color: #{bgColor}">{label}</span></h2>
+				<h2 class="unbounded"><span class="p-2" style="background-color: #{bgColor}">{label}</span></h2>
 				{#if shortDesc != null}
-					<p class="lead">
+					<p class="lead roboto">
 						<span class="p-2" style="background-color: #{bgColor}">{shortDesc}</span>
 					</p>
 				{/if}

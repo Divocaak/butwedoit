@@ -12,18 +12,22 @@
 	<title>EVENTS</title>
 </svelte:head>
 
-<Background title="events" />
-<ContentWrapper>
-	{#each events as category}
-		<EventCategory label={category.label} desc={category.desc} />
+<Background title="events">
+	<p class="lead unbounded">
+		Lorem ipsum
+	</p>
+</Background>
+<ContentWrapper blackOnWhite={true}>
+	{#each events as category, ci}
+		<EventCategory label={category.label} descMain={category.descMain} desc={category.desc} />
 		{#each category.projects as event, i}
 			<Event
 				odd={i % 2 > 0}
 				thumbnail={event.thumbnail}
 				label={event.label}
-				shortDesc={event.shortDesc}
-				bgColor={event.bgColor}
-				textColor={event.textColor}
+				desc={event.shortDesc}
+				eventType={ci}
+				id={i}
 			/>
 		{/each}
 	{/each}

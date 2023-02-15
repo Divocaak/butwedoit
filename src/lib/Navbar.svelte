@@ -3,7 +3,7 @@
 		<div id="logo" />
 	</a>
 	<div class="container-fluid" />
-    <!-- TODO btn component -->
+    <!-- TODO hovers, color theme -->
 	<a href="/videos" class="px-1 px-md-3">VIDEOS</a>
 	<a href="/events" class="px-1 px-md-3">EVENTS</a>
 	<a href="/contact" class="px-1 px-md-3">CONTACT</a>

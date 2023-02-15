@@ -1,8 +1,11 @@
 <script>
-    export let label, desc;
+	export let label, descMain, desc;
 </script>
 
-<div class="text-center py-5 mt-5">
-    <h2 class="display-4 text-uppercase">{label}</h2>
-    <p class="lead px-5">{desc}</p>
+<div class="py-5 mt-5">
+	<h2 class="text-center display-4 text-uppercase unbounded">{label}</h2>
+	<div class="row m-5">
+		<div class="col-6"><p class="lead px-5 unbounded">{descMain}</p></div>
+		<div class="col-6"><p class="lead px-5 roboto">{desc}</p></div>
+	</div>
 </div>

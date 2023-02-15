@@ -1,33 +1,20 @@
 <script>
 	import ImageCard from '$lib/ImageCard.svelte';
+	import EventMoreButton from '$lib/EventMoreButton.svelte';
 
-	export let odd, thumbnail, label, shortDesc, bgColor, textColor;
-
-	// TODO redirect
-	/* $('.detailBtn,.thumbnailBtn').click(function () {
-		$.redirectPost('detail.php', {
-			thumbnail: $(this).data('thumbnail'),
-			label: $(this).data('label'),
-			desc: $(this).data('desc'),
-			longDesc: $(this).data('longDesc'),
-			galPath: $(this).data('galPath')
-		});
-	}); */
+	export let odd, thumbnail, label, desc, eventType, id;
 </script>
 
-<div class="row projectHolder p-0 m-0 d-none d-md-flex">
+<div class="row projectHolder p-0 m-0 d-none d-md-flex my-5">
 	{#if odd}
 		<ImageCard filename={thumbnail} />
 	{/if}
 
-	<div
-		class="col-12 col-md-6 d-flex align-items-center"
-		style="background-color: #{bgColor}; color: #{textColor}"
-	>
-		<div class="text-center w-100 px-3 px-md-5">
-			<h2>{label}</h2>
-			<p class="lead">{shortDesc}</p>
-			<p class="detailBtn">MORE</p>
+	<div class="col-12 col-md-6 d-flex align-items-center">
+		<div class="w-100 px-3 px-md-5">
+			<h2 class="unbounded">{label}</h2>
+			<p class="lead roboto">{desc}</p>
+			<EventMoreButton {eventType} {id} />
 		</div>
 	</div>
 
@@ -43,34 +30,21 @@
 	>
 		<div class="card-content-holder-small pt-2 px-3">
 			<h2>
-				<span class="p-2 lh-base" style="background-color: #{bgColor}; color: #{textColor}"
-					>{label}</span
-				>
+				<span class="p-2 lh-base">{label}</span>
 			</h2>
 			<p class="lead">
-				<span class="p-2 lh-base" style="background-color: #{bgColor}; color: #{textColor}"
-					>{shortDesc}</span
-				>
+				<span class="p-2 lh-base">{desc}</span>
 			</p>
 		</div>
 	</div>
 </div>
 
 <style>
-	.detailBtn {
-		text-decoration: none;
-		color: var(--white);
-		transition: all ease-in-out 0.25s;
-		cursor: pointer;
-	}
-
-	.detailBtn:hover {
-		color: var(--yellow);
-	}
-
 	.projectHolder {
 		position: relative;
 		width: 100vw;
 		height: 50vh;
+		background-color: var(--white);
+		color: var(--black);
 	}
 </style>

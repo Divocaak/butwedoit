@@ -33,17 +33,13 @@
 		color: var(--white);
 	}
 
-	:global(a, i) {
+	:global(a) {
 		text-decoration: none;
 		color: var(--white);
 		transition: all ease-in-out 0.25s;
 	}
 
 	:global(a:hover) {
-		color: var(--yellow);
-	}
-
-	:global(a:hover i) {
 		color: var(--yellow);
 	}
 

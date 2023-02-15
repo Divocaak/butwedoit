@@ -1,9 +1,10 @@
 <script>
 </script>
 
-<div class="footer-wrapper mx-5 p-5">
+<div class="footer-wrapper mx-5 p-5 mt-5">
 	<div class="row">
 		<div class="col-4 montserrat">
+			<!-- TODO btn design and hovers -->
 			<a href="mailto:hello@butwedoit.cz"><b>hello@butwedoit.cz</b></a><br />
 			<a href="tel:+420682637637"><b>+420&nbsp;682&nbsp;637&nbsp;637</b></a>
 			<p class="py-5">

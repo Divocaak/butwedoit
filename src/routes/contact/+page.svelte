@@ -7,6 +7,7 @@
 </svelte:head>
 
 <!-- TODO use background.svelte -->
+<!-- TODO btn design and hovers -->
 <div class="header-wrapper">
 	<div class="header-overlay background">
 		<Navbar />
@@ -15,9 +16,8 @@
 				<div class="col-6">
 					<h1>Petr Vančata</h1>
 					<p>Lorem ipsum</p>
-					<!-- TODO hrefs -->
-					<a href="tel:+420111222333" class="me-5">
-						<i class="bi bi-telephone-fill pe-2" />+420&nbsp;XXX&nbsp;XXX&nbsp;XXX
+					<a href="tel:+420721343006" class="me-5">
+						<i class="bi bi-telephone-fill pe-2" />+420&nbsp;721&nbsp;343&nbsp;006
 					</a>
 					<a href="mailto:petr@butwedoit.cz">
 						<i class="bi bi-envelope pe-2" />petr@butwedoit.cz
@@ -26,9 +26,8 @@
 				<div class="col-6">
 					<h1>Jindřich Soukal</h1>
 					<p>Lorem ipsum</p>
-					<!-- TODO hrefs -->
-					<a href="tel:+420111222333" class="me-5">
-						<i class="bi bi-telephone-fill pe-2" />+420&nbsp;XXX&nbsp;XXX&nbsp;XXX
+					<a href="tel:+420608267367" class="me-5">
+						<i class="bi bi-telephone-fill pe-2" />+420&nbsp;608&nbsp;267&nbsp;367
 					</a>
 					<a href="mailto:jindrich@butwedoit.cz">
 						<i class="bi bi-envelope pe-2" />jindrich@butwedoit.cz
@@ -56,8 +55,7 @@
 </div>
 
 <!-- TODO DRY -->
-<style>
-	
+<style>	
 	.header-wrapper {
 		position: fixed;
 		top: 0;

@@ -8,10 +8,9 @@ export async function load({ params }) {
     switch (type) {
         case "videos":
             return videos[id];
-        // TODO resolve
-        /* case "events":{
-            return reels[id];
-            break;
-        } */
+        case "events": {
+            let ids = id.split("x");
+            return events[ids[0]].projects[ids[1]];
+        }
     }
 };

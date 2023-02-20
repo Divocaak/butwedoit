@@ -1,10 +1,11 @@
 <script>
-	import Background from '$lib/Background.svelte';
+	import HeaderWrapper from '$lib/HeaderWrapper.svelte';
 	import ContentWrapper from '$lib/ContentWrapper.svelte';
 	import Card from '$lib/VideoCard.svelte';
 	import ReelCard from '$lib/ReelCard.svelte';
 	import VideoModal from '$lib/VideoModal.svelte';
 	import Footer from '$lib/Footer.svelte';
+	import LinkButton from '$lib/LinkButton.svelte';
 
 	import videos from '$lib/content/videos.json';
 	import reels from '$lib/content/reels.json';
@@ -55,14 +56,6 @@
 			]
 		});
 	});
-
-	function scrollIntoView() {
-		const el = document.querySelector(this.getAttribute('href'));
-		if (!el) return;
-		el.scrollIntoView({
-			behavior: 'smooth'
-		});
-	}
 </script>
 
 <svelte:head>
@@ -75,14 +68,11 @@
 	<title>VIDEOS</title>
 </svelte:head>
 
-<Background title="videos">
-	<!-- TODO btn component -->
+<HeaderWrapper title="videos">
 	<p class="lead unbounded">
-		Check out <a href="#reelCarousel" on:click|preventDefault={scrollIntoView}
-			><u>Reels (Shorts)</u></a
-		> too
+		Check out <LinkButton href="#reelCarousel">Reels</LinkButton> too
 	</p>
-</Background>
+</HeaderWrapper>
 <ContentWrapper>
 	<div class="row">
 		{#each videos as video, i}

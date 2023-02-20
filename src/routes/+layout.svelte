@@ -33,20 +33,6 @@
 		color: var(--white);
 	}
 
-	:global(a) {
-		text-decoration: none;
-		color: var(--white);
-		transition: all ease-in-out 0.25s;
-	}
-
-	:global(a:hover) {
-		color: var(--yellow);
-	}
-
-	:global(.btn-bigger) {
-		font-size: 2rem;
-	}
-
 	:global(.montserrat) {
 		font-family: 'Montserrat', sans-serif;
 	}
@@ -55,7 +41,17 @@
 		font-family: 'Roboto', sans-serif;
 	}
 
-	:global(.unbounded){
+	:global(.unbounded) {
 		font-family: 'Unbounded', cursive;
+	}
+
+	:global(.black-on-white) {
+		color: var(--black);
+		background-color: var(--white);
+	}
+
+	:global(.white-on-black) {
+		color: var(--white);
+		background-color: var(--black);
 	}
 </style>

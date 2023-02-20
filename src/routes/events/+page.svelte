@@ -1,5 +1,5 @@
 <script>
-	import Background from '$lib/Background.svelte';
+	import HeaderWrapper from '$lib/HeaderWrapper.svelte';
 	import EventCategory from '$lib/EventCategory.svelte';
 	import ContentWrapper from '$lib/ContentWrapper.svelte';
 	import Event from '$lib/Event.svelte';
@@ -12,11 +12,11 @@
 	<title>EVENTS</title>
 </svelte:head>
 
-<Background title="events">
+<HeaderWrapper title="events">
 	<p class="lead unbounded">
 		Lorem ipsum
 	</p>
-</Background>
+</HeaderWrapper>
 <ContentWrapper blackOnWhite={true}>
 	{#each events as category, ci}
 		<EventCategory label={category.label} descMain={category.descMain} desc={category.desc} />

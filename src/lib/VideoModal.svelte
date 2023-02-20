@@ -8,7 +8,9 @@
 
 	export let onClosed;
 
-	export let label, desc, src = null;
+	export let label,
+		desc,
+		src = null;
 
 	const modalClose = () => {
 		open = false;
@@ -37,7 +39,7 @@
 					{#if label != null}{label}{/if}
 					<button data-bs-dismiss="modal" class="btn text-light btn-bigger" on:click={modalClose}>
 						<i class="bi bi-x-circle ps-2" />
-                    </button>
+					</button>
 				</h2>
 				<div class="ratio ratio-16x9">
 					{#if src != null}
@@ -68,5 +70,9 @@
 
 	.modal-backdrop {
 		opacity: 0.6 !important;
+	}
+
+	.btn-bigger {
+		font-size: 2rem;
 	}
 </style>

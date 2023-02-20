@@ -1,5 +1,5 @@
 <script>
-	import Background from '$lib/Background.svelte';
+	import HeaderWrapper from '$lib/HeaderWrapper.svelte';
 	import ContentWrapper from '$lib/ContentWrapper.svelte';
 	import Footer from '$lib/Footer.svelte';
 
@@ -14,7 +14,7 @@
 	});
 </script>
 
-<Background title={data.label} imagePath={data.thumbnail} />
+<HeaderWrapper title={data.label} imagePath={data.thumbnail}/>
 <ContentWrapper blackOnWhite={true}>
 	<div class="text-center">
 		<p class="lead roboto my-5 pt-5">{data.detailLongDesc}</p>

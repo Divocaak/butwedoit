@@ -16,14 +16,4 @@
 		top: 100vh;
 		min-height: 100vh;
 	}
-
-	.black-on-white {
-		color: var(--black);
-		background-color: var(--white);
-	}
-
-	.white-on-black {
-		color: var(--white);
-		background-color: var(--black);
-	}
 </style>

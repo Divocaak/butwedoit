@@ -1,12 +1,12 @@
 <script>
+	import LinkButton from '$lib/LinkButton.svelte';
 </script>
 
-<div class="footer-wrapper mx-5 p-5 mt-5">
+<div class="footer-wrapper mx-5 p-5 mt-5 black-on-white">
 	<div class="row">
 		<div class="col-4 montserrat">
-			<!-- TODO btn design and hovers -->
-			<a href="mailto:hello@butwedoit.cz"><b>hello@butwedoit.cz</b></a><br />
-			<a href="tel:+420682637637"><b>+420&nbsp;682&nbsp;637&nbsp;637</b></a>
+			<LinkButton href="mailto:hello@butwedoit.cz" blackOnWhite={true}><b>hello@butwedoit.cz</b></LinkButton><br />
+			<LinkButton href="tel:+420682637637" blackOnWhite={true}><b>+420&nbsp;682&nbsp;637&nbsp;637</b></LinkButton>
 			<p class="py-5">
 				Jana Štursy 2408/37<br />
 				37010, České Budějovice

@@ -1,12 +1,17 @@
+<script>
+	import LinkButton from "$lib/LinkButton.svelte";
+
+	export let blackOnWhite = false;
+</script>
+
 <div id="overlay-navbar" class="d-flex flex-row align-items-center m-4">
 	<a href="/">
-		<div id="logo" />
+		<div id="logo" class:inverted={blackOnWhite}/>
 	</a>
 	<div class="container-fluid" />
-    <!-- TODO hovers, color theme -->
-	<a href="/videos" class="px-1 px-md-3">VIDEOS</a>
-	<a href="/events" class="px-1 px-md-3">EVENTS</a>
-	<a href="/contact" class="px-1 px-md-3">CONTACT</a>
+	<LinkButton href="/videos" classes="px-1 px-md-3" blackOnWhite={blackOnWhite}>VIDEOS</LinkButton>
+	<LinkButton href="/events" classes="px-1 px-md-3" blackOnWhite={blackOnWhite}>EVENTS</LinkButton>
+	<LinkButton href="/contact" classes="px-1 px-md-3" blackOnWhite={blackOnWhite}>CONTACT</LinkButton>
 </div>
 
 <style>
@@ -22,5 +27,14 @@
 		position: relative;
 		height: 7rem;
 		width: 7rem;
+	}
+
+	.inverted{
+		filter: invert(1);
+		transition: 0.5s;
+	}
+
+	.inverted:hover{
+		filter: invert(0);
 	}
 </style>

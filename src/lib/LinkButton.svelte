@@ -1,5 +1,6 @@
 <script>
-	export let href, classes;
+	export let href
+	export let classes = null;
     export let blackOnWhite=false;
 </script>
 

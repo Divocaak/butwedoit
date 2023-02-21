@@ -1,58 +1,55 @@
 <script>
-	export let yt, thumbnail, label, shortDesc, bgColor, textColor;
-	// BUG Error: Not found: /images/thumbnails/undefined
-	// BUG handle drag
-	// https://github.com/vaheqelyan/svelte-grid/issues/25
-	export let onClick = () => {};
+	export let thumbnail, label, shortDesc, onClick;
+
+	var p0x, p0y;
+	function onMouseDown(e) {
+		p0x = e.pageX;
+		p0y = e.pageY;
+	}
+
+	function onMouseUp(e) {
+		var p1x = e.pageX;
+		var p1y = e.pageY;
+		if (Math.sqrt(Math.pow(p1x - p0x, 2) + Math.pow(p1y - p0y, 2)) < 4) {
+			onClick();
+		}
+	}
 </script>
 
-<div class="reel-card" tabindex=0 role="button" on:click={onClick} on:keypress={onClick}>
-	<div class="card-background" style="background-image: url('/images/thumbnails/{thumbnail}'); color: #{textColor}">
-		<div
-			class="{yt != null
-				? 'card-content-holder'
-				: 'text-reel-content-holder'} d-none d-md-flex align-items-center"
-			style="background-color: #{bgColor}"
-		>
+<div
+	class="reel-card"
+	tabindex="0"
+	role="button"
+	on:mousedown={onMouseDown}
+	on:mouseup={onMouseUp}
+	on:keypress={onClick}
+>
+	<div class="card-background" style="background-image: url('/images/thumbnails/{thumbnail}');">
+		<div class="card-content-holder d-none d-md-flex align-items-center">
 			<div class="text-center w-100 mx-2">
 				<h2 class="unbounded">{label}</h2>
 				<p class="lead roboto">{shortDesc}</p>
 			</div>
 		</div>
-		{#if yt != null}
-			<div class="card-content-holder-small d-block d-md-none pt-2 ps-1">
-				<h2 class="unbounded"><span class="p-2" style="background-color: #{bgColor}">{label}</span></h2>
-				{#if shortDesc != null}
-					<p class="lead roboto">
-						<span class="p-2" style="background-color: #{bgColor}">{shortDesc}</span>
-					</p>
-				{/if}
-			</div>
-		{:else}
-			<div class="text-reel-content-holder d-flex d-md-none align-items-center pt-2">
-				<div class="text-center w-100 px-1">
-					<h2><span class="p-2 lh-base" style="background-color: #{bgColor}">{label}</span></h2>
-					<p class="lead">
-						<span class="p-2 lh-base" style="background-color: #{bgColor}">{shortDesc}</span>
-					</p>
-				</div>
-			</div>
-		{/if}
+		<div class="card-content-holder-small d-block d-md-none pt-2 ps-1">
+			<h2 class="unbounded">
+				<span class="p-2">{label}</span>
+			</h2>
+			{#if shortDesc != null}
+				<p class="lead roboto">
+					<span class="p-2">{shortDesc}</span>
+				</p>
+			{/if}
+		</div>
 	</div>
 </div>
 
-<style>
+<style lang="scss">
 	.reel-card .card-background .card-content-holder,
 	.card-content-holder-small {
 		pointer-events: none;
 		position: relative;
-		height: 100vh;
-	}
-
-	.text-reel-content-holder {
-		cursor: default;
-		position: relative;
-		height: 100vh;
+		height: 80vh;
 	}
 
 	.card-background {
@@ -61,6 +58,7 @@
 		background-repeat: no-repeat;
 		cursor: pointer;
 		pointer-events: auto;
+		color: var(--black);
 	}
 
 	.card-background .card-content-holder,
@@ -71,11 +69,25 @@
 	}
 
 	.card-background .card-content-holder {
+		background-color: var(--yellow);
 		transition: all 0.5s;
 		opacity: 0;
 	}
 
 	.card-background:hover .card-content-holder {
-		opacity: 1;
+		opacity: 0.9;
+	}
+
+	span {
+		background-color: var(--yellow);
+	}
+
+	:global(.slick-slide) {
+		transform: scaleY(0.95);
+		transition: 0.5s;
+	}
+
+	:global(.slick-current) {
+		transform: scaleY(1);
 	}
 </style>

@@ -8,7 +8,7 @@
 </svelte:head>
 
 <HeaderWrapper hideMedia={true} blackOnWhite={true}>
-	<div class="overlay-content m-5 p-5 montserrat">
+	<div class="m-5 p-5 montserrat">
 		<div class="row">
 			<div class="col-6">
 				<h1>Petr Vančata</h1>

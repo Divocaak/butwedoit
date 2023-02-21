@@ -1,8 +1,8 @@
 <script>
-	export let title,
-		imagePath = null;
-	export let hideMedia,
-		blackOnWhite = false;
+	export let title = '';
+	export let imagePath = null;
+	export let hideMedia = false;
+	export let blackOnWhite = false;
 	import Navbar from '$lib/Navbar.svelte';
 </script>
 

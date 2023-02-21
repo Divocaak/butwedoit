@@ -1,21 +1,20 @@
 <script>
-	export let last, label, shortDesc, thumbnail, textColor, bgColor;
+	export let last, label, shortDesc, thumbnail;
 	export let onClick = () => {};
 </script>
 
 <div
 	class="{last} col-12 p-0 videoCard"
-	style="color: #{textColor}"
-	tabindex=0
+	tabindex="0"
 	role="button"
 	on:click={onClick}
 	on:keypress={onClick}
 >
-	<div class="card-background d-none d-md-flex" style="background-image: url('/images/thumbnails/{thumbnail}');">
-		<div
-			class="card-content-holder d-flex align-items-center w-100"
-			style="background-color: #{bgColor}"
-		>
+	<div
+		class="card-background d-none d-md-flex"
+		style="background-image: url('/images/thumbnails/{thumbnail}');"
+	>
+		<div class="card-content-holder d-flex align-items-center w-100">
 			<div class="text-center w-100">
 				<h2 class="unbounded">{label}</h2>
 				<p class="lead roboto">{shortDesc}</p>
@@ -27,9 +26,9 @@
 		style="background-image: url('/images/thumbnails/{thumbnail}');"
 	>
 		<div class="card-content-holder-small pt-2 px-3">
-			<h2><span class="p-2 lh-base unbounded" style="background-color: #{bgColor}">{label}</span></h2>
+			<h2><span class="p-2 lh-base unbounded">{label}</span></h2>
 			<p class="lead roboto">
-				<span class="p-2 lh-base" style="background-color: #{bgColor}">{shortDesc}</span>
+				<span class="p-2 lh-base">{shortDesc}</span>
 			</p>
 		</div>
 	</div>
@@ -42,6 +41,7 @@
 		background-repeat: no-repeat;
 		cursor: pointer;
 		pointer-events: auto;
+		color: var(--black);
 	}
 
 	.card-background-small {
@@ -58,10 +58,11 @@
 	.card-background .card-content-holder {
 		transition: all 0.5s;
 		opacity: 0;
+		background-color: var(--yellow);
 	}
 
 	.card-background:hover .card-content-holder {
-		opacity: 1;
+		opacity: 0.9;
 	}
 
 	.card-background-effect {
@@ -78,5 +79,9 @@
 		max-width: 100%;
 		max-height: 100%;
 		overflow: hidden;
+	}
+
+	span {
+		background-color: var(--yellow);
 	}
 </style>

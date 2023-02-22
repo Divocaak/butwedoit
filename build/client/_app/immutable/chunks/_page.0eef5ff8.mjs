@@ -1,1 +1,0 @@
-import{v as r}from"./videos.afcc7e41.mjs";import{e as n}from"./events.80bd0170.mjs";async function i({params:e}){const s=e.type,t=e.id;switch(s){case"videos":return r[t];case"events":{let o=t.split("x");return n[o[0]].projects[o[1]]}}}const l=Object.freeze(Object.defineProperty({__proto__:null,load:i},Symbol.toStringTag,{value:"Module"}));export{l as _,i as l};

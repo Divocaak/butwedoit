@@ -14,7 +14,7 @@
 	});
 </script>
 
-<HeaderWrapper title={data.label} imagePath={data.thumbnail}/>
+<HeaderWrapper title={data.label} imagePath="/images/thumbnails/{data.thumbnail}"/>
 <ContentWrapper blackOnWhite={true}>
 	<div class="text-center">
 		<p class="lead roboto my-5 pt-5">{data.detailLongDesc}</p>

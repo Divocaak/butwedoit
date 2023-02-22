@@ -23,19 +23,12 @@
 	{/if}
 </div>
 
-<div class="p-0 d-block d-md-none">
-	<div
-		class="thumbnail thumbnailBtn"
-		style="background-image: url(\'imgs/thumbnails/{thumbnail}\');"
-	>
-		<div class="card-content-holder-small pt-2 px-3">
-			<h2>
-				<span class="p-2 lh-base">{label}</span>
-			</h2>
-			<p class="lead">
-				<span class="p-2 lh-base">{desc}</span>
-			</p>
-		</div>
+<div class="d-block d-md-none mb-5">
+	<div class="thumbnail" style="background-image: url('/images/thumbnails/{thumbnail}');" />
+	<div class="pt-2 px-3">
+		<h2 class="unbounded">{label}</h2>
+		<p class="lead roboto">{desc}</p>
+		<EventMoreButton {eventType} {id} />
 	</div>
 </div>
 
@@ -46,5 +39,13 @@
 		height: 50vh;
 		background-color: var(--white);
 		color: var(--black);
+	}
+	.thumbnail {
+		position: relative;
+		height: 33vh;
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 </style>

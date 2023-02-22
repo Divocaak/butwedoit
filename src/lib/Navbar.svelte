@@ -4,10 +4,8 @@
 	export let blackOnWhite = false;
 </script>
 
-<div id="overlay-navbar" class="d-flex flex-row align-items-center m-4">
-	<a href="/">
-		<div id="logo" class:inverted={blackOnWhite}/>
-	</a>
+<div id="overlay-navbar" class="d-flex flex-row align-items-center">
+	<a href="/"><div id="logo" class:inverted={blackOnWhite}/></a>
 	<div class="container-fluid" />
 	<LinkButton href="/videos" classes="px-1 px-md-3" blackOnWhite={blackOnWhite}>VIDEOS</LinkButton>
 	<LinkButton href="/events" classes="px-1 px-md-3" blackOnWhite={blackOnWhite}>EVENTS</LinkButton>

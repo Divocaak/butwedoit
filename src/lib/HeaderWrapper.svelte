@@ -3,24 +3,26 @@
 	export let imagePath = null;
 	export let hideMedia = false;
 	export let blackOnWhite = false;
+	export let indexBackground = false;
 	import Navbar from '$lib/Navbar.svelte';
 </script>
 
-<div class="header-wrapper">
+<div class="header-wrapper" class:fixed={!hideMedia}>
 	{#if !hideMedia}
 		{#if imagePath == null}
 			<video autoplay muted loop>
 				<source src="/reel.mp4" type="video/mp4" />
 			</video>
 		{:else}
-			<img src="/images/thumbnails/{imagePath}" alt="thumbnail" class="img-fluid" />
+			<img src={imagePath} alt="thumbnail" class="img-fluid" class:indexBackground />
 		{/if}
 	{/if}
 	<div
-		class="header-overlay"
+		class="header-overlay p-4"
 		class:background={hideMedia}
 		class:white-on-black={!blackOnWhite}
 		class:black-on-white={blackOnWhite}
+		class:fixed={!hideMedia}
 	>
 		<Navbar {blackOnWhite} />
 		{#if !hideMedia}
@@ -38,13 +40,11 @@
 
 <style>
 	.header-wrapper {
-		position: fixed;
-		top: 0;
-		height: 100vh;
-		height: 100vw;
+		min-height: 100vh;
 	}
 
-	.header-wrapper video {
+	.header-wrapper video,
+	img {
 		object-fit: cover;
 		position: fixed;
 		height: 100%;
@@ -52,9 +52,7 @@
 	}
 
 	.header-wrapper .header-overlay {
-		position: fixed;
 		z-index: 2;
-		top: 0;
 		width: 100%;
 		height: 100%;
 		color: var(--white);
@@ -68,5 +66,15 @@
 	.background {
 		background-color: var(--yellow) !important;
 		color: var(--black) !important;
+	}
+
+	.indexBackground {
+		opacity: 0.5;
+	}
+
+	.fixed {
+		background-color: var(--yellow);
+		position: fixed;
+		top: 0;
 	}
 </style>

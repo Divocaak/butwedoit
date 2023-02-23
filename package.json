@@ -8,7 +8,8 @@
 		"preview": "vite preview",
 		"test": "playwright test",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"start": "PORT=3001 node build/index.js"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
@@ -30,6 +31,7 @@
 	"dependencies": {
 		"bootstrap": "^5.2.3",
 		"bootstrap-icons": "^1.10.3",
+		"dotenv": "^16.0.3",
 		"jquery": "^3.6.3",
 		"slick-carousel": "^1.8.1"
 	}

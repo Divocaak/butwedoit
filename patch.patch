@@ -1,0 +1,91 @@
+diff --git a/package-lock.json b/package-lock.json
+index f0eaad9..779675e 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -10,6 +10,7 @@
+ 			"dependencies": {
+ 				"bootstrap": "^5.2.3",
+ 				"bootstrap-icons": "^1.10.3",
++				"dotenv": "^16.0.3",
+ 				"jquery": "^3.6.3",
+ 				"slick-carousel": "^1.8.1"
+ 			},
+@@ -1114,6 +1115,14 @@
+ 				"node": ">=6.0.0"
+ 			}
+ 		},
++		"node_modules/dotenv": {
++			"version": "16.0.3",
++			"resolved": "https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz",
++			"integrity": "sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==",
++			"engines": {
++				"node": ">=12"
++			}
++		},
+ 		"node_modules/esbuild": {
+ 			"version": "0.16.17",
+ 			"resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.16.17.tgz",
+@@ -3259,6 +3268,11 @@
+ 				"esutils": "^2.0.2"
+ 			}
+ 		},
++		"dotenv": {
++			"version": "16.0.3",
++			"resolved": "https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz",
++			"integrity": "sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ=="
++		},
+ 		"esbuild": {
+ 			"version": "0.16.17",
+ 			"resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.16.17.tgz",
+diff --git a/package.json b/package.json
+index 970a283..24dd871 100644
+--- a/package.json
++++ b/package.json
+@@ -8,7 +8,8 @@
+ 		"preview": "vite preview",
+ 		"test": "playwright test",
+ 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+-		"format": "prettier --plugin-search-dir . --write ."
++		"format": "prettier --plugin-search-dir . --write .",
++		"start": "PORT=3001 node build/index.js"
+ 	},
+ 	"devDependencies": {
+ 		"@playwright/test": "^1.28.1",
+@@ -30,6 +31,7 @@
+ 	"dependencies": {
+ 		"bootstrap": "^5.2.3",
+ 		"bootstrap-icons": "^1.10.3",
++		"dotenv": "^16.0.3",
+ 		"jquery": "^3.6.3",
+ 		"slick-carousel": "^1.8.1"
+ 	}
+diff --git a/playwright.config.js b/playwright.config.js
+index f0ba5d2..ef840cb 100644
+--- a/playwright.config.js
++++ b/playwright.config.js
+@@ -2,7 +2,7 @@
+ const config = {
+ 	webServer: {
+ 		command: 'npm run build && npm run preview',
+-		port: 4173
++		port: 3001
+ 	},
+ 	testDir: 'tests'
+ };
+diff --git a/vite.config.js b/vite.config.js
+index 11f6c22..df134fb 100644
+--- a/vite.config.js
++++ b/vite.config.js
+@@ -1,7 +1,11 @@
+ import { sveltekit } from '@sveltejs/kit/vite';
+ 
+ const config = {
+-	plugins: [sveltekit()]
++	plugins: [sveltekit()],
++	server:{
++		port: 3001,
++		strictPort:true,
++	}
+ };
+ 
+ export default config;

@@ -4,7 +4,6 @@
     export let blackOnWhite=false;
 </script>
 
-<!-- TODO check all asigned classes (padding x) -->
 <a {href} class={classes} class:black-on-white={blackOnWhite}>
 	<slot />
 </a>

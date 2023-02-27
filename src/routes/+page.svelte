@@ -1,8 +1,9 @@
 <script>
 	import HeaderWrapper from '$lib/HeaderWrapper.svelte';
+	import { goto } from '$app/navigation';
 
 	function onButton(route) {
-		window.location.href = route;
+		goto(route);
 	}
 </script>
 

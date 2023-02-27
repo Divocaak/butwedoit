@@ -9,6 +9,11 @@
 
 	import videos from '$lib/content/videos.json';
 	import reels from '$lib/content/reels.json';
+	
+	import jQuery from 'jquery';
+	import 'slick-carousel';
+	import { onMount } from 'svelte';
+	import { goto } from '$app/navigation';
 
 	let showPopup = false;
 	let label = null;
@@ -22,7 +27,7 @@
 			desc = newDesc;
 			ytKey = newYtKey;
 		} else {
-			window.location.href = '/detail/videos/' + id;
+			goto('/detail/videos/' + id);
 		}
 	}
 
@@ -33,9 +38,6 @@
 		ytKey = null;
 	};
 
-	import jQuery from 'jquery';
-	import 'slick-carousel';
-	import { onMount } from 'svelte';
 
 	onMount(() => {
 		jQuery('#reelCarousel').slick({

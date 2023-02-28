@@ -25,11 +25,9 @@
 		class="card-background card-background-small d-block d-md-none"
 		style="background-image: url('/images/thumbnails/{thumbnail}');"
 	>
-		<div class="card-content-holder-small pt-2 px-3">
-			<h2><span class="p-2 lh-base unbounded">{label}</span></h2>
-			<p class="lead roboto">
-				<span class="p-2 lh-base">{shortDesc}</span>
-			</p>
+		<div class="card-content-holder-small text-center px-2">
+			<h2 class="unbounded pt-2" style="font-size: .8em;">{label}</h2>
+			<p class="lead roboto pb-2" style="font-size: .8em;">{shortDesc}</p>
 		</div>
 	</div>
 </div>
@@ -45,17 +43,25 @@
 	}
 
 	.card-background-small {
-		height: 46vh;
+		height: 30vh;
 	}
 
-	.card-background .card-content-holder,
+	.card-content-holder,
 	.card-content-holder-small {
 		pointer-events: none;
 		position: relative;
 		height: 50vh;
 	}
 
-	.card-background .card-content-holder {
+	.card-content-holder-small {
+		background-color: var(--yellow);
+		left: 2.5%;
+		max-width: 40%;
+		width: max-content;
+		height: auto;
+	}
+
+	.card-content-holder {
 		transition: all 0.5s;
 		opacity: 0;
 		background-color: var(--yellow);
@@ -79,9 +85,5 @@
 		max-width: 100%;
 		max-height: 100%;
 		overflow: hidden;
-	}
-
-	span {
-		background-color: var(--yellow);
 	}
 </style>

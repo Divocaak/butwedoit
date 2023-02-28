@@ -65,7 +65,7 @@
 	.card-content-holder-small {
 		pointer-events: none;
 		position: relative;
-		height: 50vh;
+		height: 70vh;
 	}
 
 	.card-background .card-content-holder {

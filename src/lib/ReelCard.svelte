@@ -32,27 +32,23 @@
 			</div>
 		</div>
 		<div class="card-content-holder-small d-block d-md-none pt-2 ps-1">
-			<h2 class="unbounded">
-				<span class="p-2">{label}</span>
-			</h2>
-			{#if shortDesc != null}
-				<p class="lead roboto">
-					<span class="p-2">{shortDesc}</span>
-				</p>
-			{/if}
+			<div class="text-center w-100 px-1">
+				<h2 class="unbounded pt-2" style="font-size: .6em;">{label}</h2>
+				{#if shortDesc != null}<p class="lead roboto pb-2" style="font-size: .6em;">{shortDesc}</p>{/if}
+			</div>
 		</div>
 	</div>
 </div>
 
 <style lang="scss">
-	.reel-card .card-background .card-content-holder,
+	.card-content-holder,
 	.card-content-holder-small {
 		pointer-events: none;
-		position: relative;
-		height: 80vh;
 	}
-
+	
 	.card-background {
+		position: relative;
+		height: 70vh;
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -61,25 +57,22 @@
 		color: var(--black);
 	}
 
-	.card-background .card-content-holder,
-	.card-content-holder-small {
-		pointer-events: none;
-		position: relative;
-		height: 50vh;
-	}
-
-	.card-background .card-content-holder {
+	.card-content-holder {
 		background-color: var(--yellow);
 		transition: all 0.5s;
 		opacity: 0;
+		height: 100%;
+	}
+
+	.card-content-holder-small {
+		background-color: var(--yellow);
+		max-width: 40%;
+		width: max-content;
+		height: auto;
 	}
 
 	.card-background:hover .card-content-holder {
 		opacity: 0.9;
-	}
-
-	span {
-		background-color: var(--yellow);
 	}
 
 	:global(.slick-slide) {

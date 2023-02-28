@@ -7,7 +7,7 @@
     },
     {
         "label": "RADEK BAKALÁŘ",
-        "shortDesc": "FOKUS - Nebezpečný únik z policejních pout / Radek Bakalář",
+        "shortDesc": "FOKUS - Nebezpečný únik z policejních pout",
         "thumbnail": "vids/bakalar.png",
         "youtube": "1HIHVhZZ5So"
     },
@@ -36,7 +36,7 @@
         "youtube": "HNN9wZ_ziDA"
     },
     {
-        "label": "AUTOSALON DAJBYCH DEFENDER",
+        "label": "AUTOSALON DAJBYCH",
         "shortDesc": "Defender promo video",
         "thumbnail": "vids/autosalon.png",
         "youtube": "nGxpofZaU6o"
@@ -55,7 +55,7 @@
     },
     {
         "label": "HBO",
-        "shortDesc": "Real Sports with Bryant Gumbel (September 2022)",
+        "shortDesc": "Real Sports with Bryant Gumbel",
         "thumbnail": "vids/hbo.png",
         "detailLongDesc": "Lorem ipsum",
         "gallery": [

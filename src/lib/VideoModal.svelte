@@ -28,6 +28,7 @@
 		tabindex="-1"
 		aria-labelledby="videoPlayerLabel"
 		aria-hidden={false}
+		on:click={modalClose}
 	>
 		<div
 			class="modal-dialog modal-dialog-centered modal-lg"
@@ -35,12 +36,12 @@
 			out:fly={{ y: -50, duration: 300, easing: quintOut }}
 		>
 			<div class="modal-content modal-video-wrapper text-center">
-				<h2 class="display-1 unbounded">
-					{#if label != null}{label}{/if}
-					<button data-bs-dismiss="modal" class="btn text-light btn-bigger" on:click={modalClose}>
+				<div class="modal-header">
+					<h5 class="modal-title display-5 unbounded text-start">{label}</h5>
+					<button class="btn text-light btn-bigger" on:click={modalClose}>
 						<i class="bi bi-x-circle ps-2" />
 					</button>
-				</h2>
+				</div>
 				<div class="ratio ratio-16x9">
 					{#if src != null}
 						<iframe id="playerIframe" {src} allowfullscreen allow="autoplay" title="video player" />
@@ -52,9 +53,7 @@
 			</div>
 		</div>
 	</div>
-	{#if showBackdrop}
-		<div class="modal-backdrop show" transition:fade={{ duration: 150 }} />
-	{/if}
+	{#if showBackdrop}<div class="modal-backdrop show" transition:fade={{ duration: 150 }} />{/if}
 {/if}
 
 <style>
@@ -69,7 +68,7 @@
 	}
 
 	.modal-backdrop {
-		opacity: 0.6 !important;
+		opacity: 0.7 !important;
 	}
 
 	.btn-bigger {

@@ -8,26 +8,26 @@
 </svelte:head>
 
 <HeaderWrapper hideMedia={true} blackOnWhite={true}>
-	<div class="m-5 p-5 montserrat">
+	<div class="m-md-5 p-5 montserrat">
 		<div class="row">
 			<div class="col-12 col-md-6">
 				<h1>Petr Vančata</h1>
 				<p>Lorem ipsum</p>
 				<LinkButton href="tel:+420721343006" classes="me-5" blackOnWhite={true}>
-					<i class="bi bi-telephone-fill pe-2" />+420&nbsp;721&nbsp;343&nbsp;006
+					<i class="bi bi-telephone-fill pe-1" />+420&nbsp;721&nbsp;343&nbsp;006
 				</LinkButton>
 				<LinkButton href="mailto:petr@butwedoit.cz" blackOnWhite={true}>
-					<i class="bi bi-envelope pe-2" />petr@butwedoit.cz
+					<i class="bi bi-envelope pe-1" />petr@butwedoit.cz
 				</LinkButton>
 			</div>
 			<div class="col-12 col-md-6 pt-5 pt-md-0">
 				<h1>Jindřich Soukal</h1>
 				<p>Lorem ipsum</p>
 				<LinkButton href="tel:+420608267367" classes="me-5" blackOnWhite={true}>
-					<i class="bi bi-telephone-fill pe-2" />+420&nbsp;608&nbsp;267&nbsp;367
+					<i class="bi bi-telephone-fill pe-1" />+420&nbsp;608&nbsp;267&nbsp;367
 				</LinkButton>
 				<LinkButton href="mailto:jindrich@butwedoit.cz" blackOnWhite={true}>
-					<i class="bi bi-envelope pe-2" />jindrich@butwedoit.cz
+					<i class="bi bi-envelope pe-1" />jindrich@butwedoit.cz
 				</LinkButton>
 			</div>
 		</div>

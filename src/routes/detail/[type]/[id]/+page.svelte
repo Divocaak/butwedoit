@@ -24,7 +24,7 @@
 		{#each imgs as galCol}
 			<div class="gal-col">
 				{#each galCol as img}
-					<img src="/images/{img}" alt={img} />
+					<img src="/images/{img}" alt={img} loading="lazy"/>
 				{/each}
 			</div>
 		{/each}

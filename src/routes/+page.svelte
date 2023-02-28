@@ -20,6 +20,7 @@
 				on:keypress={() => onButton('/events')}
 			>
 				<img src="/shapes/btn_a.png" alt="background" class="img-fluid" />
+				<div class="asd" style="background-image:url(/shapes/btn_a.png)"></div>
 				<div class="unbounded pt-5">
 					<h1 class="display-1 text-center">EVENT</h1>
 					<h1 class="display-1 text-end me-5">&mdash;TY</h1>
@@ -38,6 +39,7 @@
 				on:keypress={() => onButton('/videos')}
 			>
 				<img src="/shapes/btn_b.png" alt="background" class="img-fluid" />
+				<div class="asd" style="background-image:url(/shapes/btn_b.png)"></div>
 				<div class="unbounded pt-5">
 					<h1 class="display-1 pt-5 pt-md-0 ps-5">VI&mdash;</h1>
 					<h1 class="display-1" style="position:relative; left:20%;">DEA</h1>
@@ -63,13 +65,20 @@
 		text-align: left;
 	}
 
-	.btn-wrapper img {
+	.btn-wrapper img{
+		opacity: 0;
+	}
+
+	.btn-wrapper .asd {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
 		transition: 0.5s;
 	}
 
-	.btn-wrapper:hover img {
+	.btn-wrapper:hover .asd {
 		filter: blur(5px) brightness(0.5);
-		transform: scaleY(1.1);
+		transform: scale(1.1);
 	}
 
 	.btn-wrapper > div {

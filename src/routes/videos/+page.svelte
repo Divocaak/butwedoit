@@ -9,7 +9,7 @@
 
 	import videos from '$lib/content/videos.json';
 	import reels from '$lib/content/reels.json';
-	
+
 	import jQuery from 'jquery';
 	import 'slick-carousel';
 	import { onMount } from 'svelte';
@@ -38,7 +38,6 @@
 		ytKey = null;
 	};
 
-
 	onMount(() => {
 		jQuery('#reelCarousel').slick({
 			dots: true,
@@ -50,13 +49,19 @@
 				{
 					breakpoint: 768,
 					settings: {
-						arrows: false,
-						centerMode: true,
 						centerPadding: '1vh',
 						slidesToShow: 1
 					}
 				}
 			]
+		});
+
+		jQuery('.prev-btn').on('click', function () {
+			jQuery('#reelCarousel').slick('slickPrev');
+		});
+
+		jQuery('.next-btn').on('click', function () {
+			jQuery('#reelCarousel').slick('slickNext');
 		});
 	});
 </script>
@@ -94,15 +99,22 @@
 		<h1 class="unbounded display-1">REELS</h1>
 		<p class="lead unbounded">9:16 / IG REELS / YOUTUBE SHORTS</p>
 	</div>
-	<div id="reelCarousel">
-		{#each reels as reel}
+	<div>
+		<div id="reelCarousel">
+			{#each reels as reel}
 			<ReelCard
-				thumbnail={reel.thumbnail}
-				label={reel.label}
-				shortDesc={reel.shortDesc}
-				onClick={() => onShowPopup(reel.label, reel.shortDesc, reel.youtube)}
+			thumbnail={reel.thumbnail}
+			label={reel.label}
+			shortDesc={reel.shortDesc}
+			onClick={() => onShowPopup(reel.label, reel.shortDesc, reel.youtube)}
 			/>
-		{/each}
+			{/each}
+		</div>
+		<div class="reel-btn-wrapper d-flex d-md-none">
+			<button class="btn text-light prev-btn"><i class="bi bi-caret-left-fill"></i></button>
+			<div class="container-fluid" />
+			<button class="btn text-light next-btn"><i class="bi bi-caret-right-fill"></i></button>
+		</div>
 	</div>
 	<Footer />
 </ContentWrapper>
@@ -135,5 +147,17 @@
 
 	:global(li.slick-active button) {
 		background-color: var(--yellow);
+	}
+
+	.reel-btn-wrapper {
+		pointer-events: none;
+		position: relative;
+		bottom: 30vh;
+	}
+	
+	.reel-btn-wrapper button{
+		pointer-events: initial;
+		font-size: 2rem;
+		color: var(--yellow) !important;
 	}
 </style>

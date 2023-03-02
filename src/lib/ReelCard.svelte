@@ -31,10 +31,10 @@
 				<p class="lead roboto">{shortDesc}</p>
 			</div>
 		</div>
-		<div class="card-content-holder-small d-block d-md-none pt-2 ps-1">
-			<div class="text-center w-100 px-1">
-				<h2 class="unbounded pt-2" style="font-size: .6em;">{label}</h2>
-				{#if shortDesc != null}<p class="lead roboto pb-2" style="font-size: .6em;">{shortDesc}</p>{/if}
+		<div class="card-content-holder-small d-block d-md-none p-1 pb-0">
+			<div class="text-center w-100">
+				<h2 class="unbounded mb-1 lh-sm" style="font-size: .6em;">{label}</h2>
+				{#if shortDesc != null}<p class="lead roboto pb-1 lh-sm" style="font-size: .6em;">{shortDesc}</p>{/if}
 			</div>
 		</div>
 	</div>

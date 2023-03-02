@@ -48,7 +48,7 @@
 	
 	.card-background {
 		position: relative;
-		height: 70vh;
+		height: 80vh;
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;

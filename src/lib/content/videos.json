@@ -6,6 +6,12 @@
         "youtube": "3FDrzgnIBMQ"
     },
     {
+        "label": "HOLKY Z MARKETINGU",
+        "shortDesc": "Výtah - interviews",
+        "thumbnail": "vids/holkyZMarketingu.png",
+        "youtube": "pSL8PAknapg"
+    },
+    {
         "label": "RADEK BAKALÁŘ",
         "shortDesc": "FOKUS - Nebezpečný únik z policejních pout",
         "thumbnail": "vids/bakalar.png",
@@ -74,12 +80,6 @@
             "vids/hbo/12.png",
             "vids/hbo/13.png"
         ]
-    },
-    {
-        "label": "HOLKY Z MARKETINGU",
-        "shortDesc": "Výtah - interviews",
-        "thumbnail": "vids/holkyZMarketingu.png",
-        "youtube": "pSL8PAknapg"
     },
     {
         "label": "L'ORÉAL",

@@ -23,8 +23,10 @@
 		background-repeat: no-repeat;
 		background-image: url('/logo.png');
 		position: relative;
-		height: 7rem;
-		width: 7rem;
+		top: 1vh;
+		left: 1vw;
+		height: 5rem;
+		width: 5rem;
 	}
 
 	.inverted{

@@ -110,7 +110,7 @@
 			/>
 			{/each}
 		</div>
-		<div class="reel-btn-wrapper d-flex d-md-none">
+		<div class="reel-btn-wrapper d-flex">
 			<button class="btn text-light prev-btn"><i class="bi bi-caret-left-fill"></i></button>
 			<div class="container-fluid" />
 			<button class="btn text-light next-btn"><i class="bi bi-caret-right-fill"></i></button>
@@ -129,15 +129,17 @@
 
 <style type="scss">
 	:global(.slick-dots) {
+		list-style-type: none;
 		position: absolute;
 		top: -30px;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		display: flex;
 	}
-
+	
 	:global(.slick-dots button) {
 		display: block;
+		color: transparent;
 		width: 5em;
 		height: 0.5em;
 		border: none;
@@ -159,5 +161,6 @@
 		pointer-events: initial;
 		font-size: 2rem;
 		color: var(--yellow) !important;
+		background-color: rgba(0,0,0,.2);
 	}
 </style>

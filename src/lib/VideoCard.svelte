@@ -26,8 +26,8 @@
 		style="background-image: url('/images/thumbnails/{thumbnail}');"
 	>
 		<div class="card-content-holder-small text-center px-2">
-			<h2 class="unbounded pt-2" style="font-size: .6em;">{label}</h2>
-			<p class="lead roboto pb-2" style="font-size: .6em;">{shortDesc}</p>
+			<h2 class="unbounded pt-1 mb-1 lh-sm" style="font-size: .6em;">{label}</h2>
+			<p class="lead roboto pb-1 lh-sm" style="font-size: .6em;">{shortDesc}</p>
 		</div>
 	</div>
 </div>

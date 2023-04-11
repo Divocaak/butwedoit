@@ -73,10 +73,10 @@
 		href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
 	/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<title>VIDEOS</title>
+	<title>VIDEO / COMMERCIAL / EDITORIAL / FILM</title>
 </svelte:head>
 
-<HeaderWrapper title="videos">
+<HeaderWrapper title="VIDEO / COMMERCIAL / EDITORIAL / FILM">
 	<p class="lead unbounded">
 		Check out <LinkButton href="#reels">Reels</LinkButton> too
 	</p>
@@ -96,8 +96,8 @@
 </ContentWrapper>
 <ContentWrapper>
 	<div id="reels" class="text-center py-5">
-		<h1 class="unbounded display-1">REELS</h1>
-		<p class="lead unbounded">9:16 / IG REELS / YOUTUBE SHORTS</p>
+		<h1 class="unbounded display-1">9:16 / IG&nbsp;REELS / TIKTOKS / YOUTUBE&nbsp;SHORTS</h1>
+		<!-- <p class="lead unbounded">9:16 / IG REELS / YOUTUBE SHORTS</p> -->
 	</div>
 	<div>
 		<div id="reelCarousel">

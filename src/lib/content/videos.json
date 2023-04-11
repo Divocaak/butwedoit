@@ -1,67 +1,31 @@
 [
     {
-        "label": "TEA SOFIA",
-        "shortDesc": "Lust For Desire",
-        "thumbnail": "vids/tea.png",
-        "youtube": "3FDrzgnIBMQ"
-    },
-    {
-        "label": "HOLKY Z MARKETINGU",
-        "shortDesc": "Výtah - interviews",
-        "thumbnail": "vids/holkyZMarketingu.png",
-        "youtube": "pSL8PAknapg"
-    },
-    {
-        "label": "RADEK BAKALÁŘ",
-        "shortDesc": "FOKUS - Nebezpečný únik z policejních pout",
-        "thumbnail": "vids/bakalar.png",
-        "youtube": "1HIHVhZZ5So"
-    },
-    {
         "label": "PLES SOBJE",
         "shortDesc": "Official aftermovie",
         "thumbnail": "vids/plesSobje.png",
         "youtube": "Fiysw2sFcns"
     },
     {
-        "label": "WOLT",
-        "shortDesc": "Courier promo video",
-        "thumbnail": "vids/wolt.png",
-        "youtube": "_rnEOdDYf0c"
-    },
-    {
-        "label": "ČERVENÝ KŘÍŽ",
-        "shortDesc": "Daruj krev!",
-        "thumbnail": "vids/cervenyKriz.png",
-        "youtube": "eJVlK88R_MI"
+        "label": "HOLKY Z MARKETINGU",
+        "shortDesc": "Výtah Interviews Series",
+        "thumbnail": "vids/holkyZMarketingu.png",
+        "youtube": "pSL8PAknapg"
     },
     {
         "label": "FOODSHOWREEL",
-        "shortDesc": "2021",
+        "shortDesc": "but we do it, 2020",
         "thumbnail": "vids/food.jpg",
         "youtube": "HNN9wZ_ziDA"
     },
     {
-        "label": "AUTOSALON DAJBYCH",
-        "shortDesc": "Defender promo video",
-        "thumbnail": "vids/autosalon.png",
-        "youtube": "nGxpofZaU6o"
+        "label": "WOLT",
+        "shortDesc": "Partner Courier Recruitment Video",
+        "thumbnail": "vids/wolt.png",
+        "youtube": "_rnEOdDYf0c"
     },
     {
-        "label": "POTRAVINOVÉ BANKY - HOSPIC",
-        "shortDesc": "Hospic - příběh Alenky",
-        "thumbnail": "vids/hospic.png",
-        "youtube": "RbeGcsT5G4I"
-    },
-    {
-        "label": "ULTRAVAGANT",
-        "shortDesc": "Třika - letní collection 2021",
-        "thumbnail": "vids/ultravagant.png",
-        "youtube": "UPo5p71yGYY"
-    },
-    {
-        "label": "HBO",
-        "shortDesc": "Real Sports with Bryant Gumbel",
+        "label": "HBO: Real Sports with Bryant Gumbel",
+        "shortDesc": "",
         "thumbnail": "vids/hbo.png",
         "detailLongDesc": "Lorem ipsum",
         "gallery": [
@@ -82,8 +46,38 @@
         ]
     },
     {
+        "label": "ULTRAVAGANT",
+        "shortDesc": "Fashion Editoral (Summer 2021)",
+        "thumbnail": "vids/ultravagant.png",
+        "youtube": "UPo5p71yGYY"
+    },
+    {
+        "label": "TEA SOFIA",
+        "shortDesc": "Lust For Desire",
+        "thumbnail": "vids/tea.png",
+        "youtube": "3FDrzgnIBMQ"
+    },
+    {
+        "label": "RADEK BAKALÁŘ",
+        "shortDesc": "FOKUS project",
+        "thumbnail": "vids/bakalar.png",
+        "youtube": "1HIHVhZZ5So"
+    },
+    {
+        "label": "AUTOSALON DAJBYCH",
+        "shortDesc": "Land Rover Defender",
+        "thumbnail": "vids/autosalon.png",
+        "youtube": "nGxpofZaU6o"
+    },
+    {
+        "label": "ČERVENÝ KŘÍŽ",
+        "shortDesc": "Daruj krev Awareness animation",
+        "thumbnail": "vids/cervenyKriz.png",
+        "youtube": "eJVlK88R_MI"
+    },
+    {
         "label": "L'ORÉAL",
-        "shortDesc": "A documentary about Prague, Bratislava, Budapest",
+        "shortDesc": "Internal communication campaign (CZ & SK & HU)",
         "thumbnail": "vids/loreal.jpg",
         "detailLongDesc": "Lorem ipsum",
         "gallery": [

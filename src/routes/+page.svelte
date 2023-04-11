@@ -20,15 +20,14 @@
 				on:keypress={() => onButton('/events')}
 			>
 				<img src="/shapes/btn_a.png" alt="background" class="img-fluid" />
-				<div class="asd" style="background-image:url(/shapes/btn_a.png)"></div>
+				<div class="asd" style="background-image:url(/shapes/btn_a.png)" />
 				<div class="unbounded pt-5">
-					<h1 class="display-1 text-center">EVENT</h1>
-					<h1 class="display-1 text-end me-5">&mdash;TY</h1>
-					<div class="note-holder roboto d-none d-md-block" style="right: 0em;">
+					<h1 class="display-2 text-center">EVEN&mdash;</h1>
+					<h1 class="display-2 text-end me-5">&mdash;TS</h1>
+					<div class="note-holder roboto d-none d-md-block" style="right: 1em; font-size: .9rem">
 						<p>
-							Jsme specialisté na hybridní<br />
-							eventy popřípadě přesuneme<br />
-							Vaši akci kompletně do onlinu.
+							Impress your audience with innovative and professionally organized events.<br/>
+							Connect online and offline &mdash;
 						</p>
 					</div>
 				</div>
@@ -39,15 +38,13 @@
 				on:keypress={() => onButton('/videos')}
 			>
 				<img src="/shapes/btn_b.png" alt="background" class="img-fluid" />
-				<div class="asd" style="background-image:url(/shapes/btn_b.png)"></div>
+				<div class="asd" style="background-image:url(/shapes/btn_b.png)" />
 				<div class="unbounded pt-5">
-					<h1 class="display-1 pt-5 pt-md-0 ps-5">VI&mdash;</h1>
-					<h1 class="display-1" style="position:relative; left:20%;">DEA</h1>
-					<div class="note-holder roboto d-none d-md-block" style="left: 2em;">
+					<h1 class="display-2 pt-5 pt-md-0 ps-5">VI&mdash;</h1>
+					<h1 class="display-2" style="position:relative; left:20%;">&mdash;DEOS</h1>
+					<div class="note-holder roboto d-none d-md-block" style="left: 2em; font-size: .9rem">
 						<p>
-							Tvorba videa na míru, natáčíme<br />
-							produktová, průmyslová videa<br />
-							a taky propagační videa.
+							Engage your viewers with compelling storytelling and inspire them with visually captivating & attention grabbing videos &mdash;
 						</p>
 					</div>
 				</div>
@@ -65,7 +62,7 @@
 		text-align: left;
 	}
 
-	.btn-wrapper img{
+	.btn-wrapper img {
 		opacity: 0;
 	}
 

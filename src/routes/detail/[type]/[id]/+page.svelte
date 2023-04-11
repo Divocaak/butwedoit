@@ -17,7 +17,7 @@
 <HeaderWrapper title={data.label} imagePath="/images/thumbnails/{data.thumbnail}"/>
 <ContentWrapper blackOnWhite={true}>
 	<div class="text-center">
-		<p class="lead roboto my-5 pt-5">{data.detailLongDesc}</p>
+		<p class="lead roboto my-5 pt-5 px-3 mx-md-5">{data.detailLongDesc}</p>
 	</div>
 	<div class="gal-cont px-md-5 mx-md-5">
 		<!-- BUG not all events work (HBO), some of them have missing gallery -->

@@ -21,6 +21,7 @@
 	</div>
 	<div class="gal-cont px-md-5 mx-md-5">
 		<!-- BUG not all events work (HBO), some of them have missing gallery -->
+		<!-- URGENT compress imgs (all but events/kofila) -->
 		{#each imgs as galCol}
 			<div class="gal-col">
 				{#each galCol as img}
@@ -29,7 +30,6 @@
 			</div>
 		{/each}
 	</div>
-	<!-- TODO prev and next event btns -->
 	<Footer />
 </ContentWrapper>
 

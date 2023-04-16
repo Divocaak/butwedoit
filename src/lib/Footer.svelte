@@ -17,7 +17,7 @@
 		</div>
 		<div class="col-12 col-md-8">
 			<div class="row">
-				<div class="col"><img class="img-fluid" src="/logos/placeholder.png" alt="logo" /></div>
+				<div class="col"><img class="img-fluid" src="/logos/adidas.png" alt="logo" /></div>
 				<div class="col"><img class="img-fluid" src="/logos/placeholder.png" alt="logo" /></div>
 				<div class="col"><img class="img-fluid" src="/logos/placeholder.png" alt="logo" /></div>
 				<div class="col"><img class="img-fluid" src="/logos/placeholder.png" alt="logo" /></div>

@@ -1,15 +1,9 @@
 [
     {
-        "label": "ADIDAS",
-        "shortDesc": "NMD V3 - create new paths 1/3",
-        "thumbnail": "reels/adidas1.png",
-        "youtube": "rY012xTgagY"
-    },
-    {
-        "label": "REDBULL X ALEX CHOUPENITCH",
-        "shortDesc": "Coins",
-        "thumbnail": "reels/redbull.png",
-        "youtube": "5o9W0fysGnU"
+        "label": "SAMSUNG X LUKÁŠ ZACHARA",
+        "shortDesc": "",
+        "thumbnail": "reels/samsung.png",
+        "youtube": ""
     },
     {
         "label": "MILION VŮNÍ",
@@ -18,10 +12,10 @@
         "youtube": "pGLrBsriLfg"
     },
     {
-        "label": "SAMSUNG X LUKÁŠ ZACHARA",
-        "shortDesc": "",
-        "thumbnail": "reels/samsung.png",
-        "youtube": ""
+        "label": "REDBULL X ALEX CHOUPENITCH",
+        "shortDesc": "Coins",
+        "thumbnail": "reels/redbull.png",
+        "youtube": "5o9W0fysGnU"
     },
     {
         "label": "BAILEYS X ALEX SEDLÁČKOVÁ",
@@ -34,5 +28,11 @@
         "shortDesc": "NMD V3 - create new paths 2/3",
         "thumbnail": "reels/adidas2.png",
         "youtube": "zGMhGgyXDqU"
+    },
+    {
+        "label": "ADIDAS",
+        "shortDesc": "NMD V3 - create new paths 1/3",
+        "thumbnail": "reels/adidas1.png",
+        "youtube": "rY012xTgagY"
     }
 ]

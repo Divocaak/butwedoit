@@ -20,7 +20,6 @@
 		--black: black;
 		--white: white;
 		--yellow: #f9d204;
-		/* --yellow: #fce205; */
 	}
 
 	:global(html) {

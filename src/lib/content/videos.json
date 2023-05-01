@@ -1,7 +1,7 @@
 [
     {
         "label": "PLES SOBJE",
-        "shortDesc": "Official aftermovie",
+        "shortDesc": "Official Aftermovie",
         "thumbnail": "vids/plesSobje.png",
         "youtube": "Fiysw2sFcns"
     },
@@ -16,6 +16,12 @@
         "shortDesc": "but we do it, 2020",
         "thumbnail": "vids/food.jpg",
         "youtube": "HNN9wZ_ziDA"
+    },
+    {
+        "label": "SINOP",
+        "shortDesc": "Brand Promotional Video",
+        "thumbnail": "vids/sinop.jpg",
+        "youtube": "sUzyefC5PNE"
     },
     {
         "label": "WOLT",
@@ -59,7 +65,7 @@
     },
     {
         "label": "RADEK BAKALÁŘ",
-        "shortDesc": "FOKUS project",
+        "shortDesc": "FOKUS Project",
         "thumbnail": "vids/bakalar.png",
         "youtube": "1HIHVhZZ5So"
     },
@@ -71,13 +77,13 @@
     },
     {
         "label": "ČERVENÝ KŘÍŽ",
-        "shortDesc": "Daruj krev Awareness animation",
+        "shortDesc": "Daruj Krev Awareness Animation",
         "thumbnail": "vids/cervenyKriz.png",
         "youtube": "eJVlK88R_MI"
     },
     {
         "label": "L'ORÉAL",
-        "shortDesc": "Internal communication campaign (CZ & SK & HU)",
+        "shortDesc": "Internal Communication Campaign (CZ & SK & HU)",
         "thumbnail": "vids/loreal.jpg",
         "detailLongDesc": "Together with L'Oréal, we created a series of 3 brief documentaries introducing the company's legal departments based in Czechia, Slovakia and Hungary. The videos were used in an internal communication campaign and as a part of the program at L'Oréal's conference. Here you can see the stills from the final execution —",
         "gallery": [
@@ -87,7 +93,17 @@
             "vids/loreal/3.jpg",
             "vids/loreal/4.jpg",
             "vids/loreal/5.jpg",
-            "vids/loreal/6.jpg"
+            "vids/loreal/6.jpg",
+            "vids/loreal/7.jpg",
+            "vids/loreal/8.jpg",
+            "vids/loreal/9.jpg",
+            "vids/loreal/10.jpg",
+            "vids/loreal/11.jpg",
+            "vids/loreal/12.jpg",
+            "vids/loreal/13.jpg",
+            "vids/loreal/14.jpg",
+            "vids/loreal/15.jpg"
         ]
     }
+    
 ]

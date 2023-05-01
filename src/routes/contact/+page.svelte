@@ -1,6 +1,7 @@
 <script>
 	import HeaderWrapper from '$lib/HeaderWrapper.svelte';
 	import LinkButton from '$lib/LinkButton.svelte';
+	import Credit from '$lib/Credit.svelte';
 </script>
 
 <svelte:head>
@@ -46,8 +47,8 @@
 			</div>
 			<div class="col-3 d-none d-md-block" />
 		</div>
-		<!-- TODO webmaster link -->
 		<p class="roboto fw-light text-end pt-5 mt-5">© butwedoit. All rights reserved.</p>
+		<Credit />
 	</div>
 </HeaderWrapper>
 

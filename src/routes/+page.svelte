@@ -1,6 +1,7 @@
 <script>
 	import HeaderWrapper from '$lib/HeaderWrapper.svelte';
 	import { goto } from '$app/navigation';
+	import Credit from '$lib/Credit.svelte';
 
 	function onButton(route) {
 		goto(route);
@@ -51,8 +52,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- TODO webmaster link -->
 	<p class="roboto fw-light rights-text">© butwedoit. All rights reserved.</p>
+	<Credit></Credit>
 </HeaderWrapper>
 
 <style>

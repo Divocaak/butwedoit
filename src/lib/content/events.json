@@ -1,31 +1,51 @@
 [
     {
         "label": "HYBRID EVENTS",
-        "descMain": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam commodo dui eget wisi. Phasellus rhoncus. Aliquam id dolor. Maecenas aliquet accumsan leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.",
-        "desc": "Elevate your virtual event experience with our hybrid Livestream and production services. We seamlessly blend the best of in-person and online engagement to engage your audience like never before. With our hybrid services, not only will you engage your audience in a whole new way, but you will also have the potential to earn more money by reaching both online and offline attendees. Let us help you connect with your attendees in a whole new way.",
+        "descMain": "Elevate your ideas to a new level and discover the potential and power of hybrid events. We seamlessly blend the best of the online & offline worlds to increase your profits and create a complex experience for your audience —",
+        "desc": "Interested? We can help you to engage your in-person and virtual attendees with our professional production services, connect you to speakers from around the world and provide all technical support. Additionally, we can secure the reservation and e-mailing system as well as a promotional campaign online —",
         "projects": [
             {
-                "label": "O EVROPĚ SPOLEČNĚ",
-                "shortDesc": "Lorem ipsum",
-                "thumbnail": "events/aboutEurope.jpg",
-                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "label": "BERLIN DESIGN & DEVELOPMENT CONFERENCE",
+                "shortDesc": "Hybrid conference & Online stream for Innovatrix",
+                "thumbnail": "events/berlin.jpg",
+                "detailLongDesc": "The Berlin 'Design and Development of Zero—Emission Off—Highway Machinery Hybrid Conference' by Innovatrix is a cutting—edge hybrid event for the members of leading global OEM's, regulatory bodies, research institutes, investors and solution/service providing companies. The conference discusses some of the most important industry topics including current trends, innovations and upcoming challenges in order to reduce the collective carbon footprint. In May 2022, over 150 attendees from around the world took the opportunity to meet during live and virtual meetings as we created a functional platform in hybrid format. Thanks to that, the conference reached companies with different travel policies, overcame travel restrictions and prevented other limitations on attendance. Together with Innovatrix, we accomplished the goal of reaching the largest possible audience and we promoted effective networking for the event's attendees —",
                 "gallery": [
-                    "events/aboutEurope/1.jpg",
-                    "events/aboutEurope/2.jpg",
-                    "events/aboutEurope/3.jpg",
-                    "events/aboutEurope/4.jpg",
-                    "events/aboutEurope/5.jpg",
-                    "events/aboutEurope/6.jpg",
-                    "events/aboutEurope/7.jpg",
-                    "events/aboutEurope/8.jpg",
-                    "events/aboutEurope/9.jpg"
+                    "events/berlin/1.jpg",
+                    "events/berlin/2.jpg",
+                    "events/berlin/3.jpg",
+                    "events/berlin/4.jpg",
+                    "events/berlin/5.jpg",
+                    "events/berlin/6.jpg",
+                    "events/berlin/7.jpg",
+                    "events/berlin/8.jpg",
+                    "events/berlin/9.jpg",
+                    "events/berlin/10.jpg",
+                    "events/berlin/11.jpg",
+                    "events/berlin/12.jpg",
+                    "events/berlin/13.jpg"
                 ]
             },
             {
-                "label": "CC COMUNITY MANAGEMENT",
-                "shortDesc": "Lorem ipsum",
+                "label": "CZECHCRUNCH E—COMMERCE: JAK FINANCOVAT A NEZABÍT E-SHOP",
+                "shortDesc": "Hybrid event & Online stream for CzechCrunch",
+                "thumbnail": "events/czechCrunch.jpeg",
+                "detailLongDesc": "The 'Financování e-shopů — Jak nezabít růst e-shopu a financovat jej' event by CzechCrunch is a part of the e-commerce education series and discusses the trends and challenges of e-commerce strategic development. In August 2022, we welcomed its attendees in the Prague Spojka Events space and secured a professional online stream for the online audience. Thanks to that, the hybrid event reached over 100 people and connected them with some of the best Czech speakers in the field —",
+                "gallery": [
+                    "events/czechCrunch/1.jpg",
+                    "events/czechCrunch/2.jpg",
+                    "events/czechCrunch/3.jpg",
+                    "events/czechCrunch/4.jpg",
+                    "events/czechCrunch/5.jpg",
+                    "events/czechCrunch/6.jpg",
+                    "events/czechCrunch/7.jpg",
+                    "events/czechCrunch/8.jpg"
+                ]
+            },
+            {
+                "label": "COMMUNITY BUILDERS' WORLD 2022",
+                "shortDesc": "Conference production & Online stream for Czech Community of Community builders",
                 "thumbnail": "events/comManagement.jpg",
-                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "detailLongDesc": "The 'Community builders' world 2022' is a part of the Czech Community of Community builders event series focusing on connecting community builders, managers, event organizers and recruiters. This panel discussion covered the topic of company community building and allowed its attendees to network and talk about the current trends and challenges. In June 2022, we secured the in-person and virtual production and welcomed over 80 attendees in Prague's Prostor39 and online. With our hybrid event services, we helped the Czech Community of Community builders to achieve its goal of connecting members and allowing them to share their experience from all around Czech Republic —",
                 "gallery": [
                     "events/comManagement/1.jpg",
                     "events/comManagement/2.jpg",
@@ -51,26 +71,10 @@
                 ]
             },
             {
-                "label": "CZECHCRUNCH - JAK FINANCOVAT A NEZABÍT E-SHOP",
-                "shortDesc": "Lorem ipsum",
-                "thumbnail": "events/czechCrunch.jpeg",
-                "detailLongDesc": "Lorem pisum dolor sit amet",
-                "gallery": [
-                    "events/czechCrunch/1.jpg",
-                    "events/czechCrunch/2.jpg",
-                    "events/czechCrunch/3.jpg",
-                    "events/czechCrunch/4.jpg",
-                    "events/czechCrunch/5.jpg",
-                    "events/czechCrunch/6.jpg",
-                    "events/czechCrunch/7.jpg",
-                    "events/czechCrunch/8.jpg"
-                ]
-            },
-            {
                 "label": "NEKONFERENCE",
-                "shortDesc": "Lorem ipsum",
+                "shortDesc": "Conference production & Online stream for Markething",
                 "thumbnail": "events/nekonference.jpg",
-                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "detailLongDesc": "'NEkonference' is a marketing focused conference which combines the concepts of traditional business events together with a variety of fun activities, entertaining networking opportunities and much more. The event consists of a series of practical workshops, two panel discussions about the hottest marketing topics and an exciting afterparty. In June 2022, we welcomed over 200 attendees and secured the offline production as well as the online streaming. Together with Markething, we connected our audience with carefully chosen marketing speakers in the Pragovka event space and provided our virtual guests with a complex online experience. We also secured the technical support for the workshops and were able to create a new setting for the afterparty —",
                 "gallery": [
                     "events/nekonference/1.jpg",
                     "events/nekonference/2.jpg",
@@ -91,107 +95,34 @@
                 ]
             },
             {
-                "label": "BERLIN DESIGN & DEVELOPMENT CONFERENCE",
-                "shortDesc": "Lorem ipsum",
-                "thumbnail": "events/berlin.jpg",
-                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "label": "O EVROPĚ SPOLEČNĚ? (EU 2022 CZ)",
+                "shortDesc": "Conference production & Online stream on the occasion of Czech Presidency of the Council of the European Union 2022",
+                "thumbnail": "events/aboutEurope.jpg",
+                "detailLongDesc": "The 'O Evropě společně?' discussion has taken part on the event of the Czech Presidency of the Council of the European Union 2022. This special occasion has raised questions about the political representation of the young Czech generation and the debate focused on the influence of the Czech Presidency on this topic as well as the Czech political vision and the factors affecting it. In June 2022, we welcomed attendees from the whole country thanks to the event's hybrid format and we connected speakers and young politically active people online & offline. The discussion was produced together with a Czech NGO called Díky, že můžem —",
                 "gallery": [
-                    "events/berlin/1.jpg",
-                    "events/berlin/2.jpg",
-                    "events/berlin/3.jpg",
-                    "events/berlin/4.jpg",
-                    "events/berlin/5.jpg",
-                    "events/berlin/6.jpg",
-                    "events/berlin/7.jpg",
-                    "events/berlin/8.jpg",
-                    "events/berlin/9.jpg",
-                    "events/berlin/10.jpg",
-                    "events/berlin/11.jpg",
-                    "events/berlin/12.jpg",
-                    "events/berlin/13.jpg"
+                    "events/aboutEurope/1.jpg",
+                    "events/aboutEurope/2.jpg",
+                    "events/aboutEurope/3.jpg",
+                    "events/aboutEurope/4.jpg",
+                    "events/aboutEurope/5.jpg",
+                    "events/aboutEurope/6.jpg",
+                    "events/aboutEurope/7.jpg",
+                    "events/aboutEurope/8.jpg",
+                    "events/aboutEurope/9.jpg"
                 ]
             }
         ]
     },
     {
-        "label": "Full production service",
-        "descMain": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam commodo dui eget wisi. Phasellus rhoncus. Aliquam id dolor. Maecenas aliquet accumsan leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.",
-        "desc": "We specialize in creating innovative and engaging educational and cultural events that truly reflect the unique personality and values of your organization. Whether you're looking to organize a large-scale conference or a small community gathering, we're not afraid to take on the most challenging projects and collaborate with you to bring your vision to life. From the initial planning stages to the final execution, we're dedicated to delivering exceptional events that leave a lasting impression on your audience. We are not afraid to face challenges and together find the ideal design that does not remain only in your imagination. Our goal is to present projects in a modern yet reliable way and reflect the personal spirit that your company stands for.",
+        "label": "Full—service event production",
+        "descMain": "Bring your creative vision to life and organize an event which will truly reflect the unique personality and values of your company or institution. With our full-service event production, we can take some weight off your shoulders while helping you to make a long-lasting impression on your audience —",
+        "desc": "Interested? Whether it is a large-scale conference, music festival, commercial filming, movie production or a small gathering, we can provide you with reliable services from the initial planning stages to the final execution —",
         "projects": [
             {
-                "label": "TED X TALK BUDWEIS",
-                "shortDesc": "Lorem ipsum",
-                "thumbnail": "events/tedx.jpeg",
-                "detailLongDesc": "Lorem pisum dolor sit amet",
-                "gallery": [
-                    "events/tedx/1.jpg",
-                    "events/tedx/2.jpg",
-                    "events/tedx/3.jpg",
-                    "events/tedx/4.jpg",
-                    "events/tedx/5.jpg",
-                    "events/tedx/6.jpg",
-                    "events/tedx/7.jpg",
-                    "events/tedx/8.jpg",
-                    "events/tedx/9.jpg",
-                    "events/tedx/10.jpg",
-                    "events/tedx/11.jpg",
-                    "events/tedx/12.jpg"
-                ]
-            },
-            {
-                "label": "PLES SOBJE",
-                "shortDesc": "prázdná složka",
-                "thumbnail": "events/x.jpg",
-                "detailLongDesc": "Lorem pisum dolor sit amet",
-                "gallery": []
-            },
-            {
-                "label": "HACKATHON",
-                "shortDesc": "Lorem ipsum",
-                "thumbnail": "events/hackathon.jpg",
-                "detailLongDesc": "Lorem pisum dolor sit amet",
-                "gallery": [
-                    "events/hackathon/1.jpg",
-                    "events/hackathon/2.jpg",
-                    "events/hackathon/3.jpg",
-                    "events/hackathon/4.jpg",
-                    "events/hackathon/5.jpg",
-                    "events/hackathon/6.jpg",
-                    "events/hackathon/7.jpg",
-                    "events/hackathon/8.jpg",
-                    "events/hackathon/9.jpg",
-                    "events/hackathon/10.jpg"
-                ]
-            },
-            {
-                "label": "MAKERFAIRE",
-                "shortDesc": "Lorem ipsum",
-                "thumbnail": "events/makerfaire.png",
-                "detailLongDesc": "Lorem pisum dolor sit amet",
-                "gallery": [
-                    "events/makerfaire/1.jpg",
-                    "events/makerfaire/2.jpg",
-                    "events/makerfaire/3.jpg",
-                    "events/makerfaire/4.jpg",
-                    "events/makerfaire/5.jpg",
-                    "events/makerfaire/6.jpg",
-                    "events/makerfaire/7.jpg",
-                    "events/makerfaire/8.jpg",
-                    "events/makerfaire/9.jpg",
-                    "events/makerfaire/10.jpg",
-                    "events/makerfaire/11.jpg",
-                    "events/makerfaire/12.jpg",
-                    "events/makerfaire/13.jpg",
-                    "events/makerfaire/14.jpg",
-                    "events/makerfaire/15.jpg",
-                    "events/makerfaire/16.jpg"
-                ]
-            },
-            {
                 "label": "BUDĚJOVICKÝ MAJÁLES",
-                "shortDesc": "Lorem ipsum",
+                "shortDesc": "Full—service event production of a public multigenre festival",
                 "thumbnail": "events/majales.jpg",
-                "detailLongDesc": "Lorem pisum dolor sit amet",
+                "detailLongDesc": "'Budějovický Majáles' is a one of a kind multigenre music festival from České Budějovice. With its wide variety of musical and theater performances, workshops, exhibitions and all kinds of artistic shows, it is one of the most popular South-Bohemian events of the whole year. Its 5 day program consists of more than 100 different events in 20 settings and its vibrant atmosphere reaches out to the whole city. Annually, the festival welcomes up to 14 thousand visitors. In the past years, we have been helping Budějovický Majáles by leading the whole production team while securing all technical services and production settings. We also took part in the initial planning stages of the event, negotiated communication with its partners, members of the city council and grant administrators, we worked closely with the marketing and PR team and participated in the whole execution of the festival —",
                 "gallery": [
                     "events/majales/1.jpg",
                     "events/majales/2.jpg",
@@ -225,11 +156,116 @@
                 ]
             },
             {
-                "label": "HBO",
-                "shortDesc": "název složky - Zkopíruj sem vojto i složku HBO. myslel jsi to takhle?",
+                "label": "TED X TALK BUDWEIS",
+                "shortDesc": "Full—service event production of an independently organized TED talk",
+                "thumbnail": "events/tedx.jpeg",
+                "detailLongDesc": "'TEDx Budweis' is a part of the independently organized TED talks series (TEDx) and takes place in the biggest South-Bohemian city, České Budějovice. TED is a platform created for sharing ideas, which are worth spreading, and consists of interdisciplinary conferences, TED talks, livestreams and many other educational formats. TEDx is a format which allows volunteers around the world to organize this popular event and localize it according to its spectators. In October 2022, we stepped up to the challenge and created an event customized for the Czech audience. We were part of the initial planning stages, took care of the fundraising strategy and execution and secured the whole event with our production services. Thanks to that, we sold out the venue and were able to successfully deliver an immersive experience to the attendees —",
+                "gallery": [
+                    "events/tedx/1.jpg",
+                    "events/tedx/2.jpg",
+                    "events/tedx/3.jpg",
+                    "events/tedx/4.jpg",
+                    "events/tedx/5.jpg",
+                    "events/tedx/6.jpg",
+                    "events/tedx/7.jpg",
+                    "events/tedx/8.jpg",
+                    "events/tedx/9.jpg",
+                    "events/tedx/10.jpg",
+                    "events/tedx/11.jpg",
+                    "events/tedx/12.jpg"
+                ]
+            },
+            {
+                "label": "NA HOLLARU: EVENT SERIES",
+                "shortDesc": "Full-service production of a series of multiple music and cultural events",
+                "thumbnail": "events/hollar.jpg",
+                "detailLongDesc": "'Na Hollaru' is a popular event series from Prague which takes place at a unique location in the city center. The space, formerly two garages, has been reconstructed by the Labor 13 architectural studio and now serves not only as a café, but also as a musical, cultural and artistic event space. In 2022 we were part of the monthly event series (featuring e. g. Hollar Room, Milkshake, Festival Pavlač) with our full-service event production solution and welcomed more than 300 attendees to each one of the occasions. We secured the production, technical support and helped with the event promotion as well as the organizational negotiations —",
+                "gallery": [
+                    "events/hollar/1.jpg",
+                    "events/hollar/2.jpg",
+                    "events/hollar/3.jpg",
+                    "events/hollar/4.jpg",
+                    "events/hollar/5.jpg",
+                    "events/hollar/6.jpg",
+                    "events/hollar/7.jpg",
+                    "events/hollar/8.jpg",
+                    "events/hollar/9.jpg",
+                    "events/hollar/10.jpg",
+                    "events/hollar/11.jpg",
+                    "events/hollar/12.jpg",
+                    "events/hollar/13.jpg"
+                ]
+            },
+            {
+                "label": "HBO: Real Sports with Bryant Gumbel",
+                "shortDesc": "Full technical and organizational support for the US-based HBO film crew on the local set",
                 "thumbnail": "vids/hbo.png",
-                "detailLongDesc": "Lorem pisum dolor sit amet",
-                "gallery": []
+                "detailLongDesc": "The 'Real Sports with Bryant Gumbel' is a series by HBO producing monthly investigative reports and in-depth profiles from across the sports spectrum. With its 28 seasons and 35 Sports Emmy Awards, including 20 for Outstanding Sports Journalism, it is TV's most-honored sports news magazine broadcast. The Czech episode features Vojtech Sommer, a world known triathlonist, who has been accused of doping, and is available at HBO Sport. In cooperation with the DOP Rupert Binsley and a Swedish production company Swixer, we joined the US-based HBO film crew on the local set and secured all technical and organizational support. That included extending the team, negotiating with location providers, securing all documents, assisting on set as well as providing all other necessary duties for the crew (accommodation, transport etc.) —",
+                "gallery": [
+                    "vids/hbo/0.jpg",
+                    "vids/hbo/1.jpg",
+                    "vids/hbo/2.jpg",
+                    "vids/hbo/3.jpg",
+                    "vids/hbo/4.jpg",
+                    "vids/hbo/5.jpg",
+                    "vids/hbo/6.jpg",
+                    "vids/hbo/7.png",
+                    "vids/hbo/8.png",
+                    "vids/hbo/9.png",
+                    "vids/hbo/10.png",
+                    "vids/hbo/11.png",
+                    "vids/hbo/12.png",
+                    "vids/hbo/13.png"
+                ]
+            },
+            {
+                "label": "MARKETHING HACKATHON",
+                "shortDesc": "Full—service event production of a charity marketing hackathon",
+                "thumbnail": "events/hackathon.jpg",
+                "detailLongDesc": "'Markething hackathon' is a unique charity event which connects young students with the best marketing professionals in the Czech Republic. Together, they work on a complex brief, coming up with a communication campaign idea in the total of 12 hours. In December 2023, Markething partnered up with the Czech federation of food banks to support a food donation drive called 'Sbírka potravin'. Together with Markething, we welcomed over 20 students and 8 marketing professionals who came up with five different approaches to the campaign idea. We supported the event by assisting during the initial planning stages, providing our production services and technical support, collaborating on the event promotion and negotiating collaborations with sponsors. Thanks to that, we were able to deliver a successful event while bringing awareness to an important social issue —",
+                "gallery": [
+                    "events/hackathon/1.jpg",
+                    "events/hackathon/2.jpg",
+                    "events/hackathon/3.jpg",
+                    "events/hackathon/4.jpg",
+                    "events/hackathon/5.jpg",
+                    "events/hackathon/6.jpg",
+                    "events/hackathon/7.jpg",
+                    "events/hackathon/8.jpg",
+                    "events/hackathon/9.jpg",
+                    "events/hackathon/10.jpg"
+                ]
+            },
+            {
+                "label": "KOFILA 100 LET",
+                "shortDesc": "Event & Stage lighting service for Kofila",
+                "thumbnail": "events/kofila.jpg",
+                "detailLongDesc": "Kofila, the chocolate & coffee candy bar that steals the hearts of Czech consumers for more than a century, celebrated its 100th anniversary in February 2023. On that occasion, it gave an opportunity to young artists who came up with a new packaging design, updating the iconic artwork created by Zdeněk Rykr in 1993. We partnered up with KW creative to co-organize a gala dinner and new packaging launch event for 120 guests accompanied by an art exhibition and a musical performance by the Czech artist Adonxs. We provided our event and stage lighting service in the DSC Gallery event space in the heart of Prague. To support the brand recognition, we focused on highlighting Kofila's brand colors and tied the event together, creating a pleasant atmosphere and ensuring an overall unified guest experience —",
+                "gallery": [
+                    "events/kofila/1.jpg",
+                    "events/kofila/2.jpg",
+                    "events/kofila/3.jpg",
+                    "events/kofila/4.jpg",
+                    "events/kofila/5.jpg",
+                    "events/kofila/6.jpg",
+                    "events/kofila/7.jpg",
+                    "events/kofila/8.jpg",
+                    "events/kofila/9.jpg",
+                    "events/kofila/10.jpg",
+                    "events/kofila/11.jpg",
+                    "events/kofila/12.jpg",
+                    "events/kofila/13.jpg",
+                    "events/kofila/14.jpg",
+                    "events/kofila/15.jpg",
+                    "events/kofila/16.jpg",
+                    "events/kofila/17.jpg",
+                    "events/kofila/18.jpg",
+                    "events/kofila/19.jpg",
+                    "events/kofila/20.jpg",
+                    "events/kofila/21.jpg",
+                    "events/kofila/22.jpg",
+                    "events/kofila/23.jpg"
+                ]
             }
         ]
     }

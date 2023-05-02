@@ -9,13 +9,10 @@
 </script>
 
 <svelte:head>
-	<title>EVENTS</title>
+	<title>ONLINE / OFFLINE / HYBRID / FULL-SERVICE</title>
 </svelte:head>
 
-<HeaderWrapper title="events">
-	<p class="lead unbounded">
-		Lorem ipsum
-	</p>
+<HeaderWrapper title="ONLINE / OFFLINE / HYBRID / FULL-SERVICE">
 </HeaderWrapper>
 <ContentWrapper blackOnWhite={true}>
 	{#each events as category, ci}

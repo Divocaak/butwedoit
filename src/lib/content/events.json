@@ -119,6 +119,37 @@
         "desc": "Interested? Whether it is a large-scale conference, music festival, commercial filming, movie production or a small gathering, we can provide you with reliable services from the initial planning stages to the final execution —",
         "projects": [
             {
+                "label": "KOFILA 100 LET",
+                "shortDesc": "Event & Stage lighting service for Kofila",
+                "thumbnail": "events/kofila.jpg",
+                "detailLongDesc": "Kofila, the chocolate & coffee candy bar that steals the hearts of Czech consumers for more than a century, celebrated its 100th anniversary in February 2023. On that occasion, it gave an opportunity to young artists who came up with a new packaging design, updating the iconic artwork created by Zdeněk Rykr in 1993. We partnered up with KW creative to co-organize a gala dinner and new packaging launch event for 120 guests accompanied by an art exhibition and a musical performance by the Czech artist Adonxs. We provided our event and stage lighting service in the DSC Gallery event space in the heart of Prague. To support the brand recognition, we focused on highlighting Kofila's brand colors and tied the event together, creating a pleasant atmosphere and ensuring an overall unified guest experience —",
+                "gallery": [
+                    "events/kofila/1.jpg",
+                    "events/kofila/2.jpg",
+                    "events/kofila/3.jpg",
+                    "events/kofila/4.jpg",
+                    "events/kofila/5.jpg",
+                    "events/kofila/6.jpg",
+                    "events/kofila/7.jpg",
+                    "events/kofila/8.jpg",
+                    "events/kofila/9.jpg",
+                    "events/kofila/10.jpg",
+                    "events/kofila/11.jpg",
+                    "events/kofila/12.jpg",
+                    "events/kofila/13.jpg",
+                    "events/kofila/14.jpg",
+                    "events/kofila/15.jpg",
+                    "events/kofila/16.jpg",
+                    "events/kofila/17.jpg",
+                    "events/kofila/18.jpg",
+                    "events/kofila/19.jpg",
+                    "events/kofila/20.jpg",
+                    "events/kofila/21.jpg",
+                    "events/kofila/22.jpg",
+                    "events/kofila/23.jpg"
+                ]
+            },
+            {
                 "label": "BUDĚJOVICKÝ MAJÁLES",
                 "shortDesc": "Full—service event production of a public multigenre festival",
                 "thumbnail": "events/majales.jpg",
@@ -234,37 +265,6 @@
                     "events/hackathon/8.jpg",
                     "events/hackathon/9.jpg",
                     "events/hackathon/10.jpg"
-                ]
-            },
-            {
-                "label": "KOFILA 100 LET",
-                "shortDesc": "Event & Stage lighting service for Kofila",
-                "thumbnail": "events/kofila.jpg",
-                "detailLongDesc": "Kofila, the chocolate & coffee candy bar that steals the hearts of Czech consumers for more than a century, celebrated its 100th anniversary in February 2023. On that occasion, it gave an opportunity to young artists who came up with a new packaging design, updating the iconic artwork created by Zdeněk Rykr in 1993. We partnered up with KW creative to co-organize a gala dinner and new packaging launch event for 120 guests accompanied by an art exhibition and a musical performance by the Czech artist Adonxs. We provided our event and stage lighting service in the DSC Gallery event space in the heart of Prague. To support the brand recognition, we focused on highlighting Kofila's brand colors and tied the event together, creating a pleasant atmosphere and ensuring an overall unified guest experience —",
-                "gallery": [
-                    "events/kofila/1.jpg",
-                    "events/kofila/2.jpg",
-                    "events/kofila/3.jpg",
-                    "events/kofila/4.jpg",
-                    "events/kofila/5.jpg",
-                    "events/kofila/6.jpg",
-                    "events/kofila/7.jpg",
-                    "events/kofila/8.jpg",
-                    "events/kofila/9.jpg",
-                    "events/kofila/10.jpg",
-                    "events/kofila/11.jpg",
-                    "events/kofila/12.jpg",
-                    "events/kofila/13.jpg",
-                    "events/kofila/14.jpg",
-                    "events/kofila/15.jpg",
-                    "events/kofila/16.jpg",
-                    "events/kofila/17.jpg",
-                    "events/kofila/18.jpg",
-                    "events/kofila/19.jpg",
-                    "events/kofila/20.jpg",
-                    "events/kofila/21.jpg",
-                    "events/kofila/22.jpg",
-                    "events/kofila/23.jpg"
                 ]
             }
         ]

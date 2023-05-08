@@ -28,7 +28,7 @@
 		{#if !hideMedia}
 			<div class="overlay-content d-flex align-items-center">
 				<div class="text-center w-100">
-					<h1 class="display-1 text-uppercase unbounded">{title}</h1>
+					<h1 class="display-3 text-uppercase unbounded">{title}</h1>
 					<slot />
 				</div>
 			</div>

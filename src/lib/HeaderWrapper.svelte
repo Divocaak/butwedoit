@@ -11,7 +11,7 @@
 	{#if !hideMedia}
 		{#if imagePath == null}
 			<video autoplay muted loop>
-				<source src="/reel.mp4" type="video/mp4" />
+				<source src="/reel.mp4" type="video/mp4" width="1920" height="1080"/>
 			</video>
 		{:else}
 			<img src={imagePath} alt="thumbnail" class="img-fluid" class:indexBackground />

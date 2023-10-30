@@ -78,7 +78,7 @@
 
 <HeaderWrapper title="VIDEO / COMMERCIAL / EDITORIAL / FILM">
 	<p class="lead unbounded">
-		Check out <LinkButton href="#reels">Reels</LinkButton> too
+		Check out our <LinkButton href="#reels" yellow={true}>vertical videos</LinkButton> too!
 	</p>
 </HeaderWrapper>
 <ContentWrapper>
@@ -96,8 +96,8 @@
 </ContentWrapper>
 <ContentWrapper>
 	<div id="reels" class="text-center py-5">
-		<h1 class="unbounded display-1">9:16 / IG&nbsp;REELS / TIKTOKS / YOUTUBE&nbsp;SHORTS</h1>
-		<!-- <p class="lead unbounded">9:16 / IG REELS / YOUTUBE SHORTS</p> -->
+		<h1 class="unbounded display-3">VERTICALS</h1>
+		<p class="lead unbounded px-5">9:16 / IG&nbsp;REELS / YOUTUBE&nbsp;SHORTS</p>
 	</div>
 	<div>
 		<div id="reelCarousel">
@@ -111,9 +111,9 @@
 			{/each}
 		</div>
 		<div class="reel-btn-wrapper d-flex">
-			<button class="btn text-light prev-btn"><i class="bi bi-caret-left-fill"></i></button>
+			<button class="btn text-light prev-btn"><i class="bi bi-arrow-left-short"></i></button>
 			<div class="container-fluid" />
-			<button class="btn text-light next-btn"><i class="bi bi-caret-right-fill"></i></button>
+			<button class="btn text-light next-btn"><i class="bi bi-arrow-right-short"></i></button>
 		</div>
 	</div>
 	<Footer />
@@ -154,13 +154,13 @@
 	.reel-btn-wrapper {
 		pointer-events: none;
 		position: relative;
-		bottom: 30vh;
+		bottom: 45vh;
 	}
 	
 	.reel-btn-wrapper button{
 		pointer-events: initial;
 		font-size: 2rem;
 		color: var(--yellow) !important;
-		background-color: rgba(0,0,0,.2);
+		background-color: rgba(0,0,0,.4);
 	}
 </style>

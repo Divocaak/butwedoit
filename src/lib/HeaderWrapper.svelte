@@ -11,7 +11,7 @@
 	{#if !hideMedia}
 		{#if imagePath == null}
 			<video autoplay muted loop>
-				<source src="/reel.mp4" type="video/mp4" />
+				<source src="/reel.mp4" type="video/mp4" width="1920" height="1080"/>
 			</video>
 		{:else}
 			<img src={imagePath} alt="thumbnail" class="img-fluid" class:indexBackground />
@@ -28,7 +28,7 @@
 		{#if !hideMedia}
 			<div class="overlay-content d-flex align-items-center">
 				<div class="text-center w-100">
-					<h1 class="display-1 text-uppercase unbounded">{title}</h1>
+					<h1 class="display-3 text-uppercase unbounded">{title}</h1>
 					<slot />
 				</div>
 			</div>

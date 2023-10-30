@@ -11,6 +11,10 @@
 		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@300;400;500&family=Unbounded:wght@400;500;700;800&display=swap"
 		rel="stylesheet"
 	/>
+	<meta
+		name="description"
+		content="BUT WE DO IT is a video agency & production service company. Let Us Create Amazing Commercials & Turn Them Into Leads. Crafted Scripts, Production and Advertising for Online & TV. Covers everything from film permits and location scout services to local production support."
+	/>
 </svelte:head>
 
 <slot />

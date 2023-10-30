@@ -13,7 +13,7 @@
 		<div class="row">
 			<div class="col-12 col-md-6">
 				<h1>Petr Vančata</h1>
-				<p>Lorem ipsum</p>
+				<p>co-founder & event director</p>
 				<LinkButton href="tel:+420721343006" classes="me-5" blackOnWhite={true}>
 					<i class="bi bi-telephone-fill pe-1" />+420&nbsp;721&nbsp;343&nbsp;006
 				</LinkButton>
@@ -23,19 +23,19 @@
 			</div>
 			<div class="col-12 col-md-6 pt-5 pt-md-0">
 				<h1>Jindřich Soukal</h1>
-				<p>Lorem ipsum</p>
+				<p>co-founder & video director</p>
 				<LinkButton href="tel:+420608267367" classes="me-5" blackOnWhite={true}>
 					<i class="bi bi-telephone-fill pe-1" />+420&nbsp;608&nbsp;267&nbsp;367
 				</LinkButton>
-				<LinkButton href="mailto:jindrich@butwedoit.cz" blackOnWhite={true}>
-					<i class="bi bi-envelope pe-1" />jindrich@butwedoit.cz
+				<LinkButton href="mailto:jindra@butwedoit.cz" blackOnWhite={true}>
+					<i class="bi bi-envelope pe-1" />jindra@butwedoit.cz
 				</LinkButton>
 			</div>
 		</div>
 		<div class="spacer d-none d-md-block" />
 		<div class="row pt-5 pt-md-0">
 			<div class="col-12 col-md-3">
-				<h3>Adresa sídla</h3>
+				<h3>COMPANY ADDRESS</h3>
 			</div>
 			<div class="col-12 col-md-3">
 				<p>Jana Štursy 2408/37</p>
@@ -43,7 +43,8 @@
 			</div>
 			<div class="col-12 col-md-3">
 				<p>but we do it s.r.o.</p>
-				<p>IČO 14025132</p>
+				<p>IN/IČO: 14025132</p>
+				<p>VAT/DIČ: CZ14025132</p>
 			</div>
 			<div class="col-3 d-none d-md-block" />
 		</div>

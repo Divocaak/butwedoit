@@ -12,9 +12,11 @@
 		imgs[currIndex].push(element);
 		currIndex = currIndex == 2 ? 0 : currIndex + 1;
 	});
+
+	document.body.scrollIntoView();
 </script>
 
-<HeaderWrapper title={data.label} imagePath="/images/thumbnails/{data.thumbnail}"/>
+<HeaderWrapper title={data.label} imagePath="/images/thumbnails/{data.thumbnail}" />
 <ContentWrapper blackOnWhite={true}>
 	<div class="text-center">
 		<p class="lead roboto my-5 pt-5 px-3 mx-md-5">{data.detailLongDesc}</p>
@@ -23,7 +25,7 @@
 		{#each imgs as galCol}
 			<div class="gal-col">
 				{#each galCol as img}
-					<img src="/images/{img}" alt={img} loading="lazy"/>
+					<img src="/images/{img}" alt={img} loading="lazy" />
 				{/each}
 			</div>
 		{/each}

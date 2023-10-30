@@ -14,7 +14,7 @@
 		<div class="w-100 px-3 px-md-5">
 			<h2 class="unbounded">{label}</h2>
 			<p class="lead roboto">{desc}</p>
-			<EventMoreButton {eventType} {id} />
+			<EventMoreButton {eventType} {id} left={odd}/>
 		</div>
 	</div>
 
@@ -28,7 +28,7 @@
 	<div class="pt-2 px-3">
 		<h2 class="unbounded">{label}</h2>
 		<p class="lead roboto">{desc}</p>
-		<EventMoreButton {eventType} {id} />
+		<EventMoreButton {eventType} {id} {odd}/>
 	</div>
 </div>
 

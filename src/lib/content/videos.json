@@ -18,12 +18,6 @@
         "youtube": "HNN9wZ_ziDA"
     },
     {
-        "label": "SINOP",
-        "shortDesc": "Brand Promotional Video",
-        "thumbnail": "vids/sinop.jpg",
-        "youtube": "sUzyefC5PNE"
-    },
-    {
         "label": "WOLT",
         "shortDesc": "Partner Courier Recruitment Video",
         "thumbnail": "vids/wolt.jpg",
@@ -70,18 +64,6 @@
         "youtube": "1HIHVhZZ5So"
     },
     {
-        "label": "AUTOSALON DAJBYCH",
-        "shortDesc": "Land Rover Defender",
-        "thumbnail": "vids/autosalon.jpg",
-        "youtube": "nGxpofZaU6o"
-    },
-    {
-        "label": "ČERVENÝ KŘÍŽ",
-        "shortDesc": "Daruj Krev Awareness Animation",
-        "thumbnail": "vids/cervenyKriz.jpg",
-        "youtube": "eJVlK88R_MI"
-    },
-    {
         "label": "L'ORÉAL",
         "shortDesc": "Internal Communication Campaign (CZ & SK & HU)",
         "thumbnail": "vids/loreal.jpg",
@@ -106,15 +88,21 @@
         ]
     },
     {
-        "label": "JAN ČERNÝ 10th collection 2022",
-        "shortDesc": "",
-        "thumbnail": "vids/cervenyKriz.jpg",
+        "label": "JAN ČERNÝ",
+        "shortDesc": "10th collection 2022",
+        "thumbnail": "vids/jancerny.jpg",
         "youtube": "Vn7G-kONRQA"
     },
     {
-        "label": "We Are Domi - FU (Official Music Video)",
-        "shortDesc": "",
-        "thumbnail": "vids/cervenyKriz.jpg",
+        "label": "WE ARE DOMI",
+        "shortDesc": "FU (Official Music Video)",
+        "thumbnail": "vids/fu.jpg",
         "youtube": "YOnFXM0eL3k"
+    },
+    {
+        "label": "ELLE",
+        "shortDesc": "ELLE ON KVIFF 2023",
+        "thumbnail": "vids/elle.jpg",
+        "youtube": "a907XgvA7DI"
     }
 ]

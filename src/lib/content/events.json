@@ -207,27 +207,6 @@
                 ]
             },
             {
-                "label": "NA HOLLARU: EVENT SERIES",
-                "shortDesc": "Full-service production of a series of multiple music and cultural events",
-                "thumbnail": "events/hollar.jpg",
-                "detailLongDesc": "'Na Hollaru' is a popular event series from Prague which takes place at a unique location in the city center. The space, formerly two garages, has been reconstructed by the Labor 13 architectural studio and now serves not only as a café, but also as a musical, cultural and artistic event space. In 2022 we were part of the monthly event series (featuring e. g. Hollar Room, Milkshake, Festival Pavlač) with our full-service event production solution and welcomed more than 300 attendees to each one of the occasions. We secured the production, technical support and helped with the event promotion as well as the organizational negotiations —",
-                "gallery": [
-                    "events/hollar/1.jpg",
-                    "events/hollar/2.jpg",
-                    "events/hollar/3.jpg",
-                    "events/hollar/4.jpg",
-                    "events/hollar/5.jpg",
-                    "events/hollar/6.jpg",
-                    "events/hollar/7.jpg",
-                    "events/hollar/8.jpg",
-                    "events/hollar/9.jpg",
-                    "events/hollar/10.jpg",
-                    "events/hollar/11.jpg",
-                    "events/hollar/12.jpg",
-                    "events/hollar/13.jpg"
-                ]
-            },
-            {
                 "label": "HBO: Real Sports with Bryant Gumbel",
                 "shortDesc": "Full technical and organizational support for the US-based HBO film crew on the local set",
                 "thumbnail": "vids/hbo.jpg",
@@ -250,21 +229,46 @@
                 ]
             },
             {
-                "label": "MARKETHING HACKATHON",
-                "shortDesc": "Full—service event production of a charity marketing hackathon",
-                "thumbnail": "events/hackathon.jpg",
-                "detailLongDesc": "'Markething hackathon' is a unique charity event which connects young students with the best marketing professionals in the Czech Republic. Together, they work on a complex brief, coming up with a communication campaign idea in the total of 12 hours. In December 2023, Markething partnered up with the Czech federation of food banks to support a food donation drive called 'Sbírka potravin'. Together with Markething, we welcomed over 20 students and 8 marketing professionals who came up with five different approaches to the campaign idea. We supported the event by assisting during the initial planning stages, providing our production services and technical support, collaborating on the event promotion and negotiating collaborations with sponsors. Thanks to that, we were able to deliver a successful event while bringing awareness to an important social issue —",
+                "label": "MUGLER H&M",
+                "shortDesc": "Techical production of Mugler H&M event in Prague, Czech Republic",
+                "thumbnail": "events/mugler.jpg",
+                "detailLongDesc": "Introducing an iconic new designer collaboration, the house of Mugler was a transformational force in the fashion world, loved for its inclusive and boundary-pushing aesthetic. At the recent release event in Prague, fashion enthusiasts were treated to an electrifying showcase of the Mugler x H&M collaboration, highlighting the fusion of innovative designs and offering attendees a firsthand look at the collection's avant-garde pieces. This exclusive event immersed attendees in the world of boundary-pushing fashion.",
                 "gallery": [
-                    "events/hackathon/1.jpg",
-                    "events/hackathon/2.jpg",
-                    "events/hackathon/3.jpg",
-                    "events/hackathon/4.jpg",
-                    "events/hackathon/5.jpg",
-                    "events/hackathon/6.jpg",
-                    "events/hackathon/7.jpg",
-                    "events/hackathon/8.jpg",
-                    "events/hackathon/9.jpg",
-                    "events/hackathon/10.jpg"
+                    "events/mugler/0.jpg",
+                    "events/mugler/1.jpg",
+                    "events/mugler/2.jpg",
+                    "events/mugler/3.jpg",
+                    "events/mugler/4.jpg",
+                    "events/mugler/5.jpg",
+                    "events/mugler/6.jpg",
+                    "events/mugler/7.jpg",
+                    "events/mugler/8.jpg",
+                    "events/mugler/9.jpg",
+                    "events/mugler/10.jpg",
+                    "events/mugler/11.jpg"
+                ]
+            },
+            {
+                "label": "H&M A/W 2023",
+                "shortDesc": "Techical production of H&M Autumn/Winter 2023",
+                "thumbnail": "events/aw.jpg",
+                "detailLongDesc": "For the H&M Autumn/Winter 2023 event, our team spearheaded the technical production, ensuring a flawless and immersive experience. We meticulously planned and executed the lighting design, creating a dynamic ambiance that perfectly complemented the fashion showcased. Our team's expertise extended to video production, seamlessly integrating video elements into the event, enhancing the overall visual experience. Incorporating the latest technological advancements, we successfully brought the H&M A/W 2023 event to life, creating an unforgettable showcase of fashion and innovation.",
+                "gallery": [
+                    "events/aw/0.jpg",
+                    "events/aw/1.jpg",
+                    "events/aw/2.jpg",
+                    "events/aw/3.jpg",
+                    "events/aw/4.jpg",
+                    "events/aw/5.jpg",
+                    "events/aw/6.jpg",
+                    "events/aw/7.jpg",
+                    "events/aw/8.jpg",
+                    "events/aw/9.jpg",
+                    "events/aw/10.jpg",
+                    "events/aw/11.jpg",
+                    "events/aw/12.jpg",
+                    "events/aw/13.jpg",
+                    "events/aw/14.jpg"
                 ]
             }
         ]

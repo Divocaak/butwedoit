@@ -35,7 +35,7 @@
 		<div class="spacer d-none d-md-block" />
 		<div class="row pt-5 pt-md-0">
 			<div class="col-12 col-md-3">
-				<h3>Adresa sídla</h3>
+				<h3>COMPANY ADDRESS</h3>
 			</div>
 			<div class="col-12 col-md-3">
 				<p>Jana Štursy 2408/37</p>
@@ -43,7 +43,8 @@
 			</div>
 			<div class="col-12 col-md-3">
 				<p>but we do it s.r.o.</p>
-				<p>IČO 14025132</p>
+				<p>IN/IČO: 14025132</p>
+				<p>VAT/DIČ: CZ14025132</p>
 			</div>
 			<div class="col-3 d-none d-md-block" />
 		</div>

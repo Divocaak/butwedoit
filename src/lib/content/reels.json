@@ -2,32 +2,14 @@
     {
         "label": "SAMSUNG X LUKÁŠ ZACHARA",
         "shortDesc": "",
-        "thumbnail": "reels/samsung.jpg",
+        "thumbnail": "reels/zachara.jpg",
         "youtube": "LqIl6ivxW70"
-    },
-    {
-        "label": "BIRELL",
-        "shortDesc": "Bez Výmluv",
-        "thumbnail": "reels/birell.jpg",
-        "youtube": "iyHHJZU0QF8"
-    },
-    {
-        "label": "MILION VŮNÍ",
-        "shortDesc": "Floristka",
-        "thumbnail": "reels/florist.jpg",
-        "youtube": "pGLrBsriLfg"
     },
     {
         "label": "REDBULL X ALEX CHOUPENITCH",
         "shortDesc": "Coins",
         "thumbnail": "reels/redbull.jpg",
         "youtube": "5o9W0fysGnU"
-    },
-    {
-        "label": "BAILEYS X ALEX SEDLÁČKOVÁ",
-        "shortDesc": "",
-        "thumbnail": "reels/baileys.jpg",
-        "youtube": "sM8eMHScKMY"
     },
     {
         "label": "ADIDAS",
@@ -42,21 +24,39 @@
         "youtube": "rY012xTgagY"
     },
     {
-        "label": "Footshop x New Balance",
+        "label": "FOOTSHOP X NEW BALANCE",
         "shortDesc": "spring campaign 2023",
-        "thumbnail": "reels/florist.jpg",
+        "thumbnail": "reels/newbalance.jpg",
         "youtube": "mPry0hxj8lU"
     },
     {
-        "label": "ADIDASDuCoeur - spring campaign 2023",
-        "shortDesc": "",
-        "thumbnail": "reels/florist.jpg",
+        "label": "ELLE X BMW",
+        "shortDesc": "KVIFF 2023",
+        "thumbnail": "reels/elle.jpg",
+        "youtube": "T_cL5wLMQYA"
+    },
+    {
+        "label": "DUCOEUR",
+        "shortDesc": "spring campaign 2023",
+        "thumbnail": "reels/ducoeur.jpg",
         "youtube": "P2ajh4KLo1g"
     },
     {
-        "label": "Plessobje_reels aftermovie_2023",
-        "shortDesc": "",
-        "thumbnail": "reels/florist.jpg",
+        "label": "PLESSOBJE",
+        "shortDesc": "reels aftermovie 2023",
+        "thumbnail": "reels/plessobje.jpg",
         "youtube": "Z0xf4BxPBao"
+    },
+    {
+        "label": "FOOTSHOP X ASICS",
+        "shortDesc": "Fall/winter campaign 2023",
+        "thumbnail": "reels/asics.jpg",
+        "youtube": "j3Kv48Ixnd8"
+    },
+    {
+        "label": "SAMSUNG",
+        "shortDesc": "Epická jízda 2023",
+        "thumbnail": "reels/samsung.jpg",
+        "youtube": "qbnb0RhRCXw"
     }
 ]

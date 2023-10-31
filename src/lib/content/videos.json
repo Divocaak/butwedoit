@@ -1,4 +1,23 @@
 [
+
+    {
+        "label": "JAN ČERNÝ",
+        "shortDesc": "10th collection 2022",
+        "thumbnail": "vids/jancerny.jpg",
+        "youtube": "Vn7G-kONRQA"
+    },
+    {
+        "label": "WE ARE DOMI",
+        "shortDesc": "FU (Official Music Video)",
+        "thumbnail": "vids/fu.jpg",
+        "youtube": "YOnFXM0eL3k"
+    },
+    {
+        "label": "ELLE",
+        "shortDesc": "ELLE ON KVIFF 2023",
+        "thumbnail": "vids/elle.jpg",
+        "youtube": "a907XgvA7DI"
+    },
     {
         "label": "PLES SOBJE",
         "shortDesc": "Official Aftermovie",
@@ -86,23 +105,5 @@
             "vids/loreal/14.jpg",
             "vids/loreal/15.jpg"
         ]
-    },
-    {
-        "label": "JAN ČERNÝ",
-        "shortDesc": "10th collection 2022",
-        "thumbnail": "vids/jancerny.jpg",
-        "youtube": "Vn7G-kONRQA"
-    },
-    {
-        "label": "WE ARE DOMI",
-        "shortDesc": "FU (Official Music Video)",
-        "thumbnail": "vids/fu.jpg",
-        "youtube": "YOnFXM0eL3k"
-    },
-    {
-        "label": "ELLE",
-        "shortDesc": "ELLE ON KVIFF 2023",
-        "thumbnail": "vids/elle.jpg",
-        "youtube": "a907XgvA7DI"
     }
 ]

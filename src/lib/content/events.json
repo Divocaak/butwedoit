@@ -118,6 +118,50 @@
         "descMain": "Bring your creative vision to life and organize an event which will truly reflect the unique personality and values of your company or institution. With our full-service event production, we can take some weight off your shoulders while helping you to make a long-lasting impression on your audience —",
         "desc": "Interested? Whether it is a large-scale conference, music festival, commercial filming, movie production or a small gathering, we can provide you with reliable services from the initial planning stages to the final execution —",
         "projects": [
+
+            {
+                "label": "MUGLER H&M",
+                "shortDesc": "Techical production of Mugler H&M event in Prague, Czech Republic",
+                "thumbnail": "events/mugler.jpg",
+                "detailLongDesc": "Introducing an iconic new designer collaboration, the house of Mugler was a transformational force in the fashion world, loved for its inclusive and boundary-pushing aesthetic. At the recent release event in Prague, fashion enthusiasts were treated to an electrifying showcase of the Mugler x H&M collaboration, highlighting the fusion of innovative designs and offering attendees a firsthand look at the collection's avant-garde pieces. This exclusive event immersed attendees in the world of boundary-pushing fashion.",
+                "gallery": [
+                    "events/mugler/0.jpg",
+                    "events/mugler/1.jpg",
+                    "events/mugler/2.jpg",
+                    "events/mugler/3.jpg",
+                    "events/mugler/4.jpg",
+                    "events/mugler/5.jpg",
+                    "events/mugler/6.jpg",
+                    "events/mugler/7.jpg",
+                    "events/mugler/8.jpg",
+                    "events/mugler/9.jpg",
+                    "events/mugler/10.jpg",
+                    "events/mugler/11.jpg"
+                ]
+            },
+            {
+                "label": "H&M A/W 2023",
+                "shortDesc": "Techical production of H&M Autumn/Winter 2023",
+                "thumbnail": "events/aw.jpg",
+                "detailLongDesc": "For the H&M Autumn/Winter 2023 event, our team spearheaded the technical production, ensuring a flawless and immersive experience. We meticulously planned and executed the lighting design, creating a dynamic ambiance that perfectly complemented the fashion showcased. Our team's expertise extended to video production, seamlessly integrating video elements into the event, enhancing the overall visual experience. Incorporating the latest technological advancements, we successfully brought the H&M A/W 2023 event to life, creating an unforgettable showcase of fashion and innovation.",
+                "gallery": [
+                    "events/aw/0.jpg",
+                    "events/aw/1.jpg",
+                    "events/aw/2.jpg",
+                    "events/aw/3.jpg",
+                    "events/aw/4.jpg",
+                    "events/aw/5.jpg",
+                    "events/aw/6.jpg",
+                    "events/aw/7.jpg",
+                    "events/aw/8.jpg",
+                    "events/aw/9.jpg",
+                    "events/aw/10.jpg",
+                    "events/aw/11.jpg",
+                    "events/aw/12.jpg",
+                    "events/aw/13.jpg",
+                    "events/aw/14.jpg"
+                ]
+            },
             {
                 "label": "KOFILA 100 LET",
                 "shortDesc": "Event & Stage lighting service for Kofila",
@@ -226,49 +270,6 @@
                     "vids/hbo/11.jpg",
                     "vids/hbo/12.jpg",
                     "vids/hbo/13.jpg"
-                ]
-            },
-            {
-                "label": "MUGLER H&M",
-                "shortDesc": "Techical production of Mugler H&M event in Prague, Czech Republic",
-                "thumbnail": "events/mugler.jpg",
-                "detailLongDesc": "Introducing an iconic new designer collaboration, the house of Mugler was a transformational force in the fashion world, loved for its inclusive and boundary-pushing aesthetic. At the recent release event in Prague, fashion enthusiasts were treated to an electrifying showcase of the Mugler x H&M collaboration, highlighting the fusion of innovative designs and offering attendees a firsthand look at the collection's avant-garde pieces. This exclusive event immersed attendees in the world of boundary-pushing fashion.",
-                "gallery": [
-                    "events/mugler/0.jpg",
-                    "events/mugler/1.jpg",
-                    "events/mugler/2.jpg",
-                    "events/mugler/3.jpg",
-                    "events/mugler/4.jpg",
-                    "events/mugler/5.jpg",
-                    "events/mugler/6.jpg",
-                    "events/mugler/7.jpg",
-                    "events/mugler/8.jpg",
-                    "events/mugler/9.jpg",
-                    "events/mugler/10.jpg",
-                    "events/mugler/11.jpg"
-                ]
-            },
-            {
-                "label": "H&M A/W 2023",
-                "shortDesc": "Techical production of H&M Autumn/Winter 2023",
-                "thumbnail": "events/aw.jpg",
-                "detailLongDesc": "For the H&M Autumn/Winter 2023 event, our team spearheaded the technical production, ensuring a flawless and immersive experience. We meticulously planned and executed the lighting design, creating a dynamic ambiance that perfectly complemented the fashion showcased. Our team's expertise extended to video production, seamlessly integrating video elements into the event, enhancing the overall visual experience. Incorporating the latest technological advancements, we successfully brought the H&M A/W 2023 event to life, creating an unforgettable showcase of fashion and innovation.",
-                "gallery": [
-                    "events/aw/0.jpg",
-                    "events/aw/1.jpg",
-                    "events/aw/2.jpg",
-                    "events/aw/3.jpg",
-                    "events/aw/4.jpg",
-                    "events/aw/5.jpg",
-                    "events/aw/6.jpg",
-                    "events/aw/7.jpg",
-                    "events/aw/8.jpg",
-                    "events/aw/9.jpg",
-                    "events/aw/10.jpg",
-                    "events/aw/11.jpg",
-                    "events/aw/12.jpg",
-                    "events/aw/13.jpg",
-                    "events/aw/14.jpg"
                 ]
             }
         ]

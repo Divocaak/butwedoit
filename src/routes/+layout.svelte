@@ -2,6 +2,7 @@
 	import 'bootstrap/dist/css/bootstrap.min.css';
 	import 'bootstrap/dist/js/bootstrap.min.js';
 	import 'bootstrap-icons/font/bootstrap-icons.css';
+	import Analytics from '$lib/Analytics.svelte';
 </script>
 
 <svelte:head>
@@ -18,6 +19,7 @@
 </svelte:head>
 
 <slot />
+<Analytics />
 
 <style lang="scss">
 	:root {

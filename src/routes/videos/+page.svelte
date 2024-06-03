@@ -124,7 +124,7 @@
 	onClosed={() => onClosePopup()}
 	{label}
 	{desc}
-	src="https://www.youtube.com/embed/{ytKey}?autoplay=1&mute=1&showinfo=0&controls=1&html5=1"
+	src="{ytKey}?autoplay=1&showinfo=0&controls=1&html5=1"
 />
 
 <style type="scss">

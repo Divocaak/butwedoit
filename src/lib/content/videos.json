@@ -1,5 +1,16 @@
 [
-
+    {
+        "label": "MOOQ",
+        "shortDesc": "",
+        "thumbnail": "vids/mooq.jpg",
+        "youtube": "https://player.vimeo.com/video/948747519"
+    },
+    {
+        "label": "LUKAS NOVAK",
+        "shortDesc": "Lil Mirage",
+        "thumbnail": "vids/novak.jpg",
+        "youtube": "https://player.vimeo.com/video/948742037"
+    },
     {
         "label": "JAN ČERNÝ",
         "shortDesc": "10th collection 2022",
@@ -37,12 +48,6 @@
         "youtube": "https://player.vimeo.com/video/948753505"
     },
     {
-        "label": "MOOQ",
-        "shortDesc": "",
-        "thumbnail": "vids/mooq.jpg",
-        "youtube": "https://player.vimeo.com/video/948747519"
-    },
-    {
         "label": "HBO: Real Sports with Bryant Gumbel",
         "shortDesc": "",
         "thumbnail": "vids/hbo.jpg",
@@ -63,12 +68,6 @@
             "vids/hbo/12.jpg",
             "vids/hbo/13.jpg"
         ]
-    },
-    {
-        "label": "LUKAS NOVAK",
-        "shortDesc": "Lil Mirage",
-        "thumbnail": "vids/novak.jpg",
-        "youtube": "https://player.vimeo.com/video/948742037"
     },
     {
         "label": "TEA SOFIA",
